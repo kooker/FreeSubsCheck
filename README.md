@@ -5,8 +5,8 @@
 ![XiaoXi](https://img.shields.io/badge/XiaoXi-28-orange)
 ![kooker.jp](https://img.shields.io/badge/kooker.jp-190-purple)
 
-> **最后同步时间**：`2026-04-10 15:28:41` (北京时间)  
-> **更新状态**：⏸️ 节点内容与上次运行一致，未发现更新
+> **最后同步时间**：`2026-04-10 17:06:05` (北京时间)  
+> **更新状态**：✅ 节点已成功同步并更新
 
 ### 📊 节点统计
 - **SubsCheck 节点数**：`38`
