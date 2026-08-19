@@ -1,77 +1,127 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.235
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
-      password: amazonskr05
-      port: 443
-      server: 63.178.246.78
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 120.232.253.96
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1ED\U0001F1F0HK_2|1.7MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 120.232.253.97
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7KR_2|3.9MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.138
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.234
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0HK_3|1.5MB/s"
-      password: 1427eb10-7529-4d38-a6a2-01b337868b37
-      port: 4433
-      server: hk2.xiaoliyu.cyou
-      skip-cert-verify: true
-      type: hysteria2
-    - client-fingerprint: qq
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1FFCZ_1|968KB/s"
-      network: tcp
-      port: "13443"
-      reality-opts:
-        public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-        short-id: a7f3c91b2e6d84c0
-      server: 188.130.208.141
-      servername: auto.cendora.ru
-      tls: true
-      type: vless
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 216.24.57.7
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276
-      xudp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|951KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 130.250.137.171
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_3|577KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 216.24.57.1
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_4|531KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 165.215.250.14
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+        path: /assignment
     - down: ""
       fingerprint: ""
-      name: "\U0001F1E6\U0001F1FAAU_1|999KB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|3.3MB/s"
       obfs: ""
       obfs-password: ""
-      password: 1427eb10-7529-4d38-a6a2-01b337868b37
-      port: "4433"
-      server: au1.xiaoliyu.cyou
+      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+      port: "52454"
+      server: 45.88.43.116
       skip-cert-verify: true
-      sni: au1.xiaoliyu.cyou
+      sni: www.bing.com
       type: hysteria2
       up: ""
+    - name: "\U0001F1FA\U0001F1F8US_1|4.1MB/s"
+      password: ""
+      port: "1080"
+      server: 212.58.132.5
+      skip-cert-verify: true
+      type: socks5
+      username: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_1|3.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+      port: "4466"
+      server: 140.99.130.34
+      skip-cert-verify: true
+      sni: sg3.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_5|1.6MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 162.159.136.234
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+      password: test123
+      port: "1080"
+      server: 104.168.249.36
+      skip-cert-verify: true
+      type: socks5
+      username: test123
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 18.188.213.207
+      type: ss
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_2|567KB/s"
       obfs: ""
       obfs-password: ""
       password: 1427eb10-7529-4d38-a6a2-01b337868b37
@@ -81,23 +131,84 @@ proxies:
       sni: sg3.xiaoliyu.cyou
       type: hysteria2
       up: ""
-    - client-fingerprint: ios
-      name: "\U0001F1E6\U0001F1EAAE_1|1.2MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_4|787KB/s"
       network: tcp
-      port: "8443"
+      port: "11094"
       reality-opts:
-        public-key: M_V1dM8_wcpwnmh2VZp-s3LCBjy38ZWCRpxLrBc58Do
-        short-id: a48d397391861a3c
-      server: 95.163.232.54
-      servername: max.ru
+        public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+        short-id: a356addf
+      server: 51.81.223.225
+      servername: www.yahoo.com
       tls: true
       type: vless
       udp: true
-      uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
+      uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
       xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+      port: "52454"
+      server: 45.88.43.116
+      skip-cert-verify: true
+      sni: 45.88.43.116
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_3|5.5MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: 18.141.233.65
+      skip-cert-verify: true
+      sni: vpn-sg-001.fastervpn.world
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      congestion-controller: cubic
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8US_5|2.6MB/s"
+      password: 402df54f-d686-4785-b5da-14ed5f257860
+      port: 32910
+      reduce-rtt: true
+      request-timeout: 8000
+      server: tissues-balloons.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-balloons.tun.ply.gg
+      type: tuic
+      udp-relay-mode: native
+      uuid: 402df54f-d686-4785-b5da-14ed5f257860
+    - alpn:
+        - h3
+      congestion-controller: cubic
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8US_6|3.3MB/s"
+      password: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
+      port: 32910
+      reduce-rtt: true
+      request-timeout: 8000
+      server: tissues-balloons.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-balloons.tun.ply.gg
+      type: tuic
+      udp-relay-mode: native
+      uuid: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
+    - name: "\U0001F1F0\U0001F1F7KR_1|781KB/s"
+      password: 12f89940-c542-4356-9270-01954caf721a
+      port: 40042
+      server: kr2.catzl.top
+      type: anytls
+      udp: true
     - auth: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
       down: 100 Mbps
-      name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+      name: "\U0001F1FA\U0001F1F8US_7|3.1MB/s"
       password: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
       port: 32926
       server: tissues-halls.tun.ply.gg
@@ -106,27 +217,109 @@ proxies:
       type: hysteria2
       udp: true
       up: 100 Mbps
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_1|772KB/s"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: -x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I
-        short-id: aa6988d03cc11454
-      server: 178.83.226.142
-      servername: refersion.com
-      tls: true
-      type: vless
+    - name: "\U0001F1F9\U0001F1FCTW_1|5.5MB/s"
+      password: 12f89940-c542-4356-9270-01954caf721a
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
       udp: true
-      uuid: 4cb63132-e084-4676-ac67-1ed6b60be05a
-      xudp: true
+    - name: "\U0001F1FB\U0001F1F3VN_1|591KB/s"
+      password: 12f89940-c542-4356-9270-01954caf721a
+      port: 11682
+      server: vn2.nbjc.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s"
+      password: 12f89940-c542-4356-9270-01954caf721a
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - alpn:
+        - h3
+      congestion-controller: cubic
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8US_9|2.7MB/s"
+      password: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
+      port: 32910
+      reduce-rtt: false
+      request-timeout: 15000
+      server: tissues-balloons.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-balloons.tun.ply.gg
+      type: tuic
+      udp-relay-mode: native
+      uuid: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
+    - alpn:
+        - h3
+      congestion-controller: cubic
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8US_10|3.2MB/s"
+      password: 0ff75485-7f48-41e8-8152-3c70d9d87654
+      port: 32910
+      reduce-rtt: false
+      request-timeout: 15000
+      server: tissues-balloons.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-balloons.tun.ply.gg
+      type: tuic
+      udp-relay-mode: native
+      uuid: 0ff75485-7f48-41e8-8152-3c70d9d87654
+    - auth: 0ff75485-7f48-41e8-8152-3c70d9d87654
+      name: "\U0001F1FA\U0001F1F8US_11|2.9MB/s"
+      password: 0ff75485-7f48-41e8-8152-3c70d9d87654
+      port: 32926
+      server: tissues-halls.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-halls.tun.ply.gg
+      type: hysteria2
+      udp: true
+    - auth: 2bc2efc9-1943-4b2e-9412-43190d5099e4
+      name: "\U0001F1FA\U0001F1F8US_12|2.7MB/s"
+      password: 2bc2efc9-1943-4b2e-9412-43190d5099e4
+      port: 32926
+      server: tissues-halls.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-halls.tun.ply.gg
+      type: hysteria2
+      udp: true
+    - auth: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
+      name: "\U0001F1FA\U0001F1F8US_13|3.2MB/s"
+      password: 249d2fc6-b772-4265-b5fb-17f0267ee3f2
+      port: 32926
+      server: tissues-halls.tun.ply.gg
+      skip-cert-verify: true
+      sni: tissues-halls.tun.ply.gg
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1ECSG_4|1.8MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 120.232.253.90
+      type: ss
+    - alpn:
+        - ""
+      alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|8.5MB/s"
+      network: ws
+      port: 16622
+      server: planb.mojcn.com.linuxlh.xin
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
+      ws-opts:
+        headers:
+            Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
+        path: /
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_4|513KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s"
       network: tcp
-      port: "31723"
+      port: 31723
       reality-opts:
         public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
         short-id: bc8e3658db7d1323
@@ -134,6 +327,159 @@ proxies:
       servername: cdnjs.cloudflare.com
       tls: true
       type: vless
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - cipher: aes-256-cfb
+      name: "\U0001F1ED\U0001F1F0HK_3|824KB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 120.232.250.161
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_2|878KB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 121.46.230.235
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 120.232.253.96
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1ED\U0001F1F0HK_5|1.1MB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 120.232.253.97
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_3|2.5MB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 121.46.230.138
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_5|2.9MB/s"
+      password: EQ30679154
+      port: "443"
+      server: 18.143.129.104
+      skip-cert-verify: false
+      sni: picked-hamster.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_6|555KB/s"
+      network: tcp
+      password: EQ30679154
+      port: "443"
+      server: 47.128.217.39
+      skip-cert-verify: false
+      sni: modest-bat.rooster465.autos
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_7|739KB/s"
+      password: EQ30679154
+      port: "443"
+      server: modest-bat.rooster465.autos
+      skip-cert-verify: false
+      type: trojan
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
+      network: ws
+      port: "443"
+      server: adfad-production-76bd.up.railway.app
+      servername: adfad-production-76bd.up.railway.app
+      tls: true
+      type: vless
+      udp: true
+      uuid: 69905896-b1a3-40d1-aade-08cda66ef98c
+      ws-opts:
+        headers:
+            Host: adfad-production-76bd.up.railway.app
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /ws/vless/69905896-b1a3-40d1-aade-08cda66ef98c?ed=2048
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_1|1.0MB/s"
+      network: ws
+      port: 443
+      server: 194.154.30.154
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_3|5.0MB/s"
+      network: tcp
+      port: "39411"
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 188.253.123.164
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
       udp: true
       uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_4|1.8MB/s"
+      network: tcp
+      port: "38551"
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 188.253.123.164
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_4|4.6MB/s"
+      network: tcp
+      port: "39401"
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 188.253.123.164
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: ❓Other_1|1.3MB/s
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+        short-id: a91045bc
+      server: 163.5.153.153
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0a76a766-d141-44b8-944e-dff757d7116f
       xudp: true
