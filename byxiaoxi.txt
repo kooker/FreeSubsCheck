@@ -1,13 +1,2 @@
-trojan://AE62539071@thorough-falcon.rooster465.autos:443?sni=thorough-falcon.rooster465.autos&type=tcp#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C541KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18xfDIuMU1CL3MiLCJhZGQiOiIzOC4yNDYuMjI2LjI0MCIsInBvcnQiOiI1MjA4MCIsImlkIjoiN2Q0YmQ5NjEtMjMwYy00YjM0LWFiNWQtMDVjZjBkZmI0ZWE1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiaHR0cCIsInRscyI6IiIsInBhdGgiOiIvIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVU18yfDIuNE1CL3MiLCJhZGQiOiJub2RlLnNvY2tzNS5rZG5zLmZyIiwicG9ydCI6IjQ0MyIsImlkIjoiZTFlZDA1NjktYmZlNC00NjhmLWFhOWEtNjM4MTllODIyOWVmIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJjaGVzdC1vd24tbGxwLWNvbGxlY3Rpb25zLnRyeWNsb3VkZmxhcmUuY29tIiwicGF0aCI6Ii9lMWVkMDU2OS1iZmU0LTQ2OGYtYWE5YS02MzgxOWU4MjI5ZWYtdm0iLCJob3N0IjoiY2hlc3Qtb3duLWxscC1jb2xsZWN0aW9ucy50cnljbG91ZGZsYXJlLmNvbSJ9
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@13.38.30.165:443#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.4MB%2Fs
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.187.138:62145?security=none&type=tcp&packetEncoding=xudp#%F0%9F%87%A8%F0%9F%87%B4CO_1%7C568KB%2Fs
-ss://2022-blake3-chacha20-poly1305:kdTMVAm8v43BRuJZr%2BGI%2BudAziQPGR2QdYITH9w2WNg%3D@141.144.250.61:59924#%F0%9F%87%A9%F0%9F%87%AADE_1%7C2.1MB%2Fs
-vless://1996007c-e7bc-464b-999b-cac28cec6c3e@138.124.125.211:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.apple.com&fp=chrome&flow=xtls-rprx-vision&sid=72cceb78&pbk=RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C899KB%2Fs
-trojan://AE62539071@darling-mutt.rooster465.autos:443?sni=darling-mutt.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%A6%F0%9F%87%BAAU_1%7C830KB%2Fs
-vless://5ca83936-136d-4314-8453-4ba10a86cf60@api.fuck-you.dyn.site.fwqfw783rg2dad.website:443?security=tls&type=ws&path=%2Fwebsocket&host=api.fuck-you.dyn.site.fwqfw783rg2dad.website&packetEncoding=xudp&sni=api.fuck-you.dyn.site.fwqfw783rg2dad.website&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_3%7C780KB%2Fs
-trojan://humanity@130.250.137.171:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C961KB%2Fs
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.148.233.114:62145?security=none&type=tcp&packetEncoding=xudp#%F0%9F%87%B3%F0%9F%87%B1NL_3%7C1.0MB%2Fs
-vless://9d01e9f2-1569-48cd-beb3-36f706f5ad5b@45.146.131.154:8452?security=reality&type=raw&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&flow=xtls-rprx-vision&sid=45b10e93bc618c2c&pbk=neW65LaKi88zH-X9gRQPhl5YqQLz9E4IrVnOpS4BnkU&encryption=none#%F0%9F%87%B0%F0%9F%87%BFKZ_1%7C1.4MB%2Fs
-vless://ID TEL : @V2XNET@188.114.97.8:443?security=tls&type=xhttp&path=%2F&host=allineedradiohead.dpdns.org&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1&sni=allineedradiohead.dpdns.org&fp=chrome&mode=auto&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&encryption=mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C554KB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.138:65443#%F0%9F%87%B0%F0%9F%87%B7KR_1%7C1.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.136:65443#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C2.2MB%2Fs
