@@ -1,125 +1,124 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|2.5MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 443
-    server: 82.38.31.15
-    type: ss
-  - alterId: 0
-    cipher: auto
-    http-opts:
-      method: GET
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-    network: http
-    port: 52080
-    server: 38.246.226.240
-    skip-cert-verify: false
+  - name: "\U0001F1EC\U0001F1E7GB_1|943KB/s"
+    network: ws
+    port: 8880
+    server: 45.40.149.50
+    skip-cert-verify: true
     tls: false
-    type: vmess
-    uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime39.workers.dev
+      path: /
+  - name: "\U0001F1FA\U0001F1F8US_1|687KB/s"
+    network: ws
+    port: 8880
+    server: 155.46.167.30
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime50.workers.dev
+      path: /
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+    password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
+    port: 30874
+    server: e2.cover20.ir
+    type: ss
   - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_1|5.5MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
     password: 7eadc6dbe2ae
     port: 65443
     server: 121.46.230.136
     type: ss
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.0MB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.1MB/s"
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|589KB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s"
+    password: amazonskr05
+    port: 443
+    server: 3.145.61.0
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s"
+    password: amazonskr05
+    port: 443
+    server: 63.181.36.211
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
+    password: amazonskr05
+    port: 443
+    server: 15.237.216.173
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     port: 9002
     server: 84.17.47.146
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|831KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.8MB/s"
     port: 9002
     server: 84.239.49.218
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|777KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_2|1.6MB/s"
     port: 9002
     server: 84.239.49.202
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|870KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_3|793KB/s"
     port: 9002
     server: 84.239.49.59
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_4|791KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_4|1.4MB/s"
     port: 9002
     server: 84.239.14.153
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_5|1.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_5|1.2MB/s"
     port: 9002
     server: 84.239.49.181
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|1.3MB/s"
-    password: None
+  - name: "\U0001F1F7\U0001F1F4RO_6|599KB/s"
     port: 9002
-    server: 84.239.49.181
+    server: 84.239.49.38
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_7|893KB/s"
     port: 9002
     server: 84.239.49.162
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_8|961KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_8|1.5MB/s"
     port: 9002
     server: 84.239.14.148
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_9|808KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_9|1.2MB/s"
     password: None
     port: 9002
     server: 84.239.49.201
@@ -127,21 +126,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_10|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_10|893KB/s"
     port: 9002
     server: 84.239.49.244
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_11|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_11|1.9MB/s"
     port: 9002
     server: 84.239.49.189
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_12|576KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_12|776KB/s"
     password: None
     port: 9002
     server: 84.239.49.155
@@ -149,14 +148,14 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_13|1.4MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_13|1.5MB/s"
     port: 9002
     server: 84.239.49.168
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_14|766KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_14|1.7MB/s"
     password: None
     port: 9002
     server: 84.239.49.235
@@ -164,21 +163,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_15|1.5MB/s"
-    port: 9002
-    server: 84.239.49.176
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_16|1.9MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_15|1.1MB/s"
     port: 9002
     server: 84.239.49.43
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_17|917KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_16|937KB/s"
+    port: 9002
+    server: 84.239.49.57
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_17|975KB/s"
     port: 9002
     server: 84.239.49.229
     skip-cert-verify: true
@@ -192,116 +191,133 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_19|1.9MB/s"
-    port: 9002
-    server: 84.239.49.241
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_20|1.2MB/s"
-    password: None
-    port: 9002
-    server: 84.239.49.209
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_21|1.0MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_19|870KB/s"
     port: 9002
     server: 84.239.49.40
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_22|789KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_20|1.1MB/s"
     port: 9002
     server: 84.239.49.155
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_23|1.2MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_21|1.1MB/s"
+    port: 9002
+    server: 84.239.14.147
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_22|1.5MB/s"
+    port: 9002
+    server: 84.239.14.159
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_23|1.6MB/s"
     port: 9002
     server: 84.239.14.156
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_24|684KB/s"
-    port: 9002
-    server: 84.239.49.185
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_25|592KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_24|2.0MB/s"
     port: 9002
     server: 193.176.84.33
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_26|627KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_25|1.7MB/s"
+    port: 9002
+    server: 193.176.84.30
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_26|1.2MB/s"
     port: 9002
     server: 84.239.49.199
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_27|535KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_27|758KB/s"
+    port: 9002
+    server: 84.239.49.225
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_28|939KB/s"
     port: 9002
     server: 84.239.49.223
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_28|1.8MB/s"
-    port: 9002
-    server: 84.239.49.233
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_29|684KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_29|1.7MB/s"
     port: 9002
     server: 84.239.49.231
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_30|1.6MB/s"
-    password: 'null'
-    port: 9002
-    server: 84.239.49.58
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: 'null'
-  - name: "\U0001F1F7\U0001F1F4RO_31|1.6MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_30|1.2MB/s"
     port: 9002
     server: 84.239.49.179
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_32|856KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_31|711KB/s"
     port: 9002
-    server: 84.239.49.254
+    server: 84.239.49.245
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_33|1.8MB/s"
-    password: None
+  - name: "\U0001F1F7\U0001F1F4RO_32|1.6MB/s"
     port: 9002
-    server: 84.239.49.197
+    server: 84.239.49.50
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_34|1.5MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_33|2.1MB/s"
+    port: 9002
+    server: 84.239.49.161
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_34|851KB/s"
+    port: 9002
+    server: 84.239.49.200
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_35|1.4MB/s"
+    port: 9002
+    server: 84.239.49.240
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_36|637KB/s"
+    port: 9002
+    server: 84.239.49.182
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_37|2.1MB/s"
     password: None
     port: 9002
     server: 84.239.49.62
@@ -309,123 +325,55 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_35|1.7MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_38|618KB/s"
     port: 9002
     server: 84.239.14.155
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - alpn:
-      - http/1.1
-      - h3
-    client-fingerprint: chrome
-    encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
-    name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-    network: ws
-    port: 443
-    server: 104.18.114.47
-    tls: true
-    type: vless
-    udp: true
-    uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
-    ws-opts:
-      headers:
-        Host: arvan2.dearhossein-taktaz.ir
-      path: /
-    servername: arvan2.dearhossein-taktaz.ir
-  - alpn:
-      - http/1.1
-      - h3
-    client-fingerprint: chrome
-    encryption: mlkem768x25519plus.native.0rtt.inAciB3I53AnkMDoEg-e2KjU3YxOk0_5B71RhhgIv2k
-    name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s"
-    network: ws
-    port: 443
-    server: fiverr.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: b1808b7a-e330-4120-b5fc-90ef09bb41b8
-    ws-opts:
-      headers:
-        Host: arvan2.dearhossein-taktaz.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /
-    xudp: true
-    servername: arvan2.dearhossein-taktaz.ir
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|8.1MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_2|2.6MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
-      short-id: "0a427bc3"
-    server: 119.28.161.143
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
-    servername: apple.com
-  - name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s"
+  - name: ❓Other_1|647KB/s
+    password: None
     port: 9002
-    server: 138.199.35.215
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: ❓Other_1|611KB/s
-    port: 9002
-    server: 156.146.59.25
+    server: 138.199.35.204
     skip-cert-verify: true
     tls: true
     type: http
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: ❓Other_2|595KB/s
-    network: tcp
+    name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
+    network: raw
     port: 443
     reality-opts:
-      public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
-      short-id: "1dc6d8a2045a7c9d"
-    server: 109.169.85.140
+      public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+      short-id: "33acba1b"
+    server: 138.124.180.137
     tls: true
     type: vless
     udp: true
-    uuid: faf655fc-690f-4ea8-8eed-77077f493bc8
+    uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
     xudp: true
-    servername: slashdot.org
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-    network: ws
-    port: 41834
-    server: 157.238.208.110
+    servername: www.apple.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
+      short-id: "d3ee47fc2f553c44"
+    server: 45.196.161.171
+    tls: true
     type: vless
     udp: true
-    uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.167 Safari/537.36
-      path: /5adeccb9
+    uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
     xudp: true
+    servername: storage.yandex.net
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -438,27 +386,130 @@ proxies:
     uuid: 9e27f64b-7ae9-461b-b4c4-99696276633b
     xudp: true
     servername: storage.yandexcloud.net
+  - name: "\U0001F1FA\U0001F1F8US_5|4.1MB/s"
+    password: ''
+    port: 1080
+    server: 212.58.132.5
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_2|982KB/s"
+    network: ws
+    password: humanity
+    port: 443
+    server: 162.159.136.234
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /assignment
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-ca-001.fastervpn.world
+    skip-cert-verify: true
+    sni: speedtest.tinkoff.ru
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1E6CA_2|2.9MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-ca-001.fastervpn.world
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
+    password: ae4085de-3130-47c6-9021-851feb27cb53
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: "\U0001F1FB\U0001F1F3VN_1|735KB/s"
+    password: ae4085de-3130-47c6-9021-851feb27cb53
+    port: 11681
+    server: vn1.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn1.nbjc.top
+  - name: "\U0001F1FB\U0001F1F3VN_2|1002KB/s"
+    password: ae4085de-3130-47c6-9021-851feb27cb53
+    port: 11683
+    server: vn3.nbjc.top
+    type: anytls
+    udp: true
+    sni: vn3.nbjc.top
+  - name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
+    network: ws
+    port: 80
+    server: 104.18.43.36
+    type: vless
+    udp: true
+    uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+    ws-opts:
+      headers:
+        Host: web-app-aug8yr.app-f1qsy1.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /api/ws
+    xudp: true
+    servername: web-app-aug8yr.app-f1qsy1.workers.dev
+  - name: "\U0001F1EB\U0001F1EEFI_1|884KB/s"
+    network: ws
+    port: 6969
+    server: sakhrenab.Sav-savteAm.iR
+    type: vless
+    udp: true
+    uuid: 2655a52c-a1a8-4100-b083-3fef1ca8a782
+    ws-opts:
+      headers:
+        Host: sakhrenab.Sav-savteAm.iR
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: /MelinetNew
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2095
+    xudp: true
   - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1FECY_1|2.0MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-      short-id: "2d6d073dc88f22a8"
-    server: se1.se-cdn.ru
+      public-key: wwZ3zZidTQVJ-xEXstZ0eY7uN-0XPWZBgNx21hMuIl4
+      short-id: "2f61efb7233f32c7"
+    server: 163.128.99.228
     tls: true
     type: vless
     udp: true
-    uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
+    uuid: 76876e43-13df-46e8-a431-48bb547002e7
     xudp: true
-    servername: se1.se-cdn.ru
+    servername: www.apple.com
   - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
-    network: tcp
+    name: "\U0001F1EB\U0001F1F7FR_3|1.9MB/s"
+    network: raw
     port: 443
     reality-opts:
       public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
@@ -470,6 +521,131 @@ proxies:
     uuid: 0a76a766-d141-44b8-944e-dff757d7116f
     xudp: true
     servername: www.samsung.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1E9ID_1|1.4MB/s"
+    network: tcp
+    port: 10053
+    reality-opts:
+      public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+      short-id: "cbbf64"
+    server: family.bucket.9.kfc-520.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
+    xudp: true
+    servername: www.amd.com
+  - encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_2|3.0MB/s"
+    network: ws
+    port: 8880
+    server: 63.141.128.30
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime42.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_2|2.6MB/s"
+    network: ws
+    port: 443
+    server: 199.232.78.159
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1a3829ce-f01a-4899-8537-1b4d188408ef
+    ws-opts:
+      headers:
+        Host: pane2.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: >-
+        /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053fp=chrome
+    xudp: true
+    servername: ssl.fastly.com
+  - client-fingerprint: firefox
+    name: "\U0001F1F7\U0001F1FARU_1|1.6MB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+      short-id: "15affa0af66dfc79"
+    server: 72.56.250.133
+    tls: true
+    type: vless
+    udp: true
+    uuid: 33c150b7-c0ca-4133-9a52-6f1207da9b8b
+    xhttp-opts: {}
+    xudp: true
+    servername: deepl.com
+  - name: "\U0001F1EC\U0001F1E7GB_3|1.4MB/s"
+    network: ws
+    port: 8880
+    server: 50.62.198.30
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime39.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK_2|2.3MB/s"
+    network: ws
+    port: 80
+    server: 91.193.58.159
+    type: vless
+    udp: true
+    uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+    ws-opts:
+      headers:
+        Host: twilight-poetry-2bfe.218-699.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
+      path: "/pyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
+    xudp: true
+  - client-fingerprint: firefox
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_3|1.5MB/s"
+    network: xhttp
+    port: 8444
+    reality-opts:
+      public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
+      short-id: "635a76c25a4b1820"
+    server: 2.26.224.100
+    tls: true
+    type: vless
+    udp: true
+    uuid: 15e83ced-7544-422e-863d-deafe29a1dbe
+    xhttp-opts:
+      path: /xh
+    xudp: true
+    servername: www.amd.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EC\U0001F1E7GB_4|2.7MB/s"
+    obfs: salamander
+    obfs-password: uw9b2qq5rx
+    password: 6aab8efdf13945829ae3699c342be406
+    port: 443
+    server: fiproxy1.lockdwn.com
+    skip-cert-verify: false
+    sni: fiproxy1.lockdwn.com
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
