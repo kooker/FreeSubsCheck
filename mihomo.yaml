@@ -1,74 +1,92 @@
 proxies:
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: ❓Other_1|792KB/s
-    network: ws
-    password: humanity
-    port: 443
-    server: 216.24.57.7
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 121.46.230.136
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL_1|879KB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/67.0.3396.99 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: ❓Other_2|1.7MB/s
-    network: ws
-    password: humanity
-    port: 443
-    server: 216.24.57.1
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s"
+    port: 9002
+    server: 84.239.49.59
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: ❓Other_3|1.5MB/s
-    network: ws
-    password: humanity
-    port: 443
-    server: 165.215.250.14
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+  - name: "\U0001F1F7\U0001F1F4RO_2|1.2MB/s"
+    password: None
+    port: 9002
+    server: 84.239.49.201
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /assignment
+  - name: "\U0001F1F7\U0001F1F4RO_3|2.0MB/s"
+    port: 9002
+    server: 84.239.49.192
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+    name: ❓Other_1|819KB/s
+    password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+    port: 443
+    server: deu0003ntrhy01.tcp-reset-club.net
+    skip-cert-verify: true
+    sni: deu0003ntrhy01.tcp-reset-club.net
+    type: hysteria2
   - alpn:
       - h2
-      - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|527KB/s"
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|2.0MB/s"
     network: ws
-    password: humanity
     port: 443
-    server: 162.159.136.234
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+    server: a2.arshia-nova.ir
+    tls: true
+    type: vless
     udp: true
+    uuid: e75fbac1-efaa-45a2-ac76-ac150cb37329
     ws-opts:
       headers:
+        Host: c12.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /assignment
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /
+    xudp: true
+    servername: ssl.fastly.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EA\U0001F1F8ES_1|869KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 1427eb10-7529-4d38-a6a2-01b337868b37
+    port: 4433
+    server: es1.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: es1.xiaoliyu.cyou
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_1|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: els1.mangshe.xyz
+    skip-cert-verify: true
+    sni: els1.mangshe.xyz
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     name: "\U0001F1E6\U0001F1FAAU_1|1.7MB/s"
     network: tcp
@@ -80,7 +98,7 @@ proxies:
     type: trojan
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1FAAU_2|1.2MB/s"
+    name: "\U0001F1E6\U0001F1FAAU_2|1.4MB/s"
     network: tcp
     password: AE62539071
     port: 443
@@ -90,7 +108,7 @@ proxies:
     type: trojan
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1FAAU_3|2.0MB/s"
+    name: "\U0001F1E6\U0001F1FAAU_3|1.6MB/s"
     network: tcp
     password: PQ05174892
     port: 443
@@ -101,7 +119,7 @@ proxies:
     udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EA\U0001F1F8ES_1|1.5MB/s"
+    name: "\U0001F1EA\U0001F1F8ES_2|1.2MB/s"
     obfs: ''
     obfs-password: ''
     password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
@@ -111,95 +129,38 @@ proxies:
     sni: xby.mangshe.xyz
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1FAAU_4|1.5MB/s"
-    password: AE62539071
-    port: 443
-    server: wanted-marmoset.rooster465.autos
-    skip-cert-verify: false
-    sni: wanted-marmoset.rooster465.autos
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1F9\U0001F1FCTW_1|6.2MB/s"
+  - name: "\U0001F1F9\U0001F1FCTW_1|2.7MB/s"
     password: d8a28b6e-bd7f-4249-9c1d-ac29bd0938be
-    port: 40072
-    server: tw2.catzl.top
+    port: 40073
+    server: tw3.catzl.top
     type: anytls
     udp: true
-    sni: tw2.catzl.top
-  - name: "\U0001F1ED\U0001F1F0HK_1|529KB/s"
-    network: ws
-    port: 10086
-    server: 69.165.75.160
-    tls: false
-    type: vless
-    udp: true
-    uuid: 46410a45-4801-41e9-b7b7-5840e044e34d
-    ws-opts:
-      path: /vless
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s"
-    password: d8a28b6e-bd7f-4249-9c1d-ac29bd0938be
-    port: 40041
-    server: kr1.catzl.top
-    type: anytls
-    udp: true
-    sni: kr1.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_1|526KB/s"
+    sni: tw3.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
     password: d8a28b6e-bd7f-4249-9c1d-ac29bd0938be
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    name: ❓Other_4|3.0MB/s
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    port: 8443
-    server: 138.124.0.168
-    skip-cert-verify: true
-    sni: hopp-legend-se.roxa.org
-    type: hysteria2
-  - auth: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-    name: ❓Other_5|3.8MB/s
-    password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
-    port: 443
-    server: replay.wwwinternetvideo.click
-    skip-cert-verify: true
-    sni: replay.wwwinternetvideo.click
-    type: hysteria2
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1E7\U0001F1ECBG_1|586KB/s"
-    network: tcp
-    port: 8443
+    name: "\U0001F1E9\U0001F1EADE_1|1.9MB/s"
+    port: 443
     reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-      short-id: ''
-    server: 213.183.63.187
+      public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+      short-id: "f7d0420b8ab26060"
+    server: 194.87.24.10
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
-    xudp: true
-    servername: bunny.net
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|518KB/s"
+    uuid: 22419260-5475-49d8-a29c-01905c54d1b8
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: yS0gQc7yJKYrbltuoBzOSxFH1eJmQPghTVgGXyka6Rw
-      short-id: "df9ee61607c20c0f"
-    server: 38.64.62.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 89323a6b-edf6-402b-a72f-e1a7863794ad
-    xudp: true
-    servername: speed.cloudflare.com
+    servername: de1.de-cdn.ru
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+    name: "\U0001F1E9\U0001F1EADE_2|2.5MB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -212,23 +173,8 @@ proxies:
     uuid: 22419260-5475-49d8-a29c-01905c54d1b8
     xudp: true
     servername: de1.de-cdn.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1F4MO_1|966KB/s"
-    network: tcp
-    port: 6897
-    reality-opts:
-      public-key: X2thmYgL8pXZBmFxMOPo3oIYAga5CTMEd-YMcJHk4Es
-      short-id: "54efd54cf3e7"
-    server: jpaws.ccwink.photos
-    tls: true
-    type: vless
-    udp: true
-    uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-    xudp: true
-    servername: docs.aws.amazon.com
   - client-fingerprint: edge
-    name: "\U0001F1FA\U0001F1E6UA_1|2.2MB/s"
+    name: "\U0001F1FA\U0001F1E6UA_1|1019KB/s"
     network: ws
     port: 443
     server: cfd.130209.xyz
@@ -240,42 +186,30 @@ proxies:
       headers:
         Host: ukraine.142568.xyz
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
       path: /assets/dist/app-update-payload.dat
     xudp: true
     servername: ukraine.142568.xyz
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
-    network: tcp
-    port: 31883
-    server: vip-nl-1.hkd4fwmg.vip
-    tls: true
-    type: vless
-    udp: true
-    uuid: 20593145-d975-46f9-9bad-d9f3c8e2d899
-    xudp: true
-    servername: vip-nl-1.hkd4fwmg.vip
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
+    name: "\U0001F1EE\U0001F1E9ID_1|1.8MB/s"
     network: tcp
-    port: 443
+    port: 10053
     reality-opts:
-      public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-      short-id: "d3ee47fc2f553c44"
-    server: 45.196.161.171
+      public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+      short-id: "cbbf64"
+    server: family.bucket.9.kfc-520.com
     tls: true
     type: vless
     udp: true
-    uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
+    uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
     xudp: true
-    servername: storage.yandex.net
+    servername: www.amd.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|695KB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -288,49 +222,6 @@ proxies:
     uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
     xudp: true
     servername: www.apple.com
-  - name: "\U0001F1EC\U0001F1E7GB_2|2.9MB/s"
-    network: ws
-    port: 80
-    server: mtn.v2plus.ovh
-    type: vless
-    udp: true
-    uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
-    ws-opts:
-      headers:
-        Host: worker3.wateci1156.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like
-          Gecko) Chrome/5.0.342.1 Safari/533.2
-      path: /yEehdR6POSWwzRXP
-    xudp: true
-    servername: worker3.wateci1156.workers.dev
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_3|705KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 9kQGK7IuVFWU9xCb4g9ygL1CEv87QmVZJzWLz74pTSc
-      short-id: ''
-    server: 31.76.109.85
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8e85752d-c04f-427d-9d70-b10d144c8492
-    xudp: true
-    servername: nl.routeon.pro
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-    port: 443
-    server: bel-03.node.lumixnet.com
-    skip-cert-verify: false
-    sni: bel-03.node.lumixnet.com
-    type: hysteria2
-    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
