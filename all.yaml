@@ -1,7 +1,13 @@
 proxies:
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
+      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1|965KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|4.9MB/s"
       network: ws
       port: 16632
       server: planb.mojcn.com.linuxlh.xin
@@ -14,211 +20,91 @@ proxies:
         headers:
             Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
         path: /
-    - name: "\U0001F1F3\U0001F1F1NL_1|970KB/s"
-      port: 9002
-      server: 84.17.47.150
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 121.46.230.136
+      type: ss
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
-      port: 9002
-      server: 84.239.49.218
-      skip-cert-verify: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_1|1.7MB/s"
+      network: tcp
+      port: "10039"
+      reality-opts:
+        public-key: nLPPWVSNQ5n8V-VTrqf-Y_LxeEJ6qnmLv1O6xHNf22k
+        short-id: bf
+      server: family.bucket.9.kfc-520.com
+      servername: www.adobe.com
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.8MB/s"
-      port: 9002
-      server: 84.239.49.202
-      skip-cert-verify: true
+      uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_2|566KB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: dOiNlBDQ-nbDNJ7Hx7qRrkzMPn84ueeDnLm1jT20uVY
+        short-id: 591e9f85f4fd64ed
+      server: 202.182.109.131
+      servername: www.apple.com
       tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|601KB/s"
-      port: 9002
-      server: 84.239.49.59
+      type: vless
+      uuid: d9c28697-64ac-48f6-a6e6-ab7285b9ae9d
+    - alpn:
+        - h3
+      auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+      name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+      password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+      port: 443
+      server: de87.mechvpn.online
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|803KB/s"
-      port: 9002
-      server: 84.239.14.153
+      sni: de87.mechvpn.online
+      type: hysteria2
+    - auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+      password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+      port: 8443
+      server: 222.167.212.82
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|1.4MB/s"
-      port: 9002
-      server: 84.239.49.181
+      sni: hopp-legend-se.roxa.org
+      type: hysteria2
+    - auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      name: "\U0001F1E6\U0001F1EAAE_1|2.5MB/s"
+      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+      port: 8080
+      server: 85.204.107.171
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|2.0MB/s"
-      port: 9002
-      server: 84.239.49.38
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|966KB/s"
-      password: None
-      port: 9002
-      server: 84.239.49.155
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|821KB/s"
-      port: 9002
-      server: 84.239.49.168
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_9|791KB/s"
-      port: 9002
-      server: 84.239.49.176
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_10|517KB/s"
-      port: 9002
-      server: 84.239.49.43
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-      password: null
-      port: 5060
-      server: 145.239.41.4
-      type: http
-      username: null
+      sni: hopp-romania-new.roxa.org
+      type: hysteria2
     - alpn:
         - h2
-      client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|644KB/s"
       network: ws
+      password: humanity
       port: "443"
-      server: a2.arshia-nova.ir
-      servername: ssl.fastly.com
-      tls: true
-      type: vless
+      server: 162.159.136.234
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
       udp: true
-      uuid: ce99a4f9-02a4-4476-d31d-8152b0d999ea
       ws-opts:
         headers:
-            Host: c12.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_1|809KB/s"
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1EB\U0001F1EEFI_1|1.5MB/s"
       network: ws
-      port: "443"
-      server: 178.253.16.60
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_2|729KB/s"
-      network: ws
-      port: "443"
-      server: 185.37.8.133
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_3|1.2MB/s"
-      network: ws
-      port: "443"
-      server: 85.206.161.200
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_4|2.4MB/s"
-      network: ws
-      port: "443"
-      server: 45.12.28.108
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_5|868KB/s"
-      network: ws
-      port: "2053"
-      server: 130.17.20.42
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_6|1.5MB/s"
-      network: ws
-      port: "443"
-      server: 45.59.125.193
-      servername: forfreeuse.rtqa.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: c7e9c591-2764-423a-afca-efbd010fd396
-      ws-opts:
-        headers:
-            Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1EEFI_7|1.2MB/s"
-      network: ws
-      port: "2053"
+      port: 2053
       server: 217.60.63.44
       servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
@@ -226,6 +112,131 @@ proxies:
       ws-opts:
         headers:
             Host: forfreeuse.rtqa.ru
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
         path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_2|1.1MB/s"
+      network: ws
+      port: 443
+      server: 31.57.28.199
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_3|949KB/s"
+      network: ws
+      port: 443
+      server: 89.167.100.106
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - name: "\U0001F1EB\U0001F1EEFI_4|1.3MB/s"
+      network: ws
+      port: 2053
+      server: 94.72.108.133
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_5|890KB/s"
+      network: ws
+      port: 443
+      server: 91.223.119.174
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_6|555KB/s"
+      network: ws
+      port: 443
+      server: 62.238.14.79
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_7|711KB/s"
+      network: ws
+      port: 443
+      server: 45.12.28.108
+      servername: forfreeuse.rtqa.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+        path: /
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1E9ID_1|1.9MB/s"
+      network: tcp
+      port: "10053"
+      reality-opts:
+        public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
+        short-id: cbbf64
+      server: family.bucket.9.kfc-520.com
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+      network: tcp
+      port: "62145"
+      server: 92.5.227.75
+      type: vless
+      udp: true
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FB\U0001F1F3VN_1|989KB/s"
+      network: tcp
+      port: "10033"
+      reality-opts:
+        public-key: mQvQHrpr_4068cLt-AOl44mQN6YccQv7yLfCP5Kp9HU
+        short-id: "667925235980"
+      server: family.bucket.8.kfc-520.com
+      servername: www.hp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
       xudp: true
