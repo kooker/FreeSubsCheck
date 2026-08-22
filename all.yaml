@@ -1,131 +1,231 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7KR_1|4.0MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.138
-      type: ss
-    - auth: l25nJa8z0D5pT6jl
-      name: "\U0001F1EE\U0001F1E9ID_1|650KB/s"
-      password: l25nJa8z0D5pT6jl
-      port: 26001
-      server: 16.79.28.237
-      sni: id-ls-c-4.nebulacloud.win
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.2MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|965KB/s"
+      network: ws
+      port: 16632
+      server: planb.mojcn.com.linuxlh.xin
+      servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
       skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_1|2.7MB/s"
-      password: /ADkrzKspuf1eYWEst/8o4CstRyEzPzwZ58MYUzJ76Q=
-      port: 59924
-      server: 130.61.239.112
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|3.6MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.136
-      type: ss
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|903KB/s"
-      network: tcp
-      port: 62145
-      server: 143.47.183.8
-      type: vless
-      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-    - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|3.5MB/s"
-      password: github.com/Alvin9999-newpac/fanqiang
-      port: 43115
-      server: 62.210.147.2
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
-      password: null
+      tls: false
+      type: vmess
+      uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+      ws-opts:
+        headers:
+            Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+        path: /
+    - name: "\U0001F1F3\U0001F1F1NL_1|970KB/s"
       port: 9002
       server: 84.17.47.150
       skip-cert-verify: true
       tls: true
       type: http
-      username: null
-    - auth: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-      name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s"
-      password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-      port: 8443
-      server: 194.180.188.120
-      skip-cert-verify: true
-      sni: keyhop-offshore.roxa.org
-      type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1NL_3|662KB/s"
-      password: None
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
       port: 9002
-      server: 84.17.47.146
+      server: 84.239.49.218
       skip-cert-verify: true
       tls: true
       type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.8MB/s"
+      port: 9002
+      server: 84.239.49.202
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|601KB/s"
+      port: 9002
+      server: 84.239.49.59
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|803KB/s"
+      port: 9002
+      server: 84.239.14.153
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|1.4MB/s"
+      port: 9002
+      server: 84.239.49.181
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_6|2.0MB/s"
+      port: 9002
+      server: 84.239.49.38
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_7|966KB/s"
+      password: None
+      port: 9002
+      server: 84.239.49.155
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_8|821KB/s"
+      port: 9002
+      server: 84.239.49.168
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_9|791KB/s"
+      port: 9002
+      server: 84.239.49.176
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_10|517KB/s"
+      port: 9002
+      server: 84.239.49.43
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+      password: null
+      port: 5060
+      server: 145.239.41.4
+      type: http
       username: null
-    - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
-      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      port: 8443
-      server: 162.249.124.111
-      skip-cert-verify: true
-      sni: hopp-germany-new.ddnsguru.com
-      type: hysteria2
-    - auth: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-      name: "\U0001F1F9\U0001F1F7TR_1|778KB/s"
-      password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
-      port: 443
-      server: 194.135.34.207
-      skip-cert-verify: true
-      sni: 194.135.34.207
-      type: hysteria2
-    - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      name: "\U0001F1F9\U0001F1F7TR_2|1.0MB/s"
-      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      port: 8080
-      server: 162.249.124.111
-      skip-cert-verify: true
-      sni: hopp-germany-new.ddnsguru.com
-      type: hysteria2
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_1|5.0MB/s"
-      network: tcp
-      port: 30845
-      server: v45.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
+      network: ws
+      port: "443"
+      server: a2.arshia-nova.ir
+      servername: ssl.fastly.com
+      tls: true
+      type: vless
       udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      uuid: ce99a4f9-02a4-4476-d31d-8152b0d999ea
+      ws-opts:
+        headers:
+            Host: c12.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_2|1.0MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-      port: "8443"
-      server: 162.249.124.108
-      skip-cert-verify: true
-      sni: hopp-germany-new.ddnsguru.com
-      type: hysteria2
-      up: ""
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0HK_1|618KB/s"
-      password: Butterfly123@qwe9527
-      port: "10006"
-      server: 36.33.35.105
-      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_1|809KB/s"
+      network: ws
+      port: "443"
+      server: 178.253.16.60
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
       udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_2|729KB/s"
+      network: ws
+      port: "443"
+      server: 185.37.8.133
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_3|1.2MB/s"
+      network: ws
+      port: "443"
+      server: 85.206.161.200
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_4|2.4MB/s"
+      network: ws
+      port: "443"
+      server: 45.12.28.108
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_5|868KB/s"
+      network: ws
+      port: "2053"
+      server: 130.17.20.42
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_6|1.5MB/s"
+      network: ws
+      port: "443"
+      server: 45.59.125.193
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_7|1.2MB/s"
+      network: ws
+      port: "2053"
+      server: 217.60.63.44
+      servername: forfreeuse.rtqa.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: c7e9c591-2764-423a-afca-efbd010fd396
+      ws-opts:
+        headers:
+            Host: forfreeuse.rtqa.ru
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
+        path: /
+      xudp: true
