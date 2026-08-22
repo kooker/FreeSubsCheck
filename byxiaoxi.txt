@@ -1,11 +1,1 @@
-vless://f1fa0ad9-b122-4b7c-da82-4bea9edc48dd@51.81.223.225:11094?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=a356addf&pbk=9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk#%F0%9F%87%BA%F0%9F%87%B8US_1%7C849KB%2Fs
-vless://928e6cce-8ced-4243-9a48-a6642edd09b0@64.186.226.124:13779?security=reality&type=tcp&packetEncoding=none&sni=tesla.com&fp=chrome&flow=xtls-rprx-vision&sid=af1bdd293097b664&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg#%F0%9F%87%BA%F0%9F%87%B8US_2%7C1.3MB%2Fs
-hysteria2://NL2026hy@147.45.149.88:8443?obfs=salamander&obfs-password=SalamanderNL2026&sni=nl.nobelchat.ru#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C2.5MB%2Fs
-vless://7efc901f-7862-40e8-902b-4bfad8f8ca88@213.165.40.175:2053?security=none&type=tcp&encryption=none#%F0%9F%87%B3%F0%9F%87%B1NL_2%7C874KB%2Fs
-hysteria2://e0c73147-a2d2-4cc6-b616-d7205ea1b314@82.27.117.133:3389?sni=vpn.chernienko.pro#%F0%9F%87%B3%F0%9F%87%B1NL_3%7C644KB%2Fs
-hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.171:8080?insecure=1&sni=hopp-romania-new.roxa.org#%F0%9F%87%A6%F0%9F%87%AAAE_1%7C2.5MB%2Fs
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.180.42.210:443?security=reality&type=tcp&allowInsecure=1&sni=nordic.cendora.ru&fp=chrome&flow=xtls-rprx-vision&sid=2186a755ed67b034&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU#%F0%9F%87%B3%F0%9F%87%B1NL_4%7C1.2MB%2Fs
-trojan://humanity@162.159.136.234:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&alpn=h2%2Chttp%2F1.1&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C568KB%2Fs
-hysteria2://Germany2026hy@45.128.99.14:8443?insecure=1&obfs=salamander&obfs-password=SalamanderDE2026&sni=de.nobelchat.ru#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.1MB%2Fs
-vless://0a76a766-d141-44b8-944e-dff757d7116f@163.5.153.153:443?security=reality&type=raw&packetEncoding=xudp&sni=www.samsung.com&fp=chrome&flow=xtls-rprx-vision&sid=a91045bc&pbk=aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0#%E2%9D%93Other_1%7C528KB%2Fs
-vless://7aecb4a5-f0a4-32a0-aabe-c9d5241e313f@family.bucket.5.kfc-520.com:10007?security=reality&type=tcp&packetEncoding=xudp&sni=www.amd.com&fp=firefox&flow=xtls-rprx-vision&sid=61e4433c2b25da&pbk=uMDcH_hT82rYMOiaYGGPJ5Aa9hk9Sdo2svtRIHBSBFo#%F0%9F%87%BA%F0%9F%87%B8US_3%7C673KB%2Fs
+vless://f1fa0ad9-b122-4b7c-da82-4bea9edc48dd@51.81.223.225:11094?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.yahoo.com&fp=chrome&flow=xtls-rprx-vision&sid=a356addf&pbk=9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk#%F0%9F%87%BA%F0%9F%87%B8US_1%7C559KB%2Fs
