@@ -1,168 +1,137 @@
 proxies:
   - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_1|2.8MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
     password: amazonskr05
     port: 443
-    server: 13.135.73.177
+    server: 13.135.73.3
     type: ss
-  - name: "\U0001F1EE\U0001F1F3IN_1|3.1MB/s"
-    password: ''
-    port: 1088
-    server: 144.24.111.128
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|681KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: 13.228.168.117
-    skip-cert-verify: true
-    sni: vpn-sg-001.fastervpn.world
-    type: hysteria2
-    up: ''
   - cipher: aes-256-cfb
-    name: "\U0001F1EE\U0001F1EAIE_1|2.5MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 35.178.212.194
+    type: ss
+  - name: "\U0001F1F2\U0001F1F4MO_1|654KB/s"
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    port: 20068
+    server: kkvlvvq-a.catcat321.com
+    skip-cert-verify: true
+    sni: hk.catxstar.com
+    type: trojan
+    network: tcp
+  - cipher: aes-256-gcm
+    name: "\U0001F1F2\U0001F1F4MO_2|2.3MB/s"
+    password: rjV4WyP9ts5eEGsr
+    port: 31352
+    server: general-live-13877.holphappyeveryday.com
+    type: ss
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: "\U0001F1EC\U0001F1E7GB_3|696KB/s"
+    password: Zgnzl2S6ae8VJygD6VyKAT7t/mX5afzPwvEOH2Ekrvg=
+    port: 61312
+    server: 129.151.75.231
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 95.170.13.47
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EE\U0001F1EAIE_1|2.4MB/s"
     password: amazonskr05
     port: 443
     server: 34.252.199.48
     type: ss
-    udp: true
-  - name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s"
-    password: c38c4c71-345e-4cac-a4c5-989b309451c5
-    port: 11682
-    server: vn2.nbjc.top
+  - cipher: 2022-blake3-chacha20-poly1305
+    name: "\U0001F1F8\U0001F1ECSG_1|3.6MB/s"
+    password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
+    port: 56927
+    server: 129.150.48.175
+    type: ss
+  - encryption: none
+    http-opts:
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
+    network: http
+    packet-encoding: xudp
+    port: 3389
+    server: 94.237.102.117
+    type: vless
+    uuid: fc9bf9b8-06b5-4244-aea5-75a460ec5066
+  - name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s"
+    password: 29204996-a723-4291-8c70-30843b592d40
+    port: 443
+    server: jd-us77.y1static-content-distribution.shop
+    skip-cert-verify: true
+    sni: jd-us77.y1static-content-distribution.shop
     type: anytls
-    udp: true
-    sni: vn2.nbjc.top
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_1|5.2MB/s"
-    password: 7ab8660c-1759-4cf2-a93c-e5406c0e617a
-    port: 12345
-    server: 202.155.141.87
+  - cipher: aes-256-cfb
+    name: "\U0001F1EE\U0001F1EAIE_2|2.5MB/s"
+    password: amazonskr05
+    port: 443
+    server: 34.254.226.220
     type: ss
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_2|5.2MB/s"
-    password: bc7f2c77-3bb2-4612-b256-0cb8383b9791
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_3|5.6MB/s"
-    password: cffd20b5-0c68-43f7-ac7f-5f02fcfa4535
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - name: "\U0001F1FB\U0001F1F3VN_2|1013KB/s"
-    password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-    port: 11682
-    server: vn2.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn2.nbjc.top
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_4|5.7MB/s"
-    password: be6cbb46-ebb0-4726-9202-6a3bac1d0afb
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - name: "\U0001F1FB\U0001F1F3VN_3|1.9MB/s"
-    password: c38c4c71-345e-4cac-a4c5-989b309451c5
-    port: 11681
-    server: vn1.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn1.nbjc.top
-  - name: "\U0001F1FA\U0001F1F8US_1|716KB/s"
-    password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_5|5.4MB/s"
-    password: 22b9e864-fae0-4928-916e-66e8280c90c9
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - name: ❓Other_1|3.6MB/s
-    password: c38c4c71-345e-4cac-a4c5-989b309451c5
-    port: 40011
-    server: hk1.catzl.top
-    type: anytls
-    udp: true
-    sni: hk1.catzl.top
-  - name: "\U0001F1FB\U0001F1F3VN_4|1.1MB/s"
-    password: 13d3e0c5-711e-4d9e-9323-9ba28f8fc70d
-    port: 11683
-    server: vn3.nbjc.top
-    type: anytls
-    udp: true
-    sni: vn3.nbjc.top
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_6|5.4MB/s"
-    password: 5d79906d-89ab-430b-acbc-3327568a5be3
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_7|5.5MB/s"
-    password: b1f03070-791a-41d8-889f-4d545aa495ef
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_8|5.4MB/s"
-    password: e936372a-d976-4e25-8b3b-29c1a5841e06
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_9|2.6MB/s"
-    password: e0cc75c8-5f0a-4d16-b6b4-7e87759af006
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_10|5.5MB/s"
-    password: 5017b1a2-1d9d-4bec-a4cc-43706bbdd0d7
-    port: 12345
-    server: 202.155.141.87
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|587KB/s"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_2|5.8MB/s"
+    network: none
+    port: 53386
+    server: x-ui.zxhh.top
+    tls: false
+    type: vmess
+    uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
+  - name: "\U0001F1FA\U0001F1E6UA_1|616KB/s"
     network: tcp
-    port: 8053
-    reality-opts:
-      public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
-      short-id: "109754c5259066d1"
-    server: 45.134.38.204
-    tls: true
+    password: a126f35c-e832-4115-8593-b723ade3f7be
+    port: 20066
+    server: hkdcrtc-e.catcat321.com
+    skip-cert-verify: true
+    sni: hk.catxstar.com
+    type: trojan
+  - name: "\U0001F1EC\U0001F1E7GB_4|2.4MB/s"
+    port: 5002
+    server: 92.48.125.152
+    type: http
+  - cipher: aes-256-cfb
+    name: "\U0001F1EE\U0001F1EAIE_3|1.3MB/s"
+    password: amazonskr05
+    port: 443
+    server: 54.247.216.201
+    type: ss
+    udp: true
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1E8\U0001F1E6CA_1|833KB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-ca-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-ca-002.fastervpn.world
+    type: hysteria2
+    udp: true
+  - encryption: none
+    name: "\U0001F1F9\U0001F1FCTW_1|7.0MB/s"
+    network: tcp
+    port: 10000
+    server: 220.130.75.250
     type: vless
     udp: true
-    uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+    uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
     xudp: true
-    servername: www.amd.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E7\U0001F1F7BR_1|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+    port: 443
+    server: 45.192.12.93
+    skip-cert-verify: false
+    sni: admin.wwwinternetvideo.click
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
