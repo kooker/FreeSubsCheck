@@ -1,46 +1,272 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 1427eb10-7529-4d38-a6a2-01b337868b37
-    port: 4433
-    server: nl1.xiaoliyu.cyou
-    skip-cert-verify: true
-    sni: nl1.xiaoliyu.cyou
-    type: hysteria2
-    up: ''
   - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5JP_1|800KB/s"
+    name: "\U0001F1EF\U0001F1F5JP_1|1.2MB/s"
     password: Butterfly123@qwe9527
     port: 40001
     server: 103.236.66.4
     type: ss
-  - auth: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
-    password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  - cipher: aes-256-gcm
+    name: "\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
+    password: Butterfly123@qwe9527
+    port: 40002
+    server: 103.236.66.4
+    type: ss
+  - name: ❓Other_1|1.8MB/s
     port: 443
-    server: dora4.api3-max.ru
-    skip-cert-verify: true
-    sni: dora4.api3-max.ru
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    password: None
-    port: 9002
-    server: 156.146.59.11
+    server: 212.102.63.61
     skip-cert-verify: true
     tls: true
     type: http
-  - auth: github.com/Alvin9999-newpac/fanqiang
-    name: "\U0001F1EB\U0001F1F7FR_2|3.2MB/s"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 43115
-    server: 62.210.147.2
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
+    network: tcp
+    port: 22216
+    reality-opts:
+      public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
+      short-id: "0f4412d42129f080"
+    server: netherdr.whooisthebest.ir
+    tls: true
+    type: vless
     udp: true
+    uuid: c390c8ba-c8cf-46f8-8c55-71966b36be1d
+    xudp: true
+    servername: amp-api-edge.apps.apple.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_1|836KB/s"
+    network: ws
+    password: humanity
+    port: 443
+    server: 162.159.136.234
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /assignment
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_1|1.7MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: d532115bea
+    port: 11592
+    server: srv-0dc9de.21freedom.net
+    skip-cert-verify: true
+    sni: srv-0dc9de.21freedom.net
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F1\U0001F1FBLV_1|2.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
+    port: 8443
+    server: hy2-netherlands.unlimited-access.ru
+    skip-cert-verify: true
+    sni: hy2-netherlands.unlimited-access.ru
+    type: hysteria2
+    up: ''
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: 45.131.212.61
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+    xudp: true
+    servername: ai.sellflow.org
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_1|1.9MB/s"
+    network: tcp
+    port: 799
+    reality-opts:
+      public-key: 8KC1Q6N_tk98952fnvR5PUsecF-D4k34K5oyE8AUrSc
+      short-id: "631b5dae98fd4367"
+    server: hk04.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: www.bilibili.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s"
+    network: tcp
+    port: 766
+    reality-opts:
+      public-key: Fxp0unNrufoOHM1TqetHNVS_oAZ-GQ3osFCkawHKPkI
+      short-id: "37f0bd90c1ff0630"
+    server: hk04.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1ECSG_2|554KB/s"
+    network: tcp
+    port: 767
+    reality-opts:
+      public-key: LaT7HYn_Ni0dEMwWdLa06UCYlswX7fENEAKwILZ0Lnc
+      short-id: "408dc2d972797b29"
+    server: hk05.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_2|552KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: daiJkQwpAcBk7oH1iZzRthMj-jAlqovX7vAiwVqfjTU
+      short-id: "8880a9f75eb46d91"
+    server: 45.82.67.183
+    tls: true
+    type: vless
+    udp: true
+    uuid: 437ebf3c-a92c-4f40-9fc5-9af78c28802d
+    xudp: true
+    servername: northwaleswildlifetrust.org.uk
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_2|5.8MB/s"
+    network: tcp
+    port: 798
+    reality-opts:
+      public-key: czEoNozTky8HvZ2j4Tnkr6c9L-rAhsdoaBvEz1vjAkU
+      short-id: "6aa9279c1fbab9c9"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s"
+    network: tcp
+    port: 757
+    reality-opts:
+      public-key: TOEfmCDbdYjHFdzEAsMTMfXRB-k80zZ5uZV45g3SJRI
+      short-id: "cd0cfab98411cbb7"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR_2|2.4MB/s"
+    network: tcp
+    port: 754
+    reality-opts:
+      public-key: JTFXztQLrXbMMHoz75v7QzUWGC1gl517biejgXSeo1k
+      short-id: "24bdd33092376099"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+    network: tcp
+    port: 756
+    reality-opts:
+      public-key: ZHjZJJJhGFAxErDf0VUs0F5naCwb2SbKima_Dmc29AE
+      short-id: "519d0cb69a791a60"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s"
+    network: tcp
+    port: 791
+    reality-opts:
+      public-key: 3ku3vU3k895RBY1YhNhcG0M-AplU5a6Rbn-RH3S_oh8
+      short-id: "c9668c12a1369586"
+    server: hk02.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: www.bilibili.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3IN_1|2.7MB/s"
+    network: tcp
+    port: 753
+    reality-opts:
+      public-key: y3AAdi1d5zRrTb_pm-DJWsoP-srtEzYP2P8XxmvbkhQ
+      short-id: "4b8ad8fe52fca1a0"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FB\U0001F1F3VN_1|2.1MB/s"
+    network: tcp
+    port: 769
+    reality-opts:
+      public-key: odk3hycntD6Qr-1SCzY1uv_5tOUiqahPFrPIUSpgiGY
+      short-id: "ca8ef2b95bb395fa"
+    server: hk03.ccdn3.work
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5e77b10-7374-11eb-b739-9160314e12e6
+    xudp: true
+    servername: i1.hdslb.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+    port: 443
+    server: bel-03.node.lumixnet.com
+    skip-cert-verify: false
+    sni: bel-03.node.lumixnet.com
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
