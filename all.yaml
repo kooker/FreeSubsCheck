@@ -1,133 +1,75 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.135.73.3
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.178.212.194
-      type: ss
-    - name: "\U0001F1F2\U0001F1F4MO_1|654KB/s"
-      password: a126f35c-e832-4115-8593-b723ade3f7be
-      port: 20068
-      server: kkvlvvq-a.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-    - cipher: aes-256-gcm
-      name: "\U0001F1F2\U0001F1F4MO_2|2.3MB/s"
-      password: rjV4WyP9ts5eEGsr
-      port: 31352
-      server: general-live-13877.holphappyeveryday.com
-      type: ss
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1EC\U0001F1E7GB_3|696KB/s"
-      password: Zgnzl2S6ae8VJygD6VyKAT7t/mX5afzPwvEOH2Ekrvg=
-      port: 61312
-      server: 129.151.75.231
-      type: ss
-    - cipher: aes-256-cfb
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
       name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 95.170.13.47
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|2.4MB/s"
-      password: amazonskr05
-      port: 443
-      server: 34.252.199.48
-      type: ss
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_1|3.6MB/s"
-      password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
-      port: 56927
-      server: 129.150.48.175
-      type: ss
-    - encryption: none
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1EB\U0001F1EEFI_1|2.4MB/s"
-      network: http
-      packet-encoding: xudp
-      port: 3389
-      server: 94.237.102.117
-      type: vless
-      uuid: fc9bf9b8-06b5-4244-aea5-75a460ec5066
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s"
-      password: 29204996-a723-4291-8c70-30843b592d40
-      port: 443
-      server: jd-us77.y1static-content-distribution.shop
+      network: ws
+      password: humanity
+      port: "443"
+      server: 162.159.136.234
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1EE\U0001F1F3IN_1|2.7MB/s"
+      password: ""
+      port: "1088"
+      server: 144.24.111.128
       skip-cert-verify: true
-      sni: jd-us77.y1static-content-distribution.shop
-      type: anytls
+      type: socks5
+      username: ""
     - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_2|2.5MB/s"
+      name: "\U0001F1EE\U0001F1EAIE_1|1.3MB/s"
       password: amazonskr05
-      port: 443
-      server: 34.254.226.220
+      port: "443"
+      server: 54.217.32.234
       type: ss
       udp: true
-    - alterId: 0
+    - alterId: 2
       cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_2|5.8MB/s"
-      network: none
-      port: 53386
-      server: x-ui.zxhh.top
+      name: "\U0001F1F8\U0001F1ECSG_1|3.7MB/s"
+      port: 30845
+      server: v45.hdacd.com
+      skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: 32e75662-c1ed-4e8d-f78c-3dcc685cc795
-    - name: "\U0001F1FA\U0001F1E6UA_1|616KB/s"
-      network: tcp
-      password: a126f35c-e832-4115-8593-b723ade3f7be
-      port: 20066
-      server: hkdcrtc-e.catcat321.com
-      skip-cert-verify: true
-      sni: hk.catxstar.com
-      type: trojan
-    - name: "\U0001F1EC\U0001F1E7GB_4|2.4MB/s"
-      port: 5002
-      server: 92.48.125.152
-      type: http
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_3|1.3MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.247.216.201
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|5.5MB/s"
+      password: 2cf02a4a-f030-4165-a55d-2940d623b80d
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+      password: 2cf02a4a-f030-4165-a55d-2940d623b80d
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FB\U0001F1F3VN_1|516KB/s"
+      password: 2cf02a4a-f030-4165-a55d-2940d623b80d
+      port: 11681
+      server: vn1.nbjc.top
+      type: anytls
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+      password: Butterfly123@qwe9527
+      port: "50003"
+      server: 103.236.66.4
       type: ss
       udp: true
-    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1E8\U0001F1E6CA_1|833KB/s"
-      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|862KB/s"
+      password: amazonskr05
       port: 443
-      server: vpn-ca-002.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-ca-002.fastervpn.world
-      type: hysteria2
+      server: 18.175.227.220
+      type: ss
       udp: true
-    - encryption: none
-      name: "\U0001F1F9\U0001F1FCTW_1|7.0MB/s"
-      network: tcp
-      port: "10000"
-      server: 220.130.75.250
-      type: vless
-      udp: true
-      uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E7\U0001F1F7BR_1|2.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-      port: "443"
-      server: 45.192.12.93
-      skip-cert-verify: false
-      sni: admin.wwwinternetvideo.click
-      type: hysteria2
-      up: ""
