@@ -1,44 +1,11 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s"
-    password: Butterfly123@qwe9527
-    port: 40001
-    server: 103.236.66.4
-    type: ss
   - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|827KB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|2.3MB/s"
     password: 7eadc6dbe2ae
     port: 65443
     server: 121.46.230.138
     type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
-    password: amazonskr05
-    port: 443
-    server: 35.177.76.120
-    type: ss
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-    port: 9002
-    server: 84.17.47.150
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s"
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|2.0MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
     password: None
     port: 9002
     server: 84.17.47.148
@@ -46,79 +13,53 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.8MB/s"
     port: 9002
     server: 84.17.47.146
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|1.0MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.2MB/s"
     port: 9002
     server: 84.17.47.149
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|666KB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_1|861KB/s"
     port: 9002
     server: 193.176.84.35
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|2.1MB/s"
+  - name: "\U0001F1F7\U0001F1F4RO_2|1.1MB/s"
+    password: None
     port: 9002
-    server: 193.176.84.20
+    server: 193.176.84.23
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
-    network: tcp
+  - name: "\U0001F1E6\U0001F1EAAE_1|1.2MB/s"
+    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
     port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 185.24.151.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    xudp: true
-    servername: jobinvest.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|694KB/s"
-    network: tcp
+    server: faq.wwwinternetvideo.click
+    skip-cert-verify: true
+    sni: cabinet.wwwinternetvideo.click
+    type: hysteria2
+  - auth: cd74c0a406664a5bc0bac098220a2468
+    name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
+    obfs: salamander
+    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+    password: cd74c0a406664a5bc0bac098220a2468
     port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: nl-ams-ovh-02.fuck-rkn.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    servername: jobinvest.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_3|2.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: youtube.sfproxy.fuck-rkn.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    servername: jobinvest.ru
-  - name: "\U0001F1F9\U0001F1FCTW_1|5.8MB/s"
+    server: de1.sferavpn.pro
+    skip-cert-verify: true
+    sni: de1.sferavpn.pro
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_1|5.6MB/s"
     network: tcp
     password: a126f35c-e832-4115-8593-b723ade3f7be
     port: 18372
@@ -126,201 +67,12 @@ proxies:
     skip-cert-verify: true
     sni: r.tw3.cat.bilibili.com
     type: trojan
-  - name: "\U0001F1E9\U0001F1EADE_1|3.7MB/s"
-    obfs: salamander
-    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-    password: cd74c0a406664a5bc0bac098220a2468
+  - name: "\U0001F1F3\U0001F1F1NL_4|930KB/s"
     port: 443
-    server: de1.sferavpn.pro
-    sni: de1.sferavpn.pro
-    type: hysteria2
-  - name: "\U0001F1F5\U0001F1F9PT_1|2.0MB/s"
-    port: 443
-    server: 149.22.86.1
+    server: 149.36.51.129
     skip-cert-verify: true
     tls: true
     type: http
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: ❓Other_1|817KB/s
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_2|755KB/s"
-    obfs: ''
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_1|1.6MB/s"
-    network: ws
-    port: 443
-    server: 151.101.56.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: bbde90cd-b6a9-49ba-cab0-71ae12738502
-    ws-opts:
-      headers:
-        Host: c12.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.101 Safari/537.36
-      path: >-
-        /?TELEGRAM--KANAL--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1--@VPNine1
-    xudp: true
-    servername: ssl.fastly.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F9\U0001F1F7TR_1|1.9MB/s"
-    network: tcp
-    port: 32855
-    reality-opts:
-      public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10
-      short-id: "deb7a9e5a6e1d41a"
-    server: 93.114.98.84
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6110baf2-241e-4ba6-a2e1-6ffbacd903f9
-    xudp: true
-    servername: amp-api-edge.apps.apple.com
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_1|5.1MB/s"
-    network: tcp
-    port: 30845
-    server: v45.hdacd.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_4|1.5MB/s"
-    network: tcp
-    port: 40492
-    reality-opts:
-      public-key: qxTe4rYbyXphUF5L2zyEXzXfwJxky34-bEuX7zYcTDA
-      short-id: "206432f9"
-    server: my.xavino-shop.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: b2e4465d-3dae-46d8-82ec-4ddd521a9c59
-    xudp: true
-    servername: amp-api-edge.apps.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1F7GR_1|1.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: bridge.sfproxy.fuck-rkn.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    xudp: true
-    servername: de.jobinvest.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_5|2.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 185.24.151.36
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    xudp: true
-    servername: us.jobinvest.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-      short-id: "e91da98020a38be9"
-    server: 31.76.34.203
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-    xudp: true
-    servername: russia.cendora.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1F7GR_2|2.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 46.20.105.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ff82100-8aad-4281-bf41-f318519d7182
-    xudp: true
-    servername: ai.jobinvest.ru
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-      short-id: "e91da98020a38be9"
-    server: 31.76.34.102
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-0002-9d5e-c541f791b55f
-    xudp: true
-    servername: russia.cendora.ru
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|875KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-      short-id: "00bca5982f82d083"
-    server: 151.242.160.111
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    xudp: true
-    servername: eu-central.cendora.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
