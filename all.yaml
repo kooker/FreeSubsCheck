@@ -1,152 +1,117 @@
 proxies:
-    - client-fingerprint: firefox
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 216.24.57.7
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 165.215.250.14
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /assignment
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR_3|925KB/s"
+      network: ws
+      password: humanity
+      port: "443"
+      server: 216.24.57.1
+      skip-cert-verify: false
+      sni: www.ignitelimit.com
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /assignment
+    - name: "\U0001F1EE\U0001F1F3IN_1|2.7MB/s"
+      password: ""
+      port: "1088"
+      server: 144.24.111.128
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - name: "\U0001F1EE\U0001F1F2IM_1|1.3MB/s"
+      password: 1Telegram_MojiVPN
+      port: "1080"
+      server: im-bal.pvdata.host
+      skip-cert-verify: true
+      type: socks5
+      username: N9cyF6jvgy3ZEmCNKe04zBIR
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_4|1.8MB/s"
+      password: 7eadc6dbe2ae
+      port: "65443"
+      server: 95.170.13.47
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      network: raw
-      port: 443
-      reality-opts:
-        public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-        short-id: e91da98020a38be9
-      server: 31.76.34.203
-      servername: russia.cendora.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E7\U0001F1F7BR_1|3.3MB/s"
+      name: "\U0001F1E6\U0001F1EAAE_1|1.6MB/s"
       network: tcp
-      port: "50159"
-      reality-opts:
-        public-key: NBbof3yc52opWMuUywEOj6A5fSCPav3ZzTMhQYwxKXs
-        short-id: 55b7664bb39e6886
-      server: 179.255.124.81
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e08ff179-2c35-4a95-a8f8-6b2f7bd315ef
-      xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
-      network: ws
-      port: 443
-      server: 43.170.8.95
-      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c49173
-    - name: ❓Other_1|3.1MB/s
-      network: ws
-      port: 443
-      server: 20.235.105.146
-      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c49173
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
-      network: ws
-      port: 443
-      server: 62.60.253.3
-      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c49173
-    - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
-      network: ws
-      port: 443
-      server: 194.87.0.196
-      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c491730| 风车郁金 | nl | 194.87.0.196:443
-    - name: "\U0001F1F3\U0001F1F1NL_3|2.6MB/s"
-      network: ws
-      port: 443
-      server: 43.170.17.114
-      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c491730| 荷兰 nl | ams | 43.170.17.114:443
-    - name: "\U0001F1F8\U0001F1F0SK_1|1.3MB/s"
-      network: ws
-      port: 8443
-      server: 89.46.42.141
-      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c491730| 斯洛伐克 sk | bts | 89.46.42.141:8443
-    - name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-      network: ws
-      port: 443
-      server: 185.255.93.189
-      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-        path: /pg/10086-dfc816f117c491730| 烤肉火鸡 | tr | 185.255.93.189:443
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1FFCZ_1|2.1MB/s"
-      network: ws
       port: "443"
-      server: 87.236.146.43
-      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      reality-opts:
+        public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+        short-id: 00bca5982f82d083
+      server: 151.242.160.49
+      servername: eu-central.cendora.ru
       tls: true
       type: vless
       udp: true
-      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-      ws-opts:
-        headers:
-            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /pg/10086-dfc816f117c49173
+      uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+      xudp: true
+    - client-fingerprint: firefox
+      name: "\U0001F1F8\U0001F1ECSG_1|1.9MB/s"
+      network: tcp
+      port: "2053"
+      reality-opts:
+        public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
+        short-id: 3fc9b11ceeb2cc6b
+      server: 217.217.254.126
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 30430ca4-9a16-4689-a276-4014599d2f39
+      xudp: true
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+        short-id: f63805c3ecc7a483
+      server: 162.35.231.142
+      servername: savesafe.co
+      tls: true
+      type: vless
+      udp: true
+      uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
       xudp: true
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -161,7 +126,7 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -174,41 +139,21 @@ proxies:
       udp: true
       uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
       xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s"
-      network: tcp
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_2|4.9MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: "443"
-      reality-opts:
-        public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-        short-id: f63805c3ecc7a483
-      server: 162.35.231.143
-      servername: savesafe.co
-      tls: true
-      type: vless
-      udp: true
-      uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-      xudp: true
+      server: 54.254.198.250
+      skip-cert-verify: true
+      sni: vpn-sg-001.fastervpn.world
+      type: hysteria2
+      up: ""
     - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5|978KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-        short-id: f63805c3ecc7a483
-      server: 162.35.231.142
-      servername: savesafe.co
-      tls: true
-      type: vless
-      udp: true
-      uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-      xudp: true
-    - client-fingerprint: firefox
-      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
-      network: tcp
+      name: "\U0001F1F8\U0001F1ECSG_3|1.9MB/s"
+      network: raw
       port: "2053"
       reality-opts:
         public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
@@ -221,18 +166,509 @@ proxies:
       uuid: 30430ca4-9a16-4689-a276-4014599d2f39
       xudp: true
     - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F4NO_1|2.4MB/s"
+      network: tcp
+      password: a126f35c-e832-4115-8593-b723ade3f7be
+      port: "20085"
+      server: kkvlvvq-a.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|591KB/s"
       network: tcp
-      port: "2083"
+      port: "443"
       reality-opts:
-        public-key: a3_DLO6p_ZfPf7I0JFTVlAI2pPAPtC-ji2diyPcHcQA
-        short-id: b4
-      server: sw.volnalink.uk
-      servername: www.booking.com
+        public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
+        short-id: d3ee47fc2f553c44
+      server: 154.83.246.2
+      servername: storage.yandex.net
       tls: true
       type: vless
       udp: true
-      uuid: 4f8efa61-96db-1391-b134-9ce844e31228
+      uuid: 19b64e79-73b4-4478-bbfc-fb57737b94f8
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F2\U0001F1F4MO_1|631KB/s"
+      network: tcp
+      password: a126f35c-e832-4115-8593-b723ade3f7be
+      port: "20068"
+      server: kkvlvvq-a.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EAIE_1|2.5MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 34.250.4.112
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 18.171.235.36
+      type: ss
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7FR_5|1.7MB/s"
+      password: ""
+      port: "49153"
+      server: 37.187.57.177
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F4NO_2|2.5MB/s"
+      network: tcp
+      password: a126f35c-e832-4115-8593-b723ade3f7be
+      port: "20085"
+      server: hkdcrtc-e.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
+      obfs: salamander
+      obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+      password: cd74c0a406664a5bc0bac098220a2468
+      port: "443"
+      server: de1.sferavpn.pro
+      skip-cert-verify: false
+      sni: de1.sferavpn.pro
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1FARU_1|2.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+      port: "4433"
+      server: ru.xiaoliyu.cyou
+      skip-cert-verify: true
+      sni: ru.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
+      network: ws
+      port: 443
+      server: 95.85.243.240
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
+      network: ws
+      port: "443"
+      server: 213.183.51.211
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /pg/10086-dfc816f117c49173
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_4|4.8MB/s"
+      network: grpc
+      port: "10038"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+      xudp: true
+    - name: "\U0001F1F8\U0001F1EASE_2|1.7MB/s"
+      network: ws
+      port: 443
+      server: 95.85.243.240
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1EC\U0001F1E7GB_2|1.0MB/s"
+      password: None
+      port: 443
+      server: 185.235.0.2
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1E9\U0001F1EADE_2|1.5MB/s"
+      port: 443
+      server: 130.61.112.125
+      type: http
+    - name: "\U0001F1F7\U0001F1F8RS_1|1.6MB/s"
+      password: None
+      port: 443
+      server: 146.70.221.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1FA\U0001F1F8US_5|625KB/s"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 443
+      server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+      sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+      tls: true
+      type: http
+      username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_3|2.6MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 8674df07-56b3-43ea-b687-aef2b1a20137
+      port: "443"
+      server: 31.76.22.210
+      skip-cert-verify: false
+      sni: crt.ultimagamest.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F2\U0001F1F4MO_2|732KB/s"
+      password: a126f35c-e832-4115-8593-b723ade3f7be
+      port: 20068
+      server: kkvlvvq-a.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      tls: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1E6UA_1|2.1MB/s"
+      password: a126f35c-e832-4115-8593-b723ade3f7be
+      port: 20066
+      server: kkvlvvq-a.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      tls: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s"
+      network: ws
+      port: 443
+      server: 43.170.8.95
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F1\U0001F1FBLV_1|2.1MB/s"
+      network: ws
+      port: 8443
+      server: 45.144.48.193
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F8\U0001F1EASE_3|1.2MB/s"
+      network: ws
+      port: 8443
+      server: 130.49.178.164
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1F8\U0001F1EA 瑞典 08 | 130.49.178.164:8443"
+    - name: "\U0001F1F3\U0001F1F1NL_2|789KB/s"
+      network: ws
+      port: 443
+      server: 194.87.0.196
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 风车郁金 | nl | 194.87.0.196:443
+    - name: "\U0001F1F8\U0001F1EASE_4|1.7MB/s"
+      network: ws
+      port: 8443
+      server: 84.32.99.175
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1F8\U0001F1EA 瑞典 01 | 84.32.99.175:8443"
+    - name: "\U0001F1E6\U0001F1F2AM_1|2.0MB/s"
+      network: ws
+      port: 2053
+      server: 2.56.206.214
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 亚美尼亚 am | evn | 2.56.206.214:2053
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
+      network: ws
+      port: 443
+      server: 91.223.119.197
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 风车郁金 | nl | 91.223.119.197:443
+    - name: "\U0001F1F8\U0001F1EASE_5|1.4MB/s"
+      network: ws
+      port: 443
+      server: 83.147.255.84
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 战斗毛子 | ru | 83.147.255.84:443
+    - name: "\U0001F1E9\U0001F1F0DK_1|1.8MB/s"
+      network: ws
+      port: 8443
+      server: 195.54.170.66
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s"
+      network: ws
+      port: 2053
+      server: 159.100.22.206
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1E9\U0001F1EADE_4|2.0MB/s"
+      network: ws
+      port: 8443
+      server: 159.100.19.241
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F8\U0001F1EASE_6|554KB/s"
+      network: ws
+      port: 443
+      server: 46.8.254.63
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
+      network: ws
+      port: 8443
+      server: 195.49.215.254
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F8\U0001F1EASE_7|738KB/s"
+      network: ws
+      port: 443
+      server: 193.124.22.24
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1F1\U0001F1FB 拉脱维亚 01 | 193.124.22.24:443"
+    - name: "\U0001F1F8\U0001F1EASE_8|591KB/s"
+      network: ws
+      port: 443
+      server: 185.26.48.167
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1EB\U0001F1EE 芬兰 03 | 185.26.48.167:443"
+    - name: "\U0001F1F7\U0001F1F4RO_1|560KB/s"
+      network: ws
+      port: 443
+      server: 82.152.132.14
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1F7\U0001F1F4 罗马尼亚 04 | 82.152.132.14:443"
+    - name: "\U0001F1E6\U0001F1F9AT_1|1.6MB/s"
+      network: ws
+      port: 443
+      server: 141.105.130.102
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c49173
+    - name: "\U0001F1F3\U0001F1F1NL_4|1.7MB/s"
+      network: ws
+      port: 443
+      server: 43.170.17.114
+      servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 荷兰 nl | ams | 43.170.17.114:443
+    - name: "\U0001F1E9\U0001F1EADE_5|2.0MB/s"
+      network: ws
+      port: 443
+      server: 185.255.93.189
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: /pg/10086-dfc816f117c491730| 烤肉火鸡 | tr | 185.255.93.189:443
+    - name: "\U0001F1F8\U0001F1EASE_9|1.2MB/s"
+      network: ws
+      port: 2053
+      server: 109.206.243.100
+      servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+      ws-opts:
+        headers:
+            Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        path: "/pg/10086-dfc816f117c491730| \U0001F1EB\U0001F1EE 芬兰 15 | 109.206.243.100:2053"
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_5|570KB/s"
+      network: tcp
+      port: "15006"
+      reality-opts:
+        public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+        short-id: 029a6cc4
+      server: nian.001.url111.kcloud02.top
+      servername: www.adobe.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
       xudp: true
