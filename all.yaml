@@ -1,363 +1,126 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - name: "\U0001F1EF\U0001F1F5JP_1|5.9MB/s"
+      password: f6230238-1eb6-48ad-bbe7-60a363e78971
+      port: 50000
+      server: jp200m.jiasu.asia
+      skip-cert-verify: false
+      sni: jp200m.jiasu.asia
+      type: trojan
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_2|5.3MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 5qkRIcB3SAxOr6m76YHUHNFdhsaK7HXWPipELhPD8j4
+        short-id: 64299c2e
+      server: xaxaxa.kdns.fr
+      servername: www.oracle.com
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s"
+      uuid: 5c958497-4461-499a-881b-b5e5bfeade62
+    - name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
+      password: f6230238-1eb6-48ad-bbe7-60a363e78971
+      port: 50000
+      server: us200m.jiasu.asia
+      skip-cert-verify: false
+      sni: us200m.jiasu.asia
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
+      network: tcp
+      port: 40444
+      reality-opts:
+        public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+        short-id: b3f2a1c9
+      server: 5.253.38.67
+      servername: www.lovelive-anime.jp
+      tls: true
+      type: vless
+      udp: true
+      uuid: 16e747d6-b7c2-49a0-a9c7-90bb622db36f
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
+      network: grpc
+      port: "10038"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+      xudp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 18.171.235.36
+      type: ss
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|777KB/s"
       port: 9002
       server: 84.17.47.150
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|852KB/s"
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.6MB/s"
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_7|1.4MB/s"
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
-      port: 9002
-      server: 193.176.84.33
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|2.2MB/s"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - auth: hysteria2_fastlane_fyo5j4e7k:AF4HTpKlMZdNBsrVhdwr4GCHNptUaVT0
-      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
-      password: hysteria2_fastlane_fyo5j4e7k:AF4HTpKlMZdNBsrVhdwr4GCHNptUaVT0
-      port: 1935
-      server: 91.132.160.243
-      skip-cert-verify: true
-      sni: de6.h.fastlanehosting.ru
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_1|721KB/s"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      tls: false
-      type: http
-      username: fQ67Dpe5dU
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1F9LT_1|1001KB/s"
-      network: tcp
+    - name: "\U0001F1F9\U0001F1FCTW_1|5.2MB/s"
+      password: 29204996-a723-4291-8c70-30843b592d40
       port: 443
-      reality-opts:
-        public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-        short-id: 6aa2d2e950441a9a
-      server: lit4.freeinternat.com
-      servername: lit4.freeinternat.com
+      server: tw77.cybergalaxy.me
       skip-cert-verify: true
-      tfo: false
+      sni: tw77.cybergalaxy.me
+      type: anytls
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|812KB/s"
+      password: null
+      port: 9002
+      server: 84.17.47.147
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1E9\U0001F1EADE_1|669KB/s"
+      port: 443
+      server: 130.61.112.125
+      type: http
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_2|4.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: F4AYPvAh1ULZaiUHQjm0dE6DMmJlapXxIAjR9Ux91lw
+        short-id: c253cfff
+      server: tw7.china-206xswl.com
+      servername: blzddist1-a.akamaihd.net
       tls: true
       type: vless
+      udp: true
+      uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|1.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+        short-id: ff776ff77be48b88
+      server: 217.60.25.51
+      servername: pol.freeinternat.com
+      tls: true
+      type: vless
+      udp: true
       uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-    - name: "\U0001F1E8\U0001F1F4CO_1|1.5MB/s"
-      network: tcp
-      port: 62145
-      server: 158.247.120.174
-      type: vless
-      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-    - auth: 146e49e3-c86d-4607-b5ac-acc1997f025e
-      name: "\U0001F1EC\U0001F1E7GB_2|2.7MB/s"
-      password: 146e49e3-c86d-4607-b5ac-acc1997f025e
-      port: 443
-      server: 2.26.148.207
-      sni: yula.ultimagamest.com
-      type: hysteria2
-      udp: true
-    - auth: ada1c740-76f3-4954-b44b-8332a08ae8e6
-      name: "\U0001F1EC\U0001F1E7GB_3|2.3MB/s"
-      password: ada1c740-76f3-4954-b44b-8332a08ae8e6
-      port: 443
-      server: 2.26.148.104
-      skip-cert-verify: true
-      sni: patriot.ultimagamest.com
-      type: hysteria2
-    - auth: 84a506ca5aca505696a454d828420b3f
-      name: "\U0001F1E8\U0001F1EDCH_1|2.0MB/s"
-      password: 84a506ca5aca505696a454d828420b3f
-      port: 50160
-      server: 140.238.213.114
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: ada1c740-76f3-4954-b44b-8332a08ae8e6
-      name: "\U0001F1EC\U0001F1E7GB_4|2.4MB/s"
-      password: ada1c740-76f3-4954-b44b-8332a08ae8e6
-      port: 443
-      server: 2.26.148.105
-      sni: patriot.ultimagamest.com
-      type: hysteria2
-      udp: true
-    - auth: b492c1192f7aa3433c9818baf5ebb4ff
-      name: "\U0001F1F8\U0001F1ECSG_1|6.4MB/s"
-      password: b492c1192f7aa3433c9818baf5ebb4ff
-      port: 443
-      server: 134.185.87.191
-      skip-cert-verify: true
-      sni: sb.jmx666.eu.cc
-      type: hysteria2
-      udp: true
-    - auth: 146e49e3-c86d-4607-b5ac-acc1997f025e
-      name: "\U0001F1EC\U0001F1E7GB_5|2.1MB/s"
-      password: 146e49e3-c86d-4607-b5ac-acc1997f025e
-      port: 443
-      server: 31.76.22.217
-      skip-cert-verify: true
-      sni: yula.ultimagamest.com
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F4NO_1|2.3MB/s"
-      network: tcp
-      port: 335
-      reality-opts:
-        public-key: XJhq5Vpqo6j5Xsd56EMAK8--8EWBZWc3tjf-WFnInio
-        short-id: ec2213ae33d5b43f
-      server: 151.242.168.69
-      servername: onlineraceentry.co.uk
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 10000025-9365-7547-f000-30f4f61aa020
-    - auth: 3b8c82ed-fe66-472d-915e-034ccb57103f
-      name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s"
-      password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-      port: 443
-      server: us.frkn.org
-      skip-cert-verify: true
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|2.3MB/s"
-      network: tcp
-      port: 50159
-      reality-opts:
-        public-key: fLtEa_5BiN89xQDypfFMOu5o6DoUf6ch42jGdkXy6zE
-        short-id: 7f24526f7307c07a
-      server: 162.141.131.102
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b
-    - auth: f87376e17da040ed04c9665ce8972930
-      name: "\U0001F1F8\U0001F1ECSG_2|1.7MB/s"
-      password: f87376e17da040ed04c9665ce8972930
-      port: 50160
-      server: 138.2.73.238
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: 0a344117cfeef3d6602e338c2f1e7957
-      name: "\U0001F1F8\U0001F1ECSG_3|5.2MB/s"
-      password: 0a344117cfeef3d6602e338c2f1e7957
-      port: 50160
-      server: 38.180.190.215
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-      name: "\U0001F1FA\U0001F1F8US_3|931KB/s"
-      password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-      port: 8443
-      server: 139.28.168.56
-      skip-cert-verify: true
-      sni: grape-honk.yyuyy.com
-      type: hysteria2
-    - alpn:
-        - h3
-      auth: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-      name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s"
-      password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-      port: 443
-      server: hold.wwwinternetvideo.click
-      skip-cert-verify: true
-      sni: germany1.h2corp.local
-      type: hysteria2
-    - auth: 1671a252e2a97dc2bda4e515475931da
-      name: "\U0001F1F0\U0001F1F7KR_1|2.6MB/s"
-      password: 1671a252e2a97dc2bda4e515475931da
-      port: 50160
-      server: 132.226.226.189
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|848KB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: AjJEU0yOwxU1qq-6-M32xKTOOc0xI4dpTiRp5EzXIRM
-        short-id: "49"
-      server: 88.216.189.177
-      servername: id.vk.com
-      tls: true
-      type: vless
-      uuid: bd1b4bd2-a312-433d-ae7b-d5d28f50af2a
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT_1|1.6MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-        short-id: 43dcff53849b81e6
-      server: 152.53.1.40
-      servername: at.quattro-tech.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-      xudp: true
-    - name: "\U0001F1F9\U0001F1EDTH_1|2.0MB/s"
-      port: 31280
-      server: 202.28.194.139
-      type: http
-    - auth: 7302ad33229de166d393cd56143a1e4c
-      name: "\U0001F1F0\U0001F1F7KR_2|4.4MB/s"
-      password: 7302ad33229de166d393cd56143a1e4c
-      port: 50160
-      server: 131.186.19.174
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_2|2.3MB/s"
-      network: tcp
-      port: 50159
-      reality-opts:
-        public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-        short-id: 091e1c5db8451757
-      server: 154.31.114.248
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|860KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: fyfX-egDrRvXNW1Gt2P_8rH4jdupAcmhFLOCZCzCowo
-        short-id: fc36b4a584871aa5
-      server: 167.104.223.167
-      servername: gb3.murhost.network
-      tls: true
-      type: vless
-      udp: true
-      uuid: c6cff605-90cf-4953-bf97-0a44e43f229d
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|2.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 5f7Qx1uealNy3mUg8kV9R_npeYTogZwOsA-9bZtEfD0
-        short-id: b2ba734eff38baa9
-      server: 109.69.17.228
-      servername: bzzru.hat.apruxdomain.space
-      tls: true
-      type: vless
-      udp: true
-      uuid: dbb5075f-2ff4-4aad-a952-bcc82e4a6355
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_5|3.9MB/s"
-      password: 7eadc6dbe2ae
-      port: "65443"
-      server: 121.46.230.233
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s"
-      network: tcp
-      port: "34156"
-      reality-opts:
-        public-key: BsCp88E9PdpEDjC5bxLMP2tiJYK6afCPQT_CoxCVgAI
-        short-id: d6cdfdd9a21f8d23
-      server: de.propollcenter.site
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 16c50a3f-b9bd-45f5-9bcd-76bf878876f6
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
-      password: 7eadc6dbe2ae
-      port: "65443"
-      server: 95.170.13.47
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_3|837KB/s"
-      network: tcp
-      port: "55555"
-      reality-opts:
-        public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-        short-id: af317506
-      server: uh-jp01.ziyoufly.xyz
-      servername: pypi.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: c2a08e4d-da8f-435e-90e8-65600ee185be
       xudp: true
