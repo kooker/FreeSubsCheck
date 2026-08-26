@@ -1,13 +1,7 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.171.235.36
-    type: ss
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|5.0MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|5.1MB/s"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -17,88 +11,251 @@ proxies:
     sni: vpn-sg-001.fastervpn.world
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|1.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-      short-id: "00bca5982f82d083"
-    server: 151.242.160.49
-    tls: true
-    type: vless
-    udp: true
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    xudp: true
-    servername: eu-central.cendora.ru
-  - client-fingerprint: firefox
-    name: "\U0001F1F8\U0001F1ECSG_2|799KB/s"
-    network: tcp
-    port: 2053
-    reality-opts:
-      public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
-      short-id: "3fc9b11ceeb2cc6b"
-    server: 217.217.254.126
-    tls: true
-    type: vless
-    udp: true
-    uuid: 30430ca4-9a16-4689-a276-4014599d2f39
-    xudp: true
-    servername: www.apple.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_3|5.1MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_2|5.1MB/s"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: 54.254.198.250
+    server: 18.143.170.35
     skip-cert-verify: true
     sni: vpn-sg-001.fastervpn.world
     type: hysteria2
     up: ''
-  - client-fingerprint: firefox
-    name: "\U0001F1F8\U0001F1ECSG_4|990KB/s"
-    network: raw
-    port: 2053
-    reality-opts:
-      public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
-      short-id: "3fc9b11ceeb2cc6b"
-    server: 217.217.254.126
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1FAAU_1|3.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-au-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-au-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_1|3.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: wrSuBorIlf
+    port: 443
+    server: hys9.wba-pn.ru
+    skip-cert-verify: true
+    sni: hys9.wba-pn.ru
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+    port: 8443
+    server: 46.229.243.136
+    skip-cert-verify: false
+    sni: grape-turbo-fr.roxa.org
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_3|1.2MB/s"
+    network: ws
+    port: 443
+    server: 213.183.51.211
     tls: true
     type: vless
     udp: true
-    uuid: 30430ca4-9a16-4689-a276-4014599d2f39
+    uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+    ws-opts:
+      headers:
+        Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /pg/10086-dfc816f117c49173
     xudp: true
-    servername: www.apple.com
-  - cipher: aes-256-cfb
-    name: "\U0001F1EE\U0001F1EAIE_1|2.2MB/s"
-    password: amazonskr05
-    port: 443
-    server: 34.250.4.112
-    type: ss
+    servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: update
+    name: "\U0001F1F8\U0001F1ECSG_3|3.3MB/s"
+    network: grpc
+    port: 10038
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: sg3-r.link-t7.com
+    tls: true
+    type: vless
     udp: true
-  - name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
-    password: ''
-    port: 49153
-    server: 37.187.57.177
+    uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+    xudp: true
+    servername: d1.awsstatic.com
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
+    password: None
+    port: 443
+    server: 185.235.0.2
     skip-cert-verify: true
-    type: socks5
-    username: ''
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_1|749KB/s"
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    port: 443
+    server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    tls: true
+    type: http
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
   - down: ''
     fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|2.6MB/s"
-    obfs: salamander
-    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-    password: cd74c0a406664a5bc0bac098220a2468
+    name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 8674df07-56b3-43ea-b687-aef2b1a20137
     port: 443
-    server: de1.sferavpn.pro
+    server: 31.76.22.210
     skip-cert-verify: false
-    sni: de1.sferavpn.pro
+    sni: crt.ultimagamest.com
     type: hysteria2
     up: ''
+  - name: "\U0001F1F8\U0001F1EASE_1|517KB/s"
+    network: ws
+    port: 443
+    server: 83.147.255.84
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+    ws-opts:
+      headers:
+        Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      path: '/pg/10086-dfc816f117c491730| 战斗毛子 | ru | 83.147.255.84:443'
+    servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  - name: ❓Other_1|974KB/s
+    network: ws
+    port: 2053
+    server: 159.100.22.206
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+    ws-opts:
+      headers:
+        Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      path: /pg/10086-dfc816f117c49173
+    servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
+    network: ws
+    port: 8443
+    server: 159.100.19.241
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+    ws-opts:
+      headers:
+        Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+      path: /pg/10086-dfc816f117c49173
+    servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_4|691KB/s"
+    network: ws
+    port: 443
+    server: 178.253.23.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+    ws-opts:
+      headers:
+        Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /pg/10086-dfc816f117c49173
+    xudp: true
+    servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1EASE_2|909KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: AjJEU0yOwxU1qq-6-M32xKTOOc0xI4dpTiRp5EzXIRM
+      short-id: '49'
+    server: 88.216.189.177
+    tls: true
+    type: vless
+    udp: true
+    uuid: bd1b4bd2-a312-433d-ae7b-d5d28f50af2a
+    xudp: true
+    servername: id.vk.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|668KB/s"
+    network: tcp
+    port: 12000
+    reality-opts:
+      public-key: bOX8VehpirA-tUYgoE1cg2_sHtwcoVun3QTmR209XDY
+      short-id: "8763bbe17535ea3f"
+    server: vttsoqbr6b7c.dxdx3.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 43b392cd-72d7-410b-b1c0-cff6c29127b7
+    xudp: true
+    servername: amp-api-edge.apps.apple.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_1|635KB/s"
+    network: tcp
+    port: 50159
+    reality-opts:
+      public-key: fLtEa_5BiN89xQDypfFMOu5o6DoUf6ch42jGdkXy6zE
+      short-id: "7f24526f7307c07a"
+    server: 162.141.131.102
+    tls: true
+    type: vless
+    udp: true
+    uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b
+    xudp: true
+    servername: www.cloudflare.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1F7TR_1|847KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+      short-id: "ff776ff77be48b88"
+    server: 155.103.71.203
+    tls: true
+    type: vless
+    udp: true
+    uuid: a4ccca8a-dd5a-4935-80ea-53feafe195c9
+    xudp: true
+    servername: tur5.helper-internet.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_1|703KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QxrH0lkKZn4KpMMbHHQ1fcgs9PxDSUMUJn7vHan_7C0
+      short-id: ''
+    server: bce253e1-tki800-tlx75w-1gxvd.nw4.hyhuawei.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
+    xudp: true
+    servername: dl.delivery.mp.microsoft.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
