@@ -1,144 +1,62 @@
 proxies:
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s"
-    network: tcp
-    password: BxceQaOe
-    port: 9408
-    server: 18.163.115.126
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.5MB/s"
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|527KB/s"
-    port: 9002
-    server: 193.176.84.30
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|2.1MB/s"
-    port: 9002
-    server: 193.176.84.24
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|654KB/s"
-    port: 9002
-    server: 193.176.84.25
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_4|630KB/s"
-    password: None
-    port: 9002
-    server: 193.176.84.23
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_5|2.1MB/s"
-    port: 9002
-    server: 193.176.84.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|654KB/s"
-    port: 9002
-    server: 193.176.84.32
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|2.2MB/s"
-    port: 9002
-    server: 193.176.84.39
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.6MB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.147
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EF\U0001F1F5JP_2|5.2MB/s"
-    password: 4kch6iOn
-    port: 443
-    server: cn13.somethingstranges.com
-    skip-cert-verify: true
-    sni: down413.mihoyo.yuanshen.com
-    type: anytls
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
     password: cba96915-8098-41a7-9997-efb01ccc598a
     port: 42316
     server: a16.toppp.cc
     skip-cert-verify: true
     sni: osxapps.itunes.apple.com
     type: anytls
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|3.6MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.232
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 95.170.13.47
-    type: ss
-  - name: "\U0001F1F7\U0001F1FARU_1|655KB/s"
-    password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-    port: 2056
-    server: els2.mangshe.xyz
-    skip-cert-verify: true
-    sni: els2.mangshe.xyz
-    type: hysteria2
   - alpn:
       - h3
     auth: CnVfXXvMzh
-    name: "\U0001F1F3\U0001F1F1NL_6|3.3MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s"
     password: CnVfXXvMzh
     port: 443
     server: hys13.wba-pn.ru
     skip-cert-verify: true
     type: hysteria2
     sni: hys13.wba-pn.ru
+  - alpn:
+      - h3
+    auth: fe40f32a-b03d-4ada-8bee-00f41b766098
+    name: "\U0001F1ED\U0001F1F0HK_2|3.6MB/s"
+    password: fe40f32a-b03d-4ada-8bee-00f41b766098
+    port: 63077
+    server: 122.10.117.1
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_3|5.4MB/s"
+    network: http
+    port: 55314
+    server: 103.240.197.112
+    type: vmess
+    uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
+    http-opts:
+      path:
+        - /
+  - alpn:
+      - h3
+    auth: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
+    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
+    password: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
+    port: 443
+    server: uk59.mechvpn.online
+    skip-cert-verify: true
+    sni: uk59.mechvpn.online
+    type: hysteria2
+  - name: "\U0001F1EB\U0001F1F7FR_1|532KB/s"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 60111
+    server: 62.210.7.139
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
   - auth: b492c1192f7aa3433c9818baf5ebb4ff
-    name: "\U0001F1F8\U0001F1ECSG_1|8.4MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|5.2MB/s"
     password: b492c1192f7aa3433c9818baf5ebb4ff
     port: 443
     server: 134.185.87.191
@@ -146,82 +64,21 @@ proxies:
     sni: sb.jmx666.eu.cc
     type: hysteria2
     udp: true
-  - auth: 84a506ca5aca505696a454d828420b3f
-    name: "\U0001F1E8\U0001F1EDCH_1|1002KB/s"
-    password: 84a506ca5aca505696a454d828420b3f
-    port: 50160
-    server: 140.238.213.114
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-  - alpn:
-      - h3
-    auth: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-    name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
-    password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-    port: 443
-    server: start.wwwinternetvideo.click
-    skip-cert-verify: true
-    sni: fast.wwwinternetvideo.click
-    type: hysteria2
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|1.6MB/s"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_1|2.7MB/s"
-    network: ws
-    port: 8880
-    server: 162.159.140.78
-    type: vless
-    udp: true
-    uuid: c18fd69e-92ba-446e-981b-213dbb551593
-    ws-opts:
-      headers:
-        Host: billowing-wind-5b29.133-323.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /pyip=ProxyIP.KR.CMLiussss.net
-    xudp: true
-  - client-fingerprint: chrome
+  - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_3|2.4MB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|1.1MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 5qkRIcB3SAxOr6m76YHUHNFdhsaK7HXWPipELhPD8j4
-      short-id: "64299c2e"
-    server: xaxaxa.kdns.fr
+      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+      short-id: "00bca5982f82d083"
+    server: 2.27.244.159
+    skip-cert-verify: true
+    tfo: false
     tls: true
     type: vless
-    udp: true
-    uuid: 5c958497-4461-499a-881b-b5e5bfeade62
-    servername: www.oracle.com
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F4NO_1|2.2MB/s"
-    network: tcp
-    port: 335
-    reality-opts:
-      public-key: XJhq5Vpqo6j5Xsd56EMAK8--8EWBZWc3tjf-WFnInio
-      short-id: "ec2213ae33d5b43f"
-    server: 151.242.168.69
-    tls: true
-    type: vless
-    udp: true
-    uuid: 10000026-0216-6626-f000-da35b731a020
-    xudp: true
-    servername: onlineraceentry.co.uk
+    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+    servername: eu-central.cendora.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
