@@ -1,84 +1,45 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
-    password: cba96915-8098-41a7-9997-efb01ccc598a
-    port: 42316
-    server: a16.toppp.cc
-    skip-cert-verify: true
-    sni: osxapps.itunes.apple.com
-    type: anytls
-  - alpn:
-      - h3
-    auth: CnVfXXvMzh
-    name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s"
-    password: CnVfXXvMzh
-    port: 443
-    server: hys13.wba-pn.ru
-    skip-cert-verify: true
-    type: hysteria2
-    sni: hys13.wba-pn.ru
-  - alpn:
-      - h3
-    auth: fe40f32a-b03d-4ada-8bee-00f41b766098
-    name: "\U0001F1ED\U0001F1F0HK_2|3.6MB/s"
-    password: fe40f32a-b03d-4ada-8bee-00f41b766098
-    port: 63077
-    server: 122.10.117.1
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_3|5.4MB/s"
-    network: http
-    port: 55314
-    server: 103.240.197.112
-    type: vmess
-    uuid: bdb68629-1c6a-4eed-8083-7d4379a2dd52
-    http-opts:
-      path:
-        - /
-  - alpn:
-      - h3
-    auth: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
-    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-    password: 50767b5d-7e5d-4aee-af39-5a07d36ccc36
-    port: 443
-    server: uk59.mechvpn.online
-    skip-cert-verify: true
-    sni: uk59.mechvpn.online
-    type: hysteria2
-  - name: "\U0001F1EB\U0001F1F7FR_1|532KB/s"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 60111
-    server: 62.210.7.139
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-  - auth: b492c1192f7aa3433c9818baf5ebb4ff
-    name: "\U0001F1F8\U0001F1ECSG_1|5.2MB/s"
-    password: b492c1192f7aa3433c9818baf5ebb4ff
-    port: 443
-    server: 134.185.87.191
-    skip-cert-verify: true
-    sni: sb.jmx666.eu.cc
-    type: hysteria2
+  - name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
+    password: 5259333f-7f21-47a1-80fa-2a0c23db8e4f
+    port: 50000
+    server: jp200m.jiasu.asia
+    skip-cert-verify: false
+    sni: jp200m.jiasu.asia
+    type: trojan
     udp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_1|1.1MB/s"
     network: tcp
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
     port: 443
-    reality-opts:
-      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-      short-id: "00bca5982f82d083"
-    server: 2.27.244.159
+    server: hold.wwwinternetvideo.click
     skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    servername: eu-central.cendora.ru
+    sni: germany1.h2corp.local
+    type: hysteria2
+    up: ''
+  - auth: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+    name: "\U0001F1E7\U0001F1F7BR_1|2.4MB/s"
+    password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+    port: 443
+    server: go2.wwwinternetvideo.click
+    skip-cert-verify: true
+    sni: admin.wwwinternetvideo.click
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1E8SC_1|1.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+    port: 8080
+    server: 46.229.243.146
+    skip-cert-verify: false
+    sni: grape-turbo-fr.roxa.org
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
