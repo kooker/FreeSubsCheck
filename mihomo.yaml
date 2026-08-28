@@ -1,191 +1,52 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 95.170.13.47
-    type: ss
-  - name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-    obfs: salamander
-    obfs-password: Xydh1mcz51VQHbbJ
-    password: 585b7bfe-6269-4149-ae22-ff07c57b5510
-    port: 443
-    server: 157.228.137.81
-    skip-cert-verify: true
-    sni: msk2.nebuchadnezzar.ink
-    type: hysteria2
-  - name: "\U0001F1EC\U0001F1F1GL_1|1.7MB/s"
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    port: 8080
-    server: 222.167.212.81
-    skip-cert-verify: true
-    sni: hopp-legend-se.roxa.org
-    type: hysteria2
-  - name: "\U0001F1EC\U0001F1E7GB_1|974KB/s"
-    port: 443
-    server: 185.235.0.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_2|1003KB/s"
-    password: None
-    port: 443
-    server: 185.235.0.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
-    password: None
-    port: 443
-    server: 185.235.0.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_4|923KB/s"
-    password: None
-    port: 443
-    server: 37.120.233.18
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F8\U0001F1ECSG_1|4.0MB/s"
-    port: 9090
-    server: 104.248.151.93
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_5|2.1MB/s"
-    password: None
-    port: 443
-    server: 193.36.118.210
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s"
-    password: 067bcf2d-0bf0-4ca6-ac86-2df9c8327ea3
-    port: 3601
-    server: in.bjnet3.org
-    skip-cert-verify: true
-    sni: b.azure.com
-    type: anytls
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_2|5.7MB/s"
-    network: tcp
-    port: 60012
-    reality-opts:
-      public-key: 8iUfN3lm4s5qbeuwiK0LwfQ__NBUlBygnwM0pPIyA24
-      short-id: "800949ce"
-    server: hk2.mfm-oss.top
-    tls: true
-    type: vless
-    uuid: 7c11e20f-c75f-482f-bf13-65a1eed87b18
-    servername: www.xiaohongshu.com
   - client-fingerprint: chrome
     grpc-opts:
       grpc-mode: gun
-      grpc-service-name: movie
-    name: "\U0001F1FA\U0001F1F8US_1|707KB/s"
+      grpc-service-name: update
+    name: "\U0001F1F0\U0001F1F7KR_1|5.2MB/s"
     network: grpc
-    port: 10242
+    port: 10050
     reality-opts:
       public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
       short-id: "686c0ef0"
-    server: us5-r.link-t7.com
+    server: kr5-r.link-t7.com
     tls: true
     type: vless
+    udp: true
     uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
     servername: s0.awsstatic.com
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F4NO_1|2.3MB/s"
-    network: tcp
-    port: 443
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s"
+    network: grpc
+    port: 10049
     reality-opts:
-      public-key: urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ
-      short-id: "46babe29a750b634"
-    server: 151.242.168.180
-    skip-cert-verify: true
-    tfo: false
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: kr4-r.link-t7.com
     tls: true
     type: vless
-    uuid: 05020afd-d476-406b-8950-ee7dd63a6e64
-    servername: kibi-institut.de
-  - name: ❓Other_1|1.9MB/s
-    port: 443
-    server: 149.88.96.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - alpn:
-      - h3
-    auth: EkF2Yw0Lc7
-    name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s"
-    password: EkF2Yw0Lc7
-    port: 443
-    server: hys34.wba-pn.ru
-    skip-cert-verify: true
-    type: hysteria2
-    sni: hys34.wba-pn.ru
-  - auth: b492c1192f7aa3433c9818baf5ebb4ff
-    name: "\U0001F1F8\U0001F1ECSG_2|7.6MB/s"
-    password: b492c1192f7aa3433c9818baf5ebb4ff
-    port: 443
-    server: 134.185.87.191
-    skip-cert-verify: true
-    sni: sb.jmx666.eu.cc
-    type: hysteria2
     udp: true
-  - alpn:
-      - h3
-    down: ''
-    fingerprint: ''
-    name: "\U0001F1E6\U0001F1EAAE_1|2.0MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
-    port: 443
-    server: fin14qr.wwwinternetvideo.click
-    skip-cert-verify: false
-    sni: fin14qr.wwwinternetvideo.click
-    type: hysteria2
-    up: ''
+    uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    servername: s0.awsstatic.com
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|2.3MB/s"
-    network: tcp
-    port: 443
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: "\U0001F1F8\U0001F1ECSG_1|7.2MB/s"
+    network: grpc
+    port: 10038
     reality-opts:
-      public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
-      short-id: "0f4dacf89993e21f"
-    server: 84.32.106.178
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: sg3-r.link-t7.com
     tls: true
     type: vless
     udp: true
-    uuid: 4928c901-be72-4f81-8d59-091ce9e01692
-    xudp: true
-    servername: sw.api-yandex.net
-  - cipher: aes-256-cfb
-    name: "\U0001F1EE\U0001F1EAIE_1|2.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 54.246.9.69
-    type: ss
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|573KB/s"
-    password: fd3f82cc-bf25-4d3a-a379-09834800ade9
-    port: 50000
-    server: jp200m.jiasu.asia
-    skip-cert-verify: false
-    sni: jp200m.jiasu.asia
-    type: trojan
-    udp: true
-    network: tcp
+    uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    servername: d1.awsstatic.com
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
     name: "\U0001F1F5\U0001F1F1PL_1|1.4MB/s"
