@@ -1,7 +1,6 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.138:65443#%F0%9F%87%B0%F0%9F%87%B7KR_1%7C1.2MB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.233:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C3.3MB%2Fs
-hysteria2://585b7bfe-6269-4149-ae22-ff07c57b5510@157.228.137.81:443?insecure=1&obfs=salamander&obfs-password=Xydh1mcz51VQHbbJ&sni=msk2.nebuchadnezzar.ink#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.4MB%2Fs
-hysteria2://865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01@streambox.wwwinternetvideo.click:443?insecure=1&sni=streambox.wwwinternetvideo.click#%F0%9F%87%A6%F0%9F%87%AAAE_1%7C2.6MB%2Fs
-vless://05020afd-d476-406b-8950-ee7dd63a6e64@151.242.168.180:443?security=reality&type=tcp&allowInsecure=1&sni=kibi-institut.de&fp=chrome&flow=xtls-rprx-vision&sid=46babe29a750b634&pbk=urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ#%F0%9F%87%B3%F0%9F%87%B4NO_1%7C1.6MB%2Fs
-hysteria2://EkF2Yw0Lc7@hys34.wba-pn.ru:443?insecure=1&sni=hys34.wba-pn.ru#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C717KB%2Fs
-hysteria2://b492c1192f7aa3433c9818baf5ebb4ff@134.185.87.191:443?insecure=1&sni=sb.jmx666.eu.cc#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C5.4MB%2Fs
+hysteria2://EkF2Yw0Lc7@hys34.wba-pn.ru:443?insecure=1&sni=hys34.wba-pn.ru#%E2%9D%93Other_1%7C2.1MB%2Fs
+hysteria2://OD6gGbGU9a@hys26.wba-pn.ru:443?insecure=1&sni=hys26.wba-pn.ru#%F0%9F%87%A8%F0%9F%87%BFCZ_1%7C1.6MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.247.216.201:443#%F0%9F%87%AE%F0%9F%87%AAIE_1%7C1.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.216.107.30:443#%F0%9F%87%AE%F0%9F%87%AAIE_2%7C565KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.246.9.69:443#%F0%9F%87%AE%F0%9F%87%AAIE_3%7C1.6MB%2Fs
+vless://825c049b-403c-49e0-b60f-379bdb8611e9@179.255.157.57:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=edge&flow=xtls-rprx-vision&sid=1fb9fe8bc1&pbk=Qi9MdfOI5K7XG24uD53wYE4R-wHeKM8BxLrqrtLVZns#%F0%9F%87%A7%F0%9F%87%B7BR_1%7C2.5MB%2Fs
