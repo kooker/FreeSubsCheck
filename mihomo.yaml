@@ -1,72 +1,36 @@
 proxies:
   - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|5.2MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
     password: 7eadc6dbe2ae
     port: 65443
     server: 121.46.230.138
     type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|1.8MB/s"
-    network: ws
-    port: 16632
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-    ws-opts:
-      headers:
-        Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-      path: /
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.232
-    type: ss
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F4NO_1|2.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ
-      short-id: "46babe29a750b634"
-    server: 151.242.168.180
+  - auth: github.com/Alvin9999-newpac/fanqiang
+    name: "\U0001F1EB\U0001F1F7FR_1|2.9MB/s"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 43115
+    server: 62.210.147.2
     skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 05020afd-d476-406b-8950-ee7dd63a6e64
-    servername: kibi-institut.de
-  - name: "\U0001F1EF\U0001F1F5JP_1|738KB/s"
-    password: HOrViv
-    port: 28102
-    server: 209.248.32.117
-    skip-cert-verify: true
-    sni: ctldl.windowsupdate.com
-    type: trojan
-    network: tcp
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|1.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
-      short-id: "0f4dacf89993e21f"
-    server: 84.32.106.178
-    tls: true
-    type: vless
+    sni: www.microsoft.com
+    type: hysteria2
     udp: true
-    uuid: 4928c901-be72-4f81-8d59-091ce9e01692
-    xudp: true
-    servername: sw.api-yandex.net
+  - alpn:
+      - h3
+    down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1EAAE_1|2.3MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+    port: 443
+    server: fin14qr.wwwinternetvideo.click
+    skip-cert-verify: false
+    sni: fin14qr.wwwinternetvideo.click
+    type: hysteria2
+    up: ''
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_1|1022KB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|867KB/s"
     network: tcp
     port: 443
     reality-opts:
@@ -79,100 +43,20 @@ proxies:
     type: vless
     uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
     servername: pol.freeinternat.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F5\U0001F1F1PL_2|1.8MB/s"
-    network: tcp
-    port: 37430
-    reality-opts:
-      public-key: MNKg9Lti8zBudF2zQbCqIZPoqLMSxINa6QwzpODpE20
-      short-id: ''
-    server: 82.40.62.36
-    tls: true
-    type: vless
-    udp: true
-    uuid: fa1dc3a7-6879-455c-a4dc-bab4bcc05b16
-    xudp: true
-    servername: amp-api-edge.apps.apple.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_2|4.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: sPdtqEglJBpjsEgeOHkyafVgHSDcGzIn4ChX3gY4aVg
-      short-id: "280e30b0075dfda0"
-    server: 96.126.130.176
-    tls: true
-    type: vless
-    udp: true
-    uuid: 825c049b-403c-49e0-b60f-379bdb8611e9
-    xudp: true
-    servername: www.japan-travel.cn
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1FFCZ_1|2.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: OD6gGbGU9a
-    port: 443
-    server: hys26.wba-pn.ru
+  - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
+    password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+    port: 2056
+    server: lmny.mangshe.xyz
     skip-cert-verify: true
-    sni: hys26.wba-pn.ru
+    sni: lmny.mangshe.xyz
     type: hysteria2
-    up: ''
-  - name: "\U0001F1ED\U0001F1F0HK_2|5.1MB/s"
-    network: ws
-    port: 8080
-    server: 104.18.46.46
-    type: vless
-    udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    ws-opts:
-      headers:
-        Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /?ed=2560security=tls
-    xudp: true
-    servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  - name: "\U0001F1ED\U0001F1F0HK_3|9.0MB/s"
-    password: 55e7e53d-c6af-45ca-a389-dbd2b330b704
-    port: 40013
-    server: hk3.catzl.top
-    type: anytls
-    udp: true
-    sni: hk3.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-    password: 55e7e53d-c6af-45ca-a389-dbd2b330b704
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_3|3.3MB/s"
-    password: 55e7e53d-c6af-45ca-a389-dbd2b330b704
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_3|1.5MB/s"
-    network: tcp
+  - cipher: aes-256-cfb
+    name: "\U0001F1EE\U0001F1EAIE_1|2.4MB/s"
+    password: amazonskr05
     port: 443
-    reality-opts:
-      public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-      short-id: "ff776ff77be48b88"
-    server: pol.freeinternat.com
-    tls: true
-    type: vless
+    server: 34.244.150.119
+    type: ss
     udp: true
-    uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-    xudp: true
-    servername: pol.freeinternat.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
