@@ -1,12 +1,101 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7KR_1|3.4MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 121.46.230.138
       type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.233
+      type: ss
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_1|515KB/s"
+      network: grpc
+      port: 10038
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - cipher: 2022-blake3-chacha20-poly1305
+      name: "\U0001F1EC\U0001F1E7GB_1|680KB/s"
+      password: MLVcvtR/UBSlUEC3IwyukwjvKvvRvw9x6Op6LVBX0GA=
+      port: 61312
+      server: 129.151.82.158
+      type: ss
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_2|5.9MB/s"
+      network: grpc
+      port: 10049
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr4-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|859KB/s"
+      network: grpc
+      port: 10046
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr1-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_4|579KB/s"
+      network: tcp
+      port: 25636
+      reality-opts:
+        public-key: 3q6CuhLN7vMBISVK5PGjjlGKrRlub5VerIonNSL4c1o
+        short-id: f34d0b76b7af0199
+      server: kghgalybqwqqnqnbdb.jiedddym.com
+      servername: www.apple.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: movie
+      name: "\U0001F1FA\U0001F1F8US_2|592KB/s"
+      network: grpc
+      port: 10242
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: us5-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
     - auth: github.com/Alvin9999-newpac/fanqiang
-      name: "\U0001F1EB\U0001F1F7FR_1|2.9MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s"
       password: github.com/Alvin9999-newpac/fanqiang
       port: 43115
       server: 62.210.147.2
@@ -18,7 +107,7 @@ proxies:
         - h3
       down: ""
       fingerprint: ""
-      name: "\U0001F1E6\U0001F1EAAE_1|2.3MB/s"
+      name: "\U0001F1E6\U0001F1EAAE_1|2.9MB/s"
       obfs: ""
       obfs-password: ""
       password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
@@ -30,7 +119,7 @@ proxies:
       up: ""
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1|867KB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1|721KB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -43,17 +132,36 @@ proxies:
       tls: true
       type: vless
       uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-    - name: "\U0001F1E8\U0001F1FFCZ_1|1.0MB/s"
-      password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-      port: 2056
-      server: lmny.mangshe.xyz
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EASE_1|2.3MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
+        short-id: 0f4dacf89993e21f
+      server: 84.32.106.178
+      servername: sw.api-yandex.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4928c901-be72-4f81-8d59-091ce9e01692
+      xudp: true
+    - auth: 4a6c225b-46a2-494d-a190-0b0a7c5205d4
+      name: "\U0001F1F5\U0001F1F1PL_2|2.3MB/s"
+      password: 4a6c225b-46a2-494d-a190-0b0a7c5205d4
+      port: 443
+      server: node.embrofree.org
       skip-cert-verify: true
-      sni: lmny.mangshe.xyz
+      sni: node.embrofree.org
       type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|2.4MB/s"
-      password: amazonskr05
-      port: "443"
-      server: 34.244.150.119
-      type: ss
+    - auth: f87376e17da040ed04c9665ce8972930
+      name: "\U0001F1F8\U0001F1ECSG_2|647KB/s"
+      password: f87376e17da040ed04c9665ce8972930
+      port: 50160
+      server: 138.2.73.238
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
       udp: true
