@@ -1,137 +1,65 @@
 proxies:
     - cipher: aes-256-cfb
-      name: ❓Other_1|1.4MB/s
+      name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.176.118.152
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|604KB/s"
+      network: tcp
+      port: 39399
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 155.117.199.13
+      servername: cdnjs.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|8.3MB/s"
+      network: tcp
+      port: 60013
+      reality-opts:
+        public-key: nzwLXAhU6QUZGQfzHACFSxc0T1YHfBxZs9Rlc2jXews
+        short-id: 7a91fe90e1d176fc
+      server: hk3.mfm-oss.top
+      servername: www.xiaohongshu.com
+      tls: true
+      type: vless
+      uuid: 2dd387bd-6d19-473a-8d5e-ecbca573b0f9
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_2|857KB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 95.170.13.47
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|2.5MB/s"
-      password: amazonskr05
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
+      network: ws
       port: 443
-      server: 34.241.245.82
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_2|1.5MB/s"
-      password: amazonskr05
-      port: 443
-      server: 176.34.158.52
-      type: ss
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E7\U0001F1F7BR_1|2.8MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-      port: "443"
-      server: go.wwwinternetvideo.click
-      skip-cert-verify: true
-      sni: admin.wwwinternetvideo.click
-      tls: false
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: "8443"
-      server: 85.204.107.170
-      skip-cert-verify: true
-      sni: hopp-romania-new.roxa.org
-      type: hysteria2
-      up: ""
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_1|622KB/s"
-      network: tcp
-      port: 43595
-      reality-opts:
-        public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-        short-id: e482c0320674c651
-      server: 45.33.62.166
-      servername: www.amd.com
+      server: us.mkdir.kdns.fr
+      servername: web-jornttsa.pages.dev
       tls: true
       type: vless
-      udp: true
-      uuid: 2642f590-2bce-4031-8f93-7eed983621f5
-      xudp: true
-    - name: "\U0001F1F9\U0001F1EDTH_1|1.6MB/s"
-      password: null
-      port: 31280
-      server: 202.28.194.139
-      type: http
-      username: null
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: 160.187.100.109
+      uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+      ws-opts:
+        headers:
+            Host: web-jornttsa.pages.dev
+        path: /
+    - auth: f87376e17da040ed04c9665ce8972930
+      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s"
+      password: f87376e17da040ed04c9665ce8972930
+      port: 50160
+      server: 138.2.73.238
       skip-cert-verify: true
-      sni: 160.187.100.109
+      sni: www.bing.com
       type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_2|4.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-tw-002.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-tw-002.fastervpn.world
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_3|4.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-tw-002.fastervpn.world
-      skip-cert-verify: true
-      sni: css.rbxcdn.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_4|4.1MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: 160.187.100.109
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s"
-      password: 821caa77-cd62-4f81-8764-a679d51a1726
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-      password: 821caa77-cd62-4f81-8764-a679d51a1726
-      port: 40011
-      server: hk1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|5.6MB/s"
-      password: 821caa77-cd62-4f81-8764-a679d51a1726
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
       udp: true
