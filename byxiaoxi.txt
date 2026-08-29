@@ -1,8 +1,3 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.232:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C801KB%2Fs
-vless://e0e09114-371e-4d87-b2f0-d7ee58be74a9@3.1.248.148:54489?security=reality&type=tcp&packetEncoding=xudp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=cc7a57d36b14c736&pbk=b8P0DSI3bftNNT3I9QN_BDSdJ6RT8_aNXDcwwhelnzk&encryption=none#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C702KB%2Fs
-hysteria2://901113fb-2ddd-4472-84bf-307de471f32f@lv.katanalink.net:443?insecure=1&sni=lv.katanalink.net#%F0%9F%87%AB%F0%9F%87%AEFI_1%7C621KB%2Fs
-hysteria2://901113fb-2ddd-4472-84bf-307de471f32f@fi2.katanalink.net:443?insecure=1&sni=fi2.katanalink.net#%F0%9F%87%AB%F0%9F%87%AEFI_2%7C1.4MB%2Fs
-hysteria2://901113fb-2ddd-4472-84bf-307de471f32f@us-nyc.katanalink.net:443?insecure=1&sni=us-nyc.katanalink.net#%F0%9F%87%B8%F0%9F%87%BESY_1%7C886KB%2Fs
-hysteria2://d1224950-ffab-4b9a-8696-431b40a6cfbd@cze-02.node.lumixnet.com:443?insecure=1&sni=cze-02.node.lumixnet.com#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C964KB%2Fs
-hysteria2://41f0d6d3-4a45-4635-8225-2abd2284189b@lmny.mangshe.xyz:2056?insecure=1&sni=lmny.mangshe.xyz#%F0%9F%87%A8%F0%9F%87%BFCZ_1%7C574KB%2Fs
-vless://74ed2afb-e8a5-4be1-b774-53b4c593f528@2.26.129.66:443?security=reality&type=raw&packetEncoding=xudp&sni=ukrop.mycdn-me.ru&fp=chrome&flow=xtls-rprx-vision&sid=5a8e1a04f3d92b67&pbk=gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.0MB%2Fs
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&sni=vpn-tw-002.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BCTW_1%7C1.1MB%2Fs
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&sni=vk.com#%F0%9F%87%B9%F0%9F%87%BCTW_2%7C1.2MB%2Fs
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443?insecure=1&sni=css.rbxcdn.com#%F0%9F%87%B9%F0%9F%87%BCTW_3%7C1.6MB%2Fs
