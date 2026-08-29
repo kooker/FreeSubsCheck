@@ -1,95 +1,99 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1F9\U0001F1EDTH_1|976KB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 103.169.67.34
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|5.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 121.46.230.232
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_1|4.0MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 95.170.13.47
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.233
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1|5.5MB/s"
+      network: ws
+      port: 16617
+      server: p4.cnb.linuxlh.xin
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
+      uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+      ws-opts:
+        headers:
+            Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1FAAU_1|1.0MB/s"
+      obfs: salamander
+      obfs-password: fuw2k1ddrouwxr3u
+      password: 76ivwa51ce2gauym
+      port: "52004"
+      server: giftcard.gateway-stream.com
+      skip-cert-verify: false
+      sni: giftcard.gateway-stream.com
+      tls: false
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F0\U0001F1F7KR_2|1.8MB/s"
+      password: cba96915-8098-41a7-9997-efb01ccc598a
+      port: 42311
+      server: a11.toppp.cc
       skip-cert-verify: true
+      sni: osxapps.itunes.apple.com
+      type: anytls
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: movie
+      name: "\U0001F1FA\U0001F1F8US_3|940KB/s"
+      network: grpc
+      port: 10242
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: us5-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|749KB/s"
-      port: 9002
-      server: 84.17.47.150
-      skip-cert-verify: true
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|7.7MB/s"
+      network: grpc
+      port: 10046
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr1-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
-      type: http
+      type: vless
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|1.3MB/s"
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.1MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.3MB/s"
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.4MB/s"
-      port: 9002
-      server: 193.176.84.17
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.216
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: "null"
-    - name: "\U0001F1E6\U0001F1F9AT_1|2.0MB/s"
-      password: null
-      port: 3131
-      server: 193.233.232.49
-      type: http
-      username: null
+      uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
     - auth: github.com/Alvin9999-newpac/fanqiang
       name: "\U0001F1EB\U0001F1F7FR_2|3.1MB/s"
       password: github.com/Alvin9999-newpac/fanqiang
@@ -99,19 +103,64 @@ proxies:
       sni: www.microsoft.com
       type: hysteria2
       udp: true
-    - name: ❓Other_1|2.0MB/s
-      password: "null"
-      port: 9002
-      server: 138.199.35.205
-      skip-cert-verify: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_2|3.1MB/s"
+      network: tcp
+      port: "41773"
+      reality-opts:
+        public-key: 46x-QHcmrMdu5VknsdR_1-lMLxRmgZQkmcjN6ziTRjs
+        short-id: c9f30034dc2cc665
+      server: 35.72.188.24
+      servername: www.nvidia.com
       tls: true
-      type: http
-      username: "null"
+      type: vless
+      udp: true
+      uuid: 440ffeb3-72ce-4301-8039-2bfc329c460b
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_1|3.4MB/s"
+      network: tcp
+      port: "24146"
+      reality-opts:
+        public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+        short-id: 7205d9079521832c
+      server: 54.251.9.130
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+      xudp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
+      name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+      network: ws
+      port: "443"
+      server: aliconfig.speedoraa.ir
+      servername: pas.speedoraa.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: be4cecbe-3658-4daf-8c9a-7b00898c7318
+      ws-opts:
+        headers:
+            Host: pas.speedoraa.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /
+      xudp: true
     - alpn:
         - h3
       down: ""
       fingerprint: ""
-      name: "\U0001F1E6\U0001F1EAAE_1|3.7MB/s"
+      name: "\U0001F1E6\U0001F1EAAE_1|2.9MB/s"
       obfs: ""
       obfs-password: ""
       password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
@@ -121,22 +170,11 @@ proxies:
       sni: fin14qr.wwwinternetvideo.click
       type: hysteria2
       up: ""
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1|1.5MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-        short-id: ff776ff77be48b88
-      server: 217.60.25.51
-      servername: pol.freeinternat.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
-    - name: "\U0001F1E8\U0001F1FFCZ_1|2.7MB/s"
+    - name: ❓Other_1|2.2MB/s
+      port: 31280
+      server: 202.28.194.139
+      type: http
+    - name: "\U0001F1E8\U0001F1FFCZ_1|1.9MB/s"
       password: 41f0d6d3-4a45-4635-8225-2abd2284189b
       port: 2056
       server: lmny.mangshe.xyz
@@ -146,7 +184,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|2.1MB/s"
+      name: "\U0001F1EB\U0001F1EEFI_1|1007KB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -159,27 +197,11 @@ proxies:
       udp: true
       uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
       xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
-      network: tcp
-      packet-encoding: xudp
-      port: 8443
-      reality-opts:
-        public-key: ZRTNgwFRP8viY4SQOgPTfWlLWJCwY3dr0aawA7vHwhU
-        short-id: a1b2c3d4e5f6a7b8
-      server: 31.76.9.56
-      servername: xnod5x.artemida.live
-      tls: true
-      type: vless
-      udp: true
-      uuid: a210cb80-f379-44e9-a103-97ba59357a46
-      xudp: true
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "1000"
-      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
+      name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s"
       obfs: ""
       port: 54177
       protocol: udp
@@ -191,67 +213,23 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
+      name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s"
       network: tcp
-      port: "46753"
+      port: "25711"
       reality-opts:
-        public-key: 2McJ3AOyFVxGTNF-1xnEupfSE-VXx6hE2cTISFbZFxo
-        short-id: b9eda5ff206920ed
-      server: 35.79.56.221
+        public-key: nZTIbfG5GiuGVsNvTrsCAoNT9Fr198HmwMhzzca7Cws
+        short-id: e1d048284849e63e
+      server: 216.167.94.71
       servername: www.intel.com
       tls: true
       type: vless
       udp: true
-      uuid: 72de2254-547a-4b82-8006-bc72e6d7abcc
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|566KB/s"
-      network: tcp
-      port: "52553"
-      reality-opts:
-        public-key: 7ettAf7U2AG4PQod_xgNpS6591z6HxjxhEmChKboQRI
-        short-id: 61b89ff3c5a9469a
-      server: 172.239.67.231
-      servername: www.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4c0cae78-1b6c-4860-8295-d938829f1d64
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_1|3.4MB/s"
-      network: tcp
-      port: 30845
-      server: v45.hdacd.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F9IT_1|2.0MB/s"
-      network: tcp
-      port: "32833"
-      reality-opts:
-        public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
-        short-id: a0a305ccc8e94aa8
-      server: 172.238.232.239
-      servername: www.intel.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
+      uuid: c45bc46e-d2e6-4049-b2d1-31b466d1629e
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6CA_1|611KB/s"
+      name: "\U0001F1E8\U0001F1E6CA_1|822KB/s"
       network: tcp
       port: "58676"
       reality-opts:
@@ -266,364 +244,675 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_4|2.6MB/s"
-      network: ws
-      port: "443"
-      server: makisite.ir
-      servername: zeuspanel-render.onrender.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 50414e45-4c5f-5a45-5553-1f6869e9b4fb
-      ws-opts:
-        headers:
-            Host: zeuspanel-render.onrender.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /stream/PANEL_ZEUS/1f6869e9b4fb
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s"
       network: tcp
-      port: "17611"
+      port: "51486"
       reality-opts:
-        public-key: 2E7IAX6_GkVKkX2MarHguCu4LZemZT7tk7QjaVW9x38
-        short-id: 01727c4e8f245194
-      server: 52.76.82.32
+        public-key: UB7YAOLuxMOFBejs3SSOIaiYCYk2X4UZH5j9iWbbIS4
+        short-id: 2576868adedf9fc0
+      server: 45.33.107.237
       servername: www.nvidia.com
       tls: true
       type: vless
       udp: true
-      uuid: ffa3ea5e-d64f-4dab-8d82-f1e7aee3b1c6
+      uuid: 72e4f3f6-3382-4a68-9817-8d65927e9bbd
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1E9\U0001F1EADE_2|1.8MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1F8ES_1|1.4MB/s"
       network: tcp
-      port: "1824"
+      port: "48296"
       reality-opts:
-        public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo
-        short-id: 8390ee7a5996648b
-      server: pann1.soundfiy.ir
-      servername: amp-api-edge.apps.apple.com
+        public-key: ga1wUMMknP4pwJfUNOOvD9I35XV4q3c73byXPYbRxBE
+        short-id: 109657bb2dbe99
+      server: 93.189.94.67
+      servername: www.sony.com
       tls: true
       type: vless
       udp: true
-      uuid: 9c62ffbf-1f35-4108-b444-81835e6d3be1
+      uuid: 898537d9-ce3a-4937-bbef-c0fa61c07791
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_2|2.8MB/s"
+      network: tcp
+      port: "43840"
+      reality-opts:
+        public-key: tDzxVcXg6zzA1r0I_1j2y4vE0zkgmIVX3_Jf0UG1AnA
+        short-id: ac4b9f02123aa50b
+      server: 54.255.121.205
+      servername: www.sony.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f053b140-9673-4ac5-bc8b-587bfd2c8fd8
       xudp: true
     - client-fingerprint: chrome
-      name: ❓Other_2|1008KB/s
-      network: ws
-      password: humanity
-      port: "443"
-      server: 104.16.174.143
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /assignment
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|2.1MB/s"
-      password: amazonskr05
-      port: "443"
-      server: 34.244.150.119
-      type: ss
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s"
-      network: tcp
-      port: 54618
-      reality-opts:
-        public-key: BugMYB6c9k66FOr1dTMnkojMXH5OCYP2wDH2nntWGgk
-        short-id: 93ed34c8eea01f
-      server: 18.136.125.3
-      servername: www.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5b314c69-b427-4648-a8aa-6c38bc87fdc7
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s"
-      network: tcp
-      port: 11256
-      reality-opts:
-        public-key: TgKDlrMB3_LCRs_WBX4OMnt87rPc4XVqaPhEAtoXhDc
-        short-id: 352a7bbcc1ceeb
-      server: 192.81.131.225
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4817e138-8370-4fdd-aa59-36a6ec0247e2
-    - name: "\U0001F1E6\U0001F1FAAU_1|2.4MB/s"
-      port: 443
-      server: 103.62.50.130
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.5MB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_2|3.5MB/s"
+      name: "\U0001F1EE\U0001F1F9IT_1|990KB/s"
       network: tcp
-      port: "18384"
+      port: "32833"
       reality-opts:
-        public-key: cRwzK1c65HdBluJqM3GS8YN4N-TqTCmI6X_3eEgAVms
-        short-id: 3f316a236d64c1
-      server: 13.230.222.139
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 50641912-a16b-4ac3-aa2f-312c88b617e1
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_4|2.7MB/s"
-      network: tcp
-      port: "24146"
-      reality-opts:
-        public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-        short-id: 7205d9079521832c
-      server: 54.251.9.130
+        public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
+        short-id: a0a305ccc8e94aa8
+      server: 172.238.232.239
       servername: www.intel.com
       tls: true
       type: vless
       udp: true
-      uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+      uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
       xudp: true
     - client-fingerprint: firefox
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_3|3.7MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3|2.2MB/s"
       network: tcp
-      port: "18732"
+      port: "39742"
       reality-opts:
-        public-key: lsp2a_PzZnzFtikI5FMkSYh3kpTewVNgU6A0VSZCJUI
-        short-id: 7946e1980d32555c
-      server: 13.112.217.203
+        public-key: x3V96vwq7lqcF47qYpDMgnxoAbERJp8Z_fna48bxYnM
+        short-id: 90652b9b58bee5
+      server: 47.129.144.8
       servername: www.amd.com
       tls: true
       type: vless
       udp: true
-      uuid: abdb9efb-a552-4b12-bd95-e56f4820fed8
+      uuid: 0a6c8184-d202-41b2-acdb-1a95df2f74d3
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_3|2.8MB/s"
+      network: tcp
+      port: "59497"
+      reality-opts:
+        public-key: l7ImR_EgkkLJ4BkITf0eHQcOazxENAz4EL8pQ1k5lko
+        short-id: d1d28c01d2c3c6
+      server: 54.178.54.169
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2c178adb-54c2-4eaa-8e30-1322d17922c4
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
       name: "\U0001F1EF\U0001F1F5JP_4|2.5MB/s"
       network: tcp
-      port: "48203"
+      port: "25892"
       reality-opts:
-        public-key: nxC5EiVCdXMnvfRa1LoNUs21ZNS2DdP36gfHayvUXRU
-        short-id: 5b63c338f69077
-      server: 3.113.9.16
-      servername: www.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e5a9a8be-886e-4522-b11d-3edde88c9c8c
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_5|4.0MB/s"
-      network: tcp
-      port: "58573"
-      reality-opts:
-        public-key: P_qGsMinT163P1KLO6LzedQXEeHimWQ1CrqM4cYkFB8
-        short-id: 4de17b381e6af2
-      server: 13.230.140.251
-      servername: www.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ea3fb423-d86c-461a-9610-cbad189253e2
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1FAAU_2|656KB/s"
-      network: tcp
-      port: "44717"
-      reality-opts:
-        public-key: TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk
-        short-id: e4a5aeecb8319d
-      server: 3.25.92.214
+        public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
+        short-id: 9b0f012413fd
+      server: 52.68.64.80
       servername: www.sony.com
       tls: true
       type: vless
       udp: true
-      uuid: f4ae4cd4-7e7b-47a0-9817-e81ffa826b53
+      uuid: 31d84170-673e-4653-afaf-0656656be6dc
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s"
-      password: None
-      port: "9002"
-      server: 138.199.35.196
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
-      port: 9002
-      server: 193.176.84.40
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.9MB/s"
-      port: 9002
-      server: 193.176.84.23
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1EA\U0001F1E8EC_1|591KB/s"
-      password: ""
-      port: "9443"
-      server: 38.165.231.71
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: chrome
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FCTW_1|2.9MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_4|2.2MB/s"
       network: tcp
-      port: "443"
+      port: "33164"
       reality-opts:
-        public-key: MFbgadSb-vgPdOS29Lj5RwpuDIkhJluY_08dPbumxCA
-        short-id: 4fde185e
-      server: tw5.china-206xswl.com
-      servername: blzddist1-a.akamaihd.net
+        public-key: Faf18bd52wn8u9_ZGjBvfW4hkzcMhhfZhc1giF8R4G8
+        short-id: 83905567c94f6679
+      server: 47.131.211.4
+      servername: www.amd.com
       tls: true
       type: vless
       udp: true
-      uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1
+      uuid: 3b733177-14f5-49d5-91e6-4dce73c038e3
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      grpc-opts:
+        grpc-service-name: grpc
+      name: "\U0001F1F5\U0001F1F1PL_1|1.5MB/s"
+      network: grpc
+      port: "8090"
+      reality-opts:
+        public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+        short-id: 6b2f4e6ac9b1d2f0
+      server: 144.31.1.201
+      servername: mold.speedload.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5f829d2f-2f13-450c-81ac-e9832b8e47ec
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_5|4.6MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_5|2.5MB/s"
       network: tcp
-      port: "35921"
+      port: "14422"
       reality-opts:
-        public-key: G18SaAQR1NQqmi4ITcYYITGom67q6S3JD8hQTifAPwY
-        short-id: 29400ecf83e074
-      server: 47.130.167.253
-      servername: www.sony.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5f1728cb-8678-44fc-8b06-5f64659d2f5a
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_6|2.8MB/s"
-      network: tcp
-      port: "35470"
-      reality-opts:
-        public-key: LNuzvyQfOTdD2StNL3FHj5qH3r2nHaKH-ziDUhPJ81I
-        short-id: 23f6fc19bec35b76
-      server: 47.131.32.199
+        public-key: WA02heAP6997PPTwF6hbbFXwbYmXRz1bH2ZXWk6ipEw
+        short-id: 9b0f012413fd
+      server: 13.113.195.74
       servername: www.tesla.com
       tls: true
       type: vless
       udp: true
-      uuid: 91db3abd-bb9a-4c40-9ef9-90fb62b96332
+      uuid: 75f0b53b-ff3b-483a-b25e-5269b0229d14
       xudp: true
     - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_7|2.2MB/s"
-      network: tcp
-      port: "12804"
+      grpc-opts:
+        grpc-service-name: grpc
+      name: "\U0001F1E9\U0001F1EADE_3|644KB/s"
+      network: grpc
+      port: "2054"
       reality-opts:
-        public-key: 2My5Uzi0wB4_xTFXMp1enW_lT_7LUuqUr1xp34154zw
-        short-id: b94c29d75478a981
-      server: 52.76.84.249
+        public-key: ZiTQKF9QGeU4kt3NGbfwDa9n1TQ9l-p4ZhAUx94oQBc
+        short-id: 46a38b73a4ed4ccd
+      server: 185.233.104.77
+      servername: www.ibm.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_4|2.0MB/s"
+      network: tcp
+      port: "28482"
+      reality-opts:
+        public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
+        short-id: fa1e592603c283
+      server: 43.202.46.25
       servername: www.intel.com
       tls: true
       type: vless
       udp: true
-      uuid: d7baca0b-1255-4c1c-9fed-f615a059c9d5
+      uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_6|4.9MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_5|1.3MB/s"
       network: tcp
-      port: "32652"
+      port: "20221"
       reality-opts:
-        public-key: 6OOibzbkPmuVsl6LgqgUJ0FLHNEqt4VYSzqygL1GL2w
-        short-id: b5c421053ba4
-      server: 13.114.63.132
+        public-key: Fd3DtGiQyvw9IBKoMqKtgaKVkdvjnaErL_1ib-zXqxY
+        short-id: 85ae3d83d037b7
+      server: 13.212.211.73
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9f752e03-411f-4df4-841f-a23c4c43d183
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_6|2.1MB/s"
+      network: raw
+      port: "26017"
+      reality-opts:
+        public-key: cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA
+        short-id: af1c2e33b0c7dad7
+      server: 54.251.224.5
+      servername: www.amd.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d318cdac-0033-4b6e-98bf-35116e79c93f
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
+        short-id: 6ed1d644822b2951
+      server: 83.136.208.170
+      servername: fr2.janusgate.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: df880bf8-2635-4a83-a6bf-91bb36df284b
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_7|2.1MB/s"
+      network: tcp
+      port: "54489"
+      reality-opts:
+        public-key: b8P0DSI3bftNNT3I9QN_BDSdJ6RT8_aNXDcwwhelnzk
+        short-id: cc7a57d36b14c736
+      server: 3.1.248.148
       servername: www.tesla.com
       tls: true
       type: vless
       udp: true
-      uuid: 5bf65fa6-d8af-4932-970e-a13d444a24af
+      uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
       xudp: true
     - client-fingerprint: firefox
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F2\U0001F1FEMY_1|3.3MB/s"
+      name: "\U0001F1F2\U0001F1FEMY_1|2.1MB/s"
       network: tcp
-      port: "22732"
+      port: "53271"
       reality-opts:
-        public-key: vHWs24ZHKIvNpToXCwB68TK0mybgKe1Yfq1Jdnas5TU
-        short-id: 2a2aa1d1366cef
-      server: 56.69.197.40
+        public-key: 1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc
+        short-id: 0a9bd9db19578964
+      server: 56.69.159.191
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: e8358eb5-7210-4cf8-982f-68af141b7694
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1F4RO_1|763KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: gMcijHp0RNZF6l556BaOxu1bKNIFON0_JjXhJzpioAk
+        short-id: b395baf965957d93
+      server: 82.117.255.26
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee9e2135-c444-4adb-aaa5-a0efa1a74fdf
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_6|2.6MB/s"
+      network: tcp
+      port: "56449"
+      reality-opts:
+        public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
+        short-id: 25a9435577670327
+      server: 52.194.211.43
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_8|2.1MB/s"
+      network: tcp
+      port: "26017"
+      reality-opts:
+        public-key: cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA
+        short-id: af1c2e33b0c7dad7
+      server: 54.251.224.5
       servername: www.amd.com
       tls: true
       type: vless
       udp: true
-      uuid: cb3c9f84-903b-4701-9107-701b6347b0aa
+      uuid: d318cdac-0033-4b6e-98bf-35116e79c93f
       xudp: true
     - client-fingerprint: firefox
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_7|557KB/s"
+      name: "\U0001F1EF\U0001F1F5JP_7|2.1MB/s"
       network: tcp
-      port: "10092"
+      port: "16611"
       reality-opts:
-        public-key: EUpz9wKWgGn74jxYUKDbk87UwDGEYeCiaZg13m36ki0
-        short-id: e482c0320674c651
-      server: 192.155.87.188
+        public-key: cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ
+        short-id: 701b0c5c9dee514d
+      server: 13.114.89.187
+      servername: www.intel.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 059fbe5b-21dc-413f-8f5c-dac39201914c
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F2\U0001F1FEMY_2|4.3MB/s"
+      network: tcp
+      port: "21874"
+      reality-opts:
+        public-key: 75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs
+        short-id: 42e853a5559e1032
+      server: 43.217.16.8
       servername: www.amd.com
       tls: true
       type: vless
       udp: true
-      uuid: a0b4d03b-b561-46aa-96f6-d03fa222a65e
+      uuid: 85dd8227-0f12-4826-a712-6313211774b5
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EE\U0001F1F3IN_1|889KB/s"
+      network: ws
+      port: 16626
+      server: planb.mojcn.com.linuxlh.xin
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: b21ccbf7-afe6-4c25-8cae-0a1d9d89b4a4
+      ws-opts:
+        headers:
+            Host: 5ab7742db075087130f598aedb1e4674.mobgslb.tbcache.com
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F1IL_1|718KB/s"
+      network: ws
+      port: "443"
+      server: 192.71.27.237
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1ECKG_1|1.8MB/s"
+      network: ws
+      port: "8443"
+      server: 188.240.213.98
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F4NO_1|1.9MB/s"
+      network: ws
+      port: "8443"
+      server: 194.5.98.105
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_8|4.5MB/s"
+      network: ws
+      port: "443"
+      server: 43.174.195.1
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_9|2.0MB/s"
       network: tcp
-      port: "43595"
+      port: "41077"
       reality-opts:
-        public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-        short-id: e482c0320674c651
-      server: 45.33.62.166
+        public-key: dd41CxgkW8Nzb4424-YNVaVkody-X9xAY30bUOjEohI
+        short-id: 3f7addb532645b1c
+      server: 13.212.253.233
+      servername: www.tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 32d1be4e-5094-4881-984f-f927e9961edb
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_10|2.0MB/s"
+      network: tcp
+      port: "20220"
+      reality-opts:
+        public-key: nl2opNfmUuvzNzz24jEII4irqeP8xwXJufLPj4RY4Qw
+        short-id: 33bc05afd35b2b
+      server: 13.212.142.27
       servername: www.amd.com
       tls: true
       type: vless
       udp: true
-      uuid: 2642f590-2bce-4031-8f93-7eed983621f5
+      uuid: 4f9874e5-a8a8-4760-ba1b-ce6822b0ff19
+      xudp: true
+    - client-fingerprint: firefox
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_9|5.0MB/s"
+      network: tcp
+      port: "48086"
+      reality-opts:
+        public-key: qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo
+        short-id: 7083d685446ce576
+      server: 3.112.131.211
+      servername: www.nvidia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 620ca966-d78b-4c88-a5c9-acf13c7d252f
+      xudp: true
+    - client-fingerprint: qq
+      name: "\U0001F1EC\U0001F1E7GB_1|555KB/s"
+      network: ws
+      port: "2087"
+      server: fu.baiproxy.us.ci
+      tls: true
+      type: vless
+      udp: true
+      uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+      ws-opts:
+        headers:
+            Host: fu.baiproxy.us.ci
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
+      network: ws
+      port: "8443"
+      server: 89.125.146.39
+      servername: cf3.schzyc.cc.cd
+      tls: true
+      type: vless
+      udp: true
+      uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+      ws-opts:
+        headers:
+            Host: cf3.schzyc.cc.cd
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /proxyip=ProxyIP.CMLiussss.net
+      xudp: true
+    - encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_2|541KB/s"
+      network: ws
+      port: "8880"
+      server: 63.141.128.30
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: vms.lifetime42.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F1EC\U0001F1E7GB_3|2.4MB/s"
+      network: ws
+      port: "80"
+      server: 208.103.161.249
+      type: vless
+      udp: true
+      uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+      ws-opts:
+        headers:
+            Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: firefox
+      name: "\U0001F1F8\U0001F1E8SC_1|1.2MB/s"
+      network: tcp
+      port: "7443"
+      reality-opts:
+        public-key: RY7zkFQ01lI92jxNAyCa8T33UBW1fgpJgg8ZEqMA10k
+        short-id: a09ff9f8
+      server: 138.16.141.59
+      servername: ibm.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1EAIE_1|1.9MB/s"
+      network: ws
+      port: "2096"
+      server: 167.160.177.68
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F2\U0001F1FEMY_3|2.7MB/s"
+      network: ws
+      port: "8443"
+      server: 149.118.158.90
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_6|802KB/s"
+      network: ws
+      port: "8880"
+      server: 80.93.202.40
+      servername: vms.lifetime02.workers.dev
+      type: vless
+      udp: true
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      ws-opts:
+        headers:
+            Host: vms.lifetime02.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: ""
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+      network: ws
+      port: "80"
+      server: 91.193.58.159
+      type: vless
+      udp: true
+      uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+      ws-opts:
+        headers:
+            Host: twilight-poetry-2bfe.218-699.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: "/pyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s"
+      network: ws
+      port: "80"
+      server: 91.193.58.145
+      type: vless
+      udp: true
+      uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+      ws-opts:
+        headers:
+            Host: twilight-poetry-2bfe.218-699.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: "/pyip=telegram-wangcai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0HK_3|1.8MB/s"
+      network: ws
+      port: "80"
+      server: 91.193.58.74
+      type: vless
+      udp: true
+      uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+      ws-opts:
+        headers:
+            Host: twilight-poetry-2bfe.218-699.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: "/pyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_2|2.1MB/s"
+      network: ws
+      port: "443"
+      server: 185.239.141.89
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1F1AL_1|767KB/s"
+      network: ws
+      port: "443"
+      server: 91.239.6.40
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_11|880KB/s"
+      network: ws
+      port: "443"
+      server: 216.173.67.119
+      servername: eded-52n.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+      ws-opts:
+        headers:
+            Host: eded-52n.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+        path: /
       xudp: true
