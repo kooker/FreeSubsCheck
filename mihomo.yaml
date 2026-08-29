@@ -1,91 +1,147 @@
 proxies:
   - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
     password: 7eadc6dbe2ae
     port: 65443
-    server: 95.170.13.47
+    server: 121.46.230.233
     type: ss
-  - client-fingerprint: chrome
+  - client-fingerprint: firefox
     encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
-    network: grpc
-    port: 8090
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: "6b2f4e6ac9b1d2f0"
-    server: 144.31.1.201
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5f829d2f-2f13-450c-81ac-e9832b8e47ec
-    xudp: true
-    servername: mold.speedload.online
-  - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s"
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-      short-id: "5a8e1a04f3d92b67"
-    server: 2.26.129.66
-    tls: true
-    type: vless
-    udp: true
-    uuid: 74ed2afb-e8a5-4be1-b774-53b4c593f528
-    xudp: true
-    servername: ukrop.mycdn-me.ru
-  - encryption: none
-    http-opts:
-      headers:
-        Host:
-          - amp-api-edge.apps.apple.com
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|712KB/s"
-    network: http
-    port: 61169
-    server: ger22.orangesms.ir
-    type: vless
-    udp: true
-    uuid: a68093fb-6f19-49db-aae3-c532be45ac87
-    xudp: true
-  - alterId: 0
-    cipher: auto
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s"
-    network: http
-    port: 45147
-    server: 31.172.83.109
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    name: "\U0001F1FA\U0001F1F8US_2|919KB/s"
+    network: tcp
+    port: 43595
+    reality-opts:
+      public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
+      short-id: "e482c0320674c651"
+    server: 45.33.62.166
+    tls: true
+    type: vless
     udp: true
-    uuid: 0e93e9ce-3f14-4923-b880-fdc15e15900f
+    uuid: 2642f590-2bce-4031-8f93-7eed983621f5
     xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
-    network: ws
-    port: 16648
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    servername: www.amd.com
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
+    network: tcp
+    packet-encoding: xudp
+    port: 443
+    reality-opts:
+      public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
+      short-id: "0f4daaf87f9dff"
+    server: 46.8.210.143
+    tls: true
+    type: vless
     udp: true
-    uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
+    uuid: 7a322a80-b9ae-0007-bec7-affed230a484
+    xudp: true
+    servername: smartcaptcha.yandexcloud.net
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-tw-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-tw-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_2|1.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 160.187.100.109
+    skip-cert-verify: true
+    sni: vpn-tw-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_3|702KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-tw-002.fastervpn.world
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_4|614KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-tw-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-tw-002.fastervpn.world\u0026insecure=1\u0026allowinsecure=1
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
+    password: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
+    port: 443
+    reduce-rtt: false
+    request-timeout: 0
+    server: 156.229.161.223
+    skip-cert-verify: true
+    sni: www.cloudflare.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
+    version: 5
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1FA\U0001F1F8US_4|896KB/s"
+    password: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
+    port: 443
+    reduce-rtt: false
+    request-timeout: 15000
+    server: 156.229.161.223
+    skip-cert-verify: true
+    sni: www.cloudflare.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
+    version: 5
+  - client-fingerprint: qq
+    name: "\U0001F1FA\U0001F1F8US_5|792KB/s"
+    network: ws
+    port: 2087
+    server: fu.baiproxy.us.ci
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
     ws-opts:
       headers:
-        Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
+    servername: fu.baiproxy.us.ci
   - client-fingerprint: chrome
-    encryption: none
     name: "\U0001F1F8\U0001F1ECSG_1|5.8MB/s"
     network: tcp
     port: 23816
