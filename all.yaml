@@ -1,49 +1,32 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|1.3MB/s"
       password: 7eadc6dbe2ae
       port: 65443
-      server: 121.46.230.233
+      server: 95.170.13.47
       type: ss
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8US_2|919KB/s"
-      network: tcp
-      port: 43595
-      reality-opts:
-        public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-        short-id: e482c0320674c651
-      server: 45.33.62.166
-      servername: www.amd.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2642f590-2bce-4031-8f93-7eed983621f5
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-      network: tcp
-      packet-encoding: xudp
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|536KB/s"
+      password: amazonskr05
       port: 443
-      reality-opts:
-        public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
-        short-id: 0f4daaf87f9dff
-      server: 46.8.210.143
-      servername: smartcaptcha.yandexcloud.net
-      tls: true
-      type: vless
+      server: 35.176.118.152
+      type: ss
       udp: true
-      uuid: 7a322a80-b9ae-0007-bec7-affed230a484
-      xudp: true
+    - alpn:
+        - h3
+      name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
+      obfs: salamander
+      obfs-password: fuw2k1ddrouwxr3u
+      password: 76ivwa51ce2gauym
+      port: 52031
+      server: giftcard.gateway-stream.com
+      skip-cert-verify: false
+      sni: giftcard.gateway-stream.com
+      tls: false
+      type: hysteria2
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
+      name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s"
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -55,93 +38,39 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_2|1.5MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: 160.187.100.109
-      skip-cert-verify: true
-      sni: vpn-tw-002.fastervpn.world
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_3|702KB/s"
+      name: "\U0001F1F9\U0001F1FCTW_2|3.8MB/s"
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: "443"
       server: vpn-tw-002.fastervpn.world
       skip-cert-verify: true
-      sni: 127.0.0.1
+      sni: vk.com
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_4|614KB/s"
+      name: "\U0001F1F9\U0001F1FCTW_3|711KB/s"
       obfs: ""
       obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
       port: "443"
       server: vpn-tw-002.fastervpn.world
       skip-cert-verify: true
-      sni: vpn-tw-002.fastervpn.world\u0026insecure=1\u0026allowinsecure=1
+      sni: css.rbxcdn.com
       type: hysteria2
       up: ""
+    - name: "\U0001F1E9\U0001F1EADE_1|777KB/s"
+      port: 8989
+      server: 185.110.188.4
+      type: http
     - alpn:
         - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-      password: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
+      auth: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+      name: ❓Other_1|579KB/s
+      password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
       port: 443
-      reduce-rtt: false
-      request-timeout: 0
-      server: 156.229.161.223
+      server: start.wwwinternetvideo.click
       skip-cert-verify: true
-      sni: www.cloudflare.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: 47fb9025-cbd8-4ef3-9f6f-57c7b1649e65
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8US_4|896KB/s"
-      password: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
-      port: 443
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 156.229.161.223
-      skip-cert-verify: true
-      sni: www.cloudflare.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: 06000035-3c99-482a-b0d1-fbaca3b7a1f3
-    - client-fingerprint: qq
-      name: "\U0001F1FA\U0001F1F8US_5|792KB/s"
-      network: ws
-      port: "2087"
-      server: fu.baiproxy.us.ci
-      tls: true
-      type: vless
-      udp: true
-      uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-      ws-opts:
-        headers:
-            Host: fu.baiproxy.us.ci
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|5.8MB/s"
-      network: tcp
-      port: "23816"
-      server: node.qingyi668.biz
-      servername: node.qingyi668.biz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 881b936b-2591-4ea8-d21d-8215a36d41a3
-      xudp: true
+      sni: fast.wwwinternetvideo.click
+      type: hysteria2
