@@ -1,286 +1,158 @@
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1|515KB/s"
-      network: tcp
-      port: 29893
-      reality-opts:
-        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-        short-id: bc8e3658db7d1323
-      server: 155.117.199.13
-      servername: cdnjs.cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|617KB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.233
+      type: ss
       udp: true
-      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_1|1.8MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-        short-id: ""
-      server: 159.200.230.117
-      servername: d.tranzit-net.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 4sZ7HGlhMkiRluu7fysK2XK-W_AgV7vqIucpVxCpmms
-      server: 129.159.35.198
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e0a73956-4621-4772-9a8f-d15114a99d12
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1F2\U0001F1FDMX_1|2.4MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: LiSrIOq9pojF5iZc2c660LUAESwEWbxzt1YR96xz4k4
-      server: 139.177.103.135
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e199ac6c-2528-485a-959d-8351a93f966b
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2|1.8MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e0a73956-4621-4772-9a8f-d15114a99d12
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 4sZ7HGlhMkiRluu7fysK2XK-W_AgV7vqIucpVxCpmms
-      server: 129.159.35.198
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_3|2.1MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e199ac6c-2528-485a-959d-8351a93f966b
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_1|3.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-      server: 140.245.109.76
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c606644a-9b60-446e-93d2-19243373003a
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 4sZ7HGlhMkiRluu7fysK2XK-W_AgV7vqIucpVxCpmms
-      server: 129.159.35.198
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e199ac6c-2528-485a-959d-8351a93f966b
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_2|1.2MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 7qOCfcEvImVg65UNXmT_84xj7yhUgDJ82ZIlsbA5Ejo
-      server: 152.67.81.171
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e0a73956-4621-4772-9a8f-d15114a99d12
-    - auth: e0a73956-4621-4772-9a8f-d15114a99d12
-      name: "\U0001F1F8\U0001F1ECSG_2|9.0MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: e0a73956-4621-4772-9a8f-d15114a99d12
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_4|1.4MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c606644a-9b60-446e-93d2-19243373003a
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_3|1.4MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 7qOCfcEvImVg65UNXmT_84xj7yhUgDJ82ZIlsbA5Ejo
-      server: 152.67.81.171
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-    - auth: e199ac6c-2528-485a-959d-8351a93f966b
-      name: "\U0001F1F8\U0001F1ECSG_3|5.4MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: e199ac6c-2528-485a-959d-8351a93f966b
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_5|1.5MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: 4sZ7HGlhMkiRluu7fysK2XK-W_AgV7vqIucpVxCpmms
-      server: 129.159.35.198
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c606644a-9b60-446e-93d2-19243373003a
-    - auth: c606644a-9b60-446e-93d2-19243373003a
-      name: "\U0001F1F8\U0001F1ECSG_4|9.3MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: c606644a-9b60-446e-93d2-19243373003a
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - auth: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-      name: "\U0001F1F8\U0001F1ECSG_5|5.0MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_6|4.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-      server: 140.245.109.76
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e0a73956-4621-4772-9a8f-d15114a99d12
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_7|4.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-      server: 140.245.109.76
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-    - auth: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      name: "\U0001F1E6\U0001F1EAAE_1|2.0MB/s"
-      password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-      port: 8080
-      server: 85.204.107.178
+    - name: "\U0001F1F3\U0001F1F1NL_1|999KB/s"
+      port: 9002
+      server: 84.17.47.150
       skip-cert-verify: true
-      sni: hopp-romania-new.roxa.org
-      type: hysteria2
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|983KB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_3|691KB/s"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_4|999KB/s"
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_1|512KB/s"
+      name: ❓Other_1|808KB/s
+      network: tcp
       port: 39211
       reality-opts:
         public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
         short-id: bc8e3658db7d1323
       server: 155.117.199.13
       servername: cdnjs.cloudflare.com
-      skip-cert-verify: true
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
       uuid: f06c6039-a489-3d78-a676-ed43be6deca3
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_6|842KB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|753KB/s"
+      network: tcp
+      port: 31723
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 155.117.199.13
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - name: "\U0001F1FA\U0001F1F8US_2|527KB/s"
+      port: 12344
+      server: 154.21.89.32
+      type: http
+    - name: "\U0001F1FF\U0001F1E6ZA_1|602KB/s"
+      port: 39771
+      server: 160.124.240.188
+      type: http
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_2|810KB/s"
+      port: 9713
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 155.117.199.13
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_3|657KB/s"
+      port: 31723
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 155.117.199.13
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
+      network: ws
+      port: "11972"
+      server: 120.240.142.21
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d19c5396-aef2-b508-3abb-e9f93c8b0cfc
+      ws-opts:
+        headers:
+            Host: tms.dingtalk.com
+        path: /adb4c2cc-9e77-d6fc-4dba-e06b15659469
+      xudp: true
+    - auth: 41f0d6d3-4a45-4635-8225-2abd2284189b
+      name: "\U0001F1E9\U0001F1EADE_1|535KB/s"
+      password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+      port: 2056
+      server: nlb4.mangshe.xyz
+      skip-cert-verify: true
+      sni: nlb4.mangshe.xyz
+      type: hysteria2
+    - client-fingerprint: firefox
+      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
+      network: xhttp
+      port: 443
+      reality-opts:
+        public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
+        short-id: 812609fa663c57fb
+      server: 82.152.220.71
+      servername: api-v2.savesafe.run
+      tls: true
+      type: vless
+      udp: true
+      uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+      xhttp-opts:
+        host: api-v2.savesafe.run
+        mode: auto
+        path: /
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_4|796KB/s"
+      network: tcp
+      port: 9713
+      reality-opts:
+        public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+        short-id: bc8e3658db7d1323
+      server: 155.117.199.13
+      servername: cdnjs.cloudflare.com
+      tls: true
+      type: vless
+      uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_1|579KB/s"
       port: 39399
       reality-opts:
         public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
@@ -292,26 +164,15 @@ proxies:
       type: vless
       udp: true
       uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s"
-      network: http
-      port: 52080
-      server: 38.246.226.240
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
     - client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2|2.2MB/s"
       network: xhttp
       port: "443"
       reality-opts:
         public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
         short-id: 812609fa663c57fb
-      server: 82.152.220.21
+      server: 82.152.220.161
       servername: api-v2.savesafe.run
       tls: true
       type: vless
@@ -321,33 +182,32 @@ proxies:
         host: api-v2.savesafe.run
         path: /
       xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s"
-      network: xhttp
-      port: "443"
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1|5.2MB/s"
+      network: tcp
+      port: "21478"
       reality-opts:
-        public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-        short-id: 812609fa663c57fb
-      server: 82.152.220.61
-      servername: api-v2.savesafe.run
+        public-key: Ci-qn43DpSFEoKfKujnxq_1oSqrGSR7suRPuZNPozzo
+        short-id: efdca86b
+      server: dsfds-dfgwr-sad.dfhhse.xyz
+      servername: download-porter.hoyoverse.com
       tls: true
       type: vless
       udp: true
-      uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-      xhttp-opts:
-        host: api-v2.savesafe.run
-        path: /
+      uuid: accb2535-87db-4a6c-8417-0c504b7646ca
       xudp: true
     - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: trgrpc
-      name: "\U0001F1F8\U0001F1E8SC_1|1.9MB/s"
-      network: grpc
-      port: "443"
-      server: ne1385.cdn-video.pro
+      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
+      network: tcp
+      port: "38809"
+      reality-opts:
+        public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
+        short-id: ""
+      server: 38.75.216.54
+      servername: www.lovelive-anime.jp
       tls: true
       type: vless
       udp: true
-      uuid: f980aecd-d243-4910-b231-db172d434541
+      uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
       xudp: true
