@@ -1,24 +1,30 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7KR_1|2.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.233
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1|1.1MB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 121.46.230.138
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.232
+      name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.132.203.206
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s"
       port: 9002
       server: 84.17.47.125
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
       password: None
       port: 9002
       server: 84.17.47.125
@@ -26,170 +32,99 @@ proxies:
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s"
+      password: None
       port: 9002
-      server: 84.17.47.150
+      server: 84.17.47.148
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
     - name: "\U0001F1F3\U0001F1F1NL_4|1.2MB/s"
       port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.2MB/s"
-      port: 9002
       server: 84.17.47.146
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_7|1.3MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|828KB/s"
       port: 9002
-      server: 84.17.47.149
+      server: 193.176.84.33
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_2|894KB/s"
       port: 9002
       server: 193.176.84.30
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|547KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_3|911KB/s"
       port: 9002
       server: 193.176.84.35
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|705KB/s"
-      port: 9002
-      server: 193.176.84.17
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|1.8MB/s"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|2.0MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_4|528KB/s"
       port: 9002
       server: 193.176.84.25
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|2.0MB/s"
-      port: 9002
-      server: 193.176.84.20
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|1.6MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|2.2MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.23
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_9|2.1MB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_10|2.1MB/s"
-      port: 9002
-      server: 193.176.84.32
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_11|2.0MB/s"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_1|3.6MB/s"
-      password: +igdJIkJgF39Q5wXddAP9Rlj667jG6pucZ3pIhq3CyY=
-      port: "56927"
-      server: 140.245.99.244
-      type: ss
-      udp: true
-    - name: "\U0001F1F5\U0001F1F9PT_1|2.0MB/s"
-      password: None
-      port: 443
-      server: 149.22.86.14
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: ❓Other_1|2.0MB/s
-      password: None
-      port: 443
-      server: 149.22.86.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
-      port: 12344
-      server: 154.21.89.32
-      type: http
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s"
-      network: tcp
-      port: 443
+      name: "\U0001F1E8\U0001F1EDCH_1|536KB/s"
+      network: raw
+      port: "443"
       reality-opts:
         public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
         short-id: ""
       server: de48.tranzit-net.ru
       servername: d.tranzit-net.ru
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
       xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1EDCH_2|1.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+      server: 159.200.230.117
+      servername: d.tranzit-net.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+    - name: "\U0001F1EF\U0001F1F5JP_1|2.9MB/s"
+      password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+      port: 443
+      server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+      sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+      tls: true
+      type: http
+      username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+    - name: ❓Other_1|558KB/s
+      port: 443
+      server: 109.116.41.154
+      skip-cert-verify: true
+      tls: true
+      type: http
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_2|8.3MB/s"
-      password: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+      name: "\U0001F1F8\U0001F1ECSG_1|5.7MB/s"
+      password: bd824dfb-d4bf-4fab-813d-3093608c2815
       port: 58441
       reduce-rtt: false
       request-timeout: 0
@@ -198,18 +133,12 @@ proxies:
       sni: singapore.ruixing.fun
       type: tuic
       udp-relay-mode: native
-      uuid: 22654943-6142-4fdb-8722-ea9fefe9c4dc
-    - name: "\U0001F1FA\U0001F1F8US_3|538KB/s"
-      password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
+      uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_3|6.0MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_2|5.3MB/s"
       password: 860d3c09-1226-4560-9c5c-da09647af060
       port: 58441
       reduce-rtt: false
@@ -224,7 +153,37 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_4|9.7MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3|8.9MB/s"
+      password: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 22654943-6142-4fdb-8722-ea9fefe9c4dc
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_4|4.9MB/s"
+      password: 4cda0f74-e5d6-45ff-ad98-d2686eb1ec26
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 4cda0f74-e5d6-45ff-ad98-d2686eb1ec26
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_5|2.8MB/s"
       password: 068f8ba4-310f-400d-8832-9ec1645cd766
       port: 58441
       reduce-rtt: false
@@ -235,11 +194,53 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: 068f8ba4-310f-400d-8832-9ec1645cd766
+    - name: "\U0001F1EF\U0001F1F5JP_2|4.9MB/s"
+      password: 19ad6989-d8cc-41c9-a9ab-a2bdbb62526c
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_5|5.6MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_6|5.8MB/s"
+      password: 9a198016-fdb7-4510-acca-e2c68c1083e5
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 9a198016-fdb7-4510-acca-e2c68c1083e5
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_7|5.0MB/s"
+      password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+    - name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s"
+      password: 19ad6989-d8cc-41c9-a9ab-a2bdbb62526c
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_8|7.3MB/s"
       password: c5031c3d-bc5a-47fd-9ab2-636c307eec59
       port: 58441
       reduce-rtt: false
@@ -254,7 +255,22 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_6|4.8MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_9|7.8MB/s"
+      password: 95eba93a-e7d7-4030-a085-9ce5c05e3318
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 95eba93a-e7d7-4030-a085-9ce5c05e3318
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_10|9.1MB/s"
       password: 633b661b-272e-457d-85ad-fb0175caa675
       port: 58441
       reduce-rtt: false
@@ -265,112 +281,22 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: 633b661b-272e-457d-85ad-fb0175caa675
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_7|5.7MB/s"
-      password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
-      port: 58441
-      reduce-rtt: false
-      request-timeout: 0
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: tuic
-      udp-relay-mode: native
-      uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.9MB/s"
-      password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_8|5.7MB/s"
-      password: bd824dfb-d4bf-4fab-813d-3093608c2815
-      port: 58441
-      reduce-rtt: false
-      request-timeout: 0
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: tuic
-      udp-relay-mode: native
-      uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s"
-      password: 9d7a5883-c944-4169-9079-186b0b92f6bc
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG_9|5.4MB/s"
-      password: 9a198016-fdb7-4510-acca-e2c68c1083e5
-      port: 58441
-      reduce-rtt: false
-      request-timeout: 0
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: tuic
-      udp-relay-mode: native
-      uuid: 9a198016-fdb7-4510-acca-e2c68c1083e5
-    - auth: 28775f0a-8027-4b33-9962-15634199b3a3
-      name: "\U0001F1F8\U0001F1ECSG_10|5.9MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: 28775f0a-8027-4b33-9962-15634199b3a3
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - auth: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-      name: "\U0001F1F8\U0001F1ECSG_11|5.1MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - client-fingerprint: firefox
+    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_11|4.4MB/s"
       network: tcp
       port: 8444
       reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
+        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+      server: 140.245.109.76
       servername: tesla.com
       tls: true
       type: vless
       udp: true
-      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-    - auth: ca9df148-e636-47fe-9af6-fe8fe3eec197
-      name: "\U0001F1F8\U0001F1ECSG_12|5.6MB/s"
-      obfs: salamander
-      obfs-password: Y0hOpQA0X4EMz6fO
-      password: ca9df148-e636-47fe-9af6-fe8fe3eec197
-      port: 30625
-      server: singapore.ruixing.fun
-      skip-cert-verify: false
-      sni: singapore.ruixing.fun
-      type: hysteria2
-      udp: true
-    - client-fingerprint: edge
+      uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F2\U0001F1FDMX_1|2.1MB/s"
+      name: "\U0001F1F2\U0001F1FDMX_1|993KB/s"
       network: tcp
       port: 8443
       reality-opts:
@@ -380,10 +306,47 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-    - client-fingerprint: ios
+      uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+    - auth: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+      name: "\U0001F1F8\U0001F1ECSG_12|9.3MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
+    - client-fingerprint: edge
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_13|4.6MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
+      network: tcp
+      port: 8444
+      reality-opts:
+        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+      server: 129.151.239.170
+      servername: tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 28775f0a-8027-4b33-9962-15634199b3a3
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7FR_2|1.4MB/s"
+      network: tcp
+      port: 8444
+      reality-opts:
+        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+      server: 129.151.239.170
+      servername: tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_13|4.5MB/s"
       network: tcp
       port: 8444
       reality-opts:
@@ -393,21 +356,8 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_14|3.3MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-      server: 140.245.109.76
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
-    - client-fingerprint: ios
+      uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+    - client-fingerprint: edge
       flow: xtls-rprx-vision
       name: "\U0001F1F2\U0001F1FDMX_2|2.4MB/s"
       network: tcp
@@ -419,7 +369,31 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_14|4.0MB/s"
+      network: tcp
+      port: 8444
+      reality-opts:
+        public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+      server: 140.245.109.76
+      servername: tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+    - auth: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+      name: "\U0001F1F8\U0001F1ECSG_15|7.5MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
       name: "\U0001F1F2\U0001F1FDMX_3|2.4MB/s"
@@ -433,9 +407,20 @@ proxies:
       type: vless
       udp: true
       uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-    - client-fingerprint: chrome
+    - auth: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+      name: "\U0001F1F8\U0001F1ECSG_16|5.1MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 6f2dd601-8ca8-4e68-90a8-64b988ae95b4
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
+    - client-fingerprint: qq
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_3|1.6MB/s"
       network: tcp
       port: 8444
       reality-opts:
@@ -445,23 +430,34 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR_3|2.0MB/s"
-      network: tcp
-      port: 8444
-      reality-opts:
-        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
-      server: 129.151.239.170
-      servername: tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
+      uuid: 5c9b8a5f-0863-4cfa-9c1d-aa1a5b7415df
     - client-fingerprint: ios
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_15|4.7MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_4|2.0MB/s"
+      network: tcp
+      port: 8444
+      reality-opts:
+        public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+      server: 129.151.239.170
+      servername: tesla.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+    - auth: 28775f0a-8027-4b33-9962-15634199b3a3
+      name: "\U0001F1F8\U0001F1ECSG_17|5.6MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 28775f0a-8027-4b33-9962-15634199b3a3
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_18|3.5MB/s"
       network: tcp
       port: 8444
       reality-opts:
@@ -471,60 +467,12 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: 28775f0a-8027-4b33-9962-15634199b3a3
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
-      network: ws
-      port: 16632
-      server: m.cnmjin.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
-      ws-opts:
-        headers:
-            Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
-        path: /
-      xudp: true
-    - cipher: chacha20-ietf
-      name: "\U0001F1EF\U0001F1F5JP_2|2.5MB/s"
-      password: passwd
-      plugin: obfs
-      plugin-opts:
-        host: 37949-LD4JNZAf.download.microsoft.com
-        mode: http
-      port: "8406"
-      server: cn12.somethingstranges.com
-      type: ss
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_4|641KB/s"
-      network: ws
-      port: 443
-      server: 172.67.198.236
-      servername: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-      skip-cert-verify: true
-      tls: true
+      uuid: 0d46a6ae-ea65-4381-9456-2ded7e43f6a7
+    - name: "\U0001F1F3\U0001F1F1NL_5|1.4MB/s"
+      network: tcp
+      port: "62145"
+      server: 141.144.199.198
       type: vless
       udp: true
-      uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-      ws-opts:
-        headers:
-            Host: 2-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-        path: /8qMLgNapWf6SBxo8fhQlVPYO
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_2|756KB/s"
-      network: raw
-      port: "10000"
-      reality-opts:
-        public-key: kdlgIBl7R_1DIWtJIrOqYwt65nedPCbz6XoomdpQIXM
-        short-id: ""
-      server: 221.155.195.197
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+      uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
       xudp: true
