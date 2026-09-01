@@ -1,183 +1,199 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1NL_1|830KB/s"
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 443
+      server: 82.38.31.35
+      skip-cert-verify: false
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: "(Telegram\U0001F1E8\U0001F1F3 @WangCai2)7eb777f:123571"
+        mode: tls
+      port: 2377
+      server: 59.125.62.188
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
       port: 9002
       server: 84.17.47.125
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-      password: None
+    - name: ❓Other_1|1.0MB/s
       port: 9002
-      server: 84.17.47.125
+      server: 193.176.84.30
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
       port: 9002
-      server: 84.17.47.150
+      server: 193.176.84.17
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
-      port: 9002
-      server: 84.17.47.148
+    - name: "\U0001F1EC\U0001F1E7GB_1|3.2MB/s"
+      password: 8674df07-56b3-43ea-b687-aef2b1a20137
+      port: 443
+      server: 31.76.22.210
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.1MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s"
-      network: tcp
-      port: 5000
-      reality-opts:
-        public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
-        short-id: a1b2c3d4
-      server: 31.77.183.88
-      servername: max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL_7|1.3MB/s"
-      network: tcp
-      port: 5001
-      reality-opts:
-        public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
-        short-id: a1b2c3d4
-      server: 31.77.183.88
-      servername: max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: movie
-      name: "\U0001F1FA\U0001F1F8US_2|711KB/s"
-      network: grpc
-      port: 10242
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: us5-r.link-t7.com
-      servername: s0.awsstatic.com
-      tls: true
-      type: vless
-      uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg
-        short-id: a17b41ba
-      server: app3.goonars.com
-      servername: app3.goonars.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-        short-id: 09ef88a6
-      server: 88.216.190.206
-      servername: app4.goonars.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-us-003.fastervpn.world
-      skip-cert-verify: true
-      sni: 127.0.0.1
+      sni: crt.ultimagamest.com
+      tls: false
       type: hysteria2
-      up: ""
+    - name: ❓Other_2|2.4MB/s
+      port: 443
+      server: 37.120.233.50
+      skip-cert-verify: true
+      tls: true
+      type: http
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s"
+      name: "\U0001F1F7\U0001F1F4RO_2|648KB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
-        short-id: f0eb800bd980b00b
-      server: nbg.edgeptr.org
-      servername: www.lovelive-anime.jp
+        public-key: dAzWNLnINcfCwRteXOz4Ip0OIKuSse9Y-iZvJzSKeg8
+        short-id: fae1c70f055a8b2a
+      server: sd755spsps.rucdn.pro
+      servername: sd755spsps.rucdn.pro
       tls: true
       type: vless
       udp: true
-      uuid: f0c476de-cbf4-4bc7-9e89-5cd62b254ef5
+      uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s"
-      network: ws
-      port: 443
-      server: 172.67.194.246
-      servername: 1-M12.d20260720.kdNS.fr
-      skip-cert-verify: true
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1F4RO_3|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: pWC4Zthw_AH0PZVCkUY-1eNOzmEvNXGecs2eBmpj2nI
+        short-id: 091529455a53b00e
+      server: m756greek2.rucdn.pro
+      servername: m756greek.rucdn.pro
       tls: true
       type: vless
       udp: true
-      uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-      ws-opts:
-        headers:
-            Host: 1-M12.d20260720.kdnS.Fr
-        path: /jsuXqAwKiH1z48nidbaS5oX
+      uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6|2.2MB/s"
-      network: ws
-      port: 443
-      server: 172.67.194.246
-      servername: 4-m12.D20260720.kDns.Fr
-      skip-cert-verify: true
+      encryption: none
+      flow: xtls-rprx-vision
+      name: ❓Other_3|2.2MB/s
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: dAzWNLnINcfCwRteXOz4Ip0OIKuSse9Y-iZvJzSKeg8
+        short-id: fae1c70f055a8b2a
+      server: sd755spsps.rucdn.pro
       tls: true
       type: vless
       udp: true
-      uuid: b53d3362-ab03-4bc2-93b7-1d19231ef92d
-      ws-opts:
-        headers:
-            Host: 4-M12.D20260720.Kdns.Fr
-        path: /jsuXqAwKiH1z48nidbaS5oX
+      uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
+      xudp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_1|3.1MB/s"
+      password: 698bbd7b-d9bd-4743-8e8c-f35dd875b88c
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 698bbd7b-d9bd-4743-8e8c-f35dd875b88c
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: ❓Other_4|2.9MB/s
+      password: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 0731d3a8-e094-41c9-9499-59fe3650ae6e
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG_2|2.2MB/s"
+      password: bd824dfb-d4bf-4fab-813d-3093608c2815
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: bd824dfb-d4bf-4fab-813d-3093608c2815
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: ❓Other_5|2.7MB/s
+      password: 98800f8b-690c-4e7a-a91d-2d1bcbe84dab
+      port: 58441
+      reduce-rtt: false
+      request-timeout: 0
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: tuic
+      udp-relay-mode: native
+      uuid: 98800f8b-690c-4e7a-a91d-2d1bcbe84dab
+    - auth: 2024aef5-67f2-4bb0-b817-06a166181bff
+      name: "\U0001F1F8\U0001F1ECSG_3|3.3MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 2024aef5-67f2-4bb0-b817-06a166181bff
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
+    - auth: 4a9c7489-045f-4ff1-ba94-0502e69a8b26
+      name: "\U0001F1F8\U0001F1ECSG_4|2.7MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 4a9c7489-045f-4ff1-ba94-0502e69a8b26
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
+    - auth: 7265a6a6-ada2-4591-8c86-8eb670f7dd3c
+      name: "\U0001F1F8\U0001F1ECSG_5|3.3MB/s"
+      obfs: salamander
+      obfs-password: Y0hOpQA0X4EMz6fO
+      password: 7265a6a6-ada2-4591-8c86-8eb670f7dd3c
+      port: 30625
+      server: singapore.ruixing.fun
+      skip-cert-verify: false
+      sni: singapore.ruixing.fun
+      type: hysteria2
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7|737KB/s"
+      name: ❓Other_6|1.5MB/s
       network: ws
       port: 443
       server: 172.67.170.148
@@ -191,32 +207,18 @@ proxies:
         headers:
             Host: 0-m12.f2ad840e-C79E-4878-90D3-b87fd9bb43f9.kDnS.fr
         path: /jsuXqAwKiH1z48nidbaS5oX
-    - name: ❓Other_1|1.3MB/s
-      network: ws
-      port: "8880"
-      server: www.baipiao.eu.org
-      type: vless
-      udp: true
-      uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
-      ws-opts:
-        headers:
-            Host: muddy-art-8cda.197-0c6.workers.dev
-            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-        path: /pyip=ProxyIP.US.CMLiussss.net
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|559KB/s"
+      name: "\U0001F1F8\U0001F1EASE_1|2.1MB/s"
       network: tcp
       port: "8443"
       reality-opts:
-        public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-        short-id: a7f3c91b2e6d84c0
-      server: 31.76.70.112
-      servername: auto.cendora.ru
+        public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+        short-id: "4326"
+      server: get4s.skystreamgame.com
+      servername: get4s.skystreamgame.com
       tls: true
       type: vless
       udp: true
-      uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+      uuid: 2569614f-879b-43de-9cd9-9bb304b68856
       xudp: true
