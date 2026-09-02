@@ -1,189 +1,33 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_1|1.9MB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.40.94.70
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|3.4MB/s"
-    network: ws
-    port: 16632
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-    ws-opts:
-      headers:
-        Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-      path: /
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.233
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_1|518KB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 95.170.13.47
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|3.5MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F3IN_1|902KB/s"
-    network: ws
-    port: 16626
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-    ws-opts:
-      headers:
-        Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-      path: /
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|683KB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
-    port: 9002
-    server: 84.17.47.150
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1007KB/s"
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|1.1MB/s"
-    port: 9002
-    server: 84.17.47.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_7|1.0MB/s"
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
-    password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-    port: 443
-    server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
-    sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
-    tls: true
-    type: http
-    username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  - name: "\U0001F1F8\U0001F1ECSG_1|822KB/s"
-    password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-    port: 5228
-    server: e6a99425-tk7400-tlbcwm-1rfon.sg2.oshuawei.com
-    sni: e6a99425-tk7400-tlbcwm-1rfon.sg2.oshuawei.com
-    tls: true
-    type: http
-    username: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  - name: "\U0001F1EF\U0001F1F5JP_2|3.4MB/s"
-    password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-    port: 443
-    server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
-    tls: true
-    type: http
-    username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-    sni: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
-  - name: "\U0001F1F2\U0001F1FEMY_1|694KB/s"
-    password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-    port: 5228
-    server: 3bae395a-tk7400-tlvq5w-1jcwu.my.oshuawei.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-    sni: 3bae395a-tk7400-tlvq5w-1jcwu.my.oshuawei.com
-  - name: "\U0001F1EC\U0001F1E7GB_2|2.2MB/s"
-    password: None
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EF\U0001F1F5JP_3|2.5MB/s"
-    password: 'null'
-    port: 443
-    server: fan.571589.xyz
-    sni: fan.571589.xyz
-    tls: true
-    type: http
-    username: 'null'
-  - alterId: '2'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-    network: tcp
-    port: 30829
-    server: v29.hdacd.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    xudp: true
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_3|733KB/s"
-    network: ws
-    port: 443
-    server: 172.67.173.191
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_1|987KB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: DQfPfCv32sPUNPOq5eEVUx4KWGMrmfUQvPBdRIbOPG4
+      short-id: "a1b2c3d4"
+    server: 154.64.252.38
     tls: true
     type: vless
     udp: true
-    uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-    ws-opts:
-      headers:
-        Host: 4-m20.e00e.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /8qMLgNapWf6SBxo8fhQlVPYO
-    xudp: true
-    servername: 4-m20.e00e.ccwu.cc
+    uuid: 5c7d8f55-a8fa-4597-96ab-ecf02a573a14
+    servername: www.apple.com
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|927KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_2|581KB/s"
+    network: tcp
+    port: 8444
+    reality-opts:
+      public-key: QBwJvMwbxa59HtZvVmwaTgHsPZR1AFxxAQdu6zRXF2M
+      short-id: "a1b2c3d4"
+    server: 154.64.252.38
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5c7d8f55-a8fa-4597-96ab-ecf02a573a14
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_3|978KB/s"
     network: tcp
     port: 8445
     reality-opts:
@@ -193,16 +37,67 @@ proxies:
     tls: true
     type: vless
     udp: true
-    uuid: 67164aca-993f-40ef-9375-1a5f1bc1a40b
+    uuid: 6e207399-69f0-49c4-92f6-bf303d18cdb6
     servername: www.apple.com
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_4|561KB/s"
-    password: c0cc55a3-b4bd-710c-db35-52db8cfbbc9e
-    port: 10005
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_4|1.0MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: DQfPfCv32sPUNPOq5eEVUx4KWGMrmfUQvPBdRIbOPG4
+      short-id: "a1b2c3d4"
     server: 154.64.252.38
-    skip-cert-verify: true
-    type: anytls
+    tls: true
+    type: vless
     udp: true
+    uuid: 6e207399-69f0-49c4-92f6-bf303d18cdb6
+    servername: www.apple.com
+  - name: ❓Other_1|675KB/s
+    password: ''
+    port: 9002
+    server: 138.199.35.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+    network: ws
+    port: 443
+    server: 172.67.185.142
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+    ws-opts:
+      headers:
+        Host: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: /8qMLgNapWf6SBxo8fhQlVPYO
+    xudp: true
+    servername: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+  - cipher: aes-256-cfb
+    name: "\U0001F1F9\U0001F1EDTH_1|2.6MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 103.169.67.34
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 95.170.13.47
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_2|4.9MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 121.46.230.233
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
