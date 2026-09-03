@@ -1,38 +1,178 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|3.3MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.232
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F3IN_1|647KB/s"
-    network: ws
-    port: 16626
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
-    ws-opts:
-      headers:
-        Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-      path: /
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
-    password: 'null'
-    port: 443
-    server: fan.571589.xyz
-    sni: fan.571589.xyz
+  - name: "\U0001F1F3\U0001F1F1NL_1|793KB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
     tls: true
     type: http
-    username: 'null'
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
+    port: 9002
+    server: 84.17.47.150
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_3|1.0MB/s"
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4|1.7MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|700KB/s"
+    port: 9002
+    server: 84.17.47.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.9MB/s"
+    port: 9002
+    server: 193.176.84.24
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|2.0MB/s"
+    password: None
+    port: 9002
+    server: 193.176.84.23
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_3|617KB/s"
+    port: 9002
+    server: 193.176.84.27
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
+    network: grpc
+    port: 10127
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: hk2-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: movie
+    name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
+    network: grpc
+    port: 10128
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: hk3-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+    xudp: true
+    servername: s0.awsstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: update
+    name: "\U0001F1ED\U0001F1F0HK_3|1.2MB/s"
+    network: grpc
+    port: 10126
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: "686c0ef0"
+    server: hk1-r.link-t7.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+    xudp: true
+    servername: s0.awsstatic.com
+  - name: "\U0001F1EE\U0001F1EAIE_1|1.4MB/s"
+    password: None
+    port: 443
+    server: 149.88.96.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|878KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Ksy3KVVIVHpdE9Hpw7M55sFuQo1uw-1zCqiCBbFbbTY
+      short-id: "2a"
+    server: lgtttxe5.87544899.xyz
+    tls: true
+    type: vless
+    uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+    servername: career.thaiairways.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|3.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: k7hxoilujF3OuiyJpxpVbRJ-XdOxJ2giDeqDTvghgXw
+      short-id: "c72dc3a7e1da"
+    server: do2sg3fgfqwds7gb.87544899.xyz
+    tls: true
+    type: vless
+    uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+    servername: bod.changiairport.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_1|970KB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+      short-id: "4da5d1853f04af6d"
+    server: rrr.windconnect.pro
+    tls: true
+    type: vless
+    udp: true
+    uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+    xudp: true
+    servername: rrr.windconnect.pro
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_4|4.0MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UXuPOHhPEL-Fd7wcNYSqEhKG-7d7LKEZr2QqTYy1rFc
+      short-id: "e7988d"
+    server: hkhl1f6.87544899.xyz
+    tls: true
+    type: vless
+    uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+    servername: travelinluxe.discoverhongkong.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
