@@ -1,136 +1,70 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|706KB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.138
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.232
-    type: ss
-  - name: "\U0001F1F3\U0001F1F1NL_1|989KB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
-    port: 9002
-    server: 84.17.47.150
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7FR_1|3.0MB/s"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: 35.181.169.140
-    skip-cert-verify: true
-    sni: 35.181.169.140
-    type: hysteria2
   - client-fingerprint: chrome
     encryption: none
     grpc-opts:
       grpc-mode: gun
-      grpc-service-name: update
-    name: "\U0001F1ED\U0001F1F0HK_1|3.9MB/s"
+      grpc-service-name: movie
+    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
     network: grpc
-    port: 10127
+    port: 10136
     reality-opts:
       public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
       short-id: "686c0ef0"
-    server: hk2-r.link-t7.com
+    server: hk6-r.link-t7.com
     skip-cert-verify: true
     tls: true
     type: vless
     uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
     servername: s0.awsstatic.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 121.46.230.137
+    type: ss
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_1|1.3MB/s"
-    network: tcp
-    packet-encoding: xudp
+    grpc-opts:
+      grpc-service-name: gun
+    name: "\U0001F1E9\U0001F1EADE_1|872KB/s"
+    network: grpc
     port: 443
     reality-opts:
-      public-key: 7sFZz7V1r5qtysLzjw07rOOA2P8NG7kvVX5BxFfc-Xc
-      short-id: "db39"
-    server: 185.58.207.249
-    tls: true
-    type: vless
-    uuid: e24cf9d3-e936-4a90-9932-33931b6a9b45
-    servername: yandex.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_2|1.0MB/s"
-    network: tcp
-    port: 31663
-    reality-opts:
-      public-key: HbzPMj4dHY0RX8oZCiFU60HPoc5pCc5iuORNYlTCOWY
-      short-id: "32bf1b3fe9c072a9"
-    server: fr.selqora.ir
+      public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+      short-id: "3fa234ea9feaa048"
+    server: mageia.ubuntuhosting.host
     tls: true
     type: vless
     udp: true
-    uuid: 7037b6a1-d8f0-40af-99e9-41bad4c32c51
+    uuid: d7430ae7-320c-4658-808b-3006d0627d82
     xudp: true
-    servername: amp-api-edge.apps.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s"
-    network: ws
-    password: humanity
+    servername: mageia.ubuntuhosting.host
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
+    network: tcp
     port: 443
-    server: 216.24.57.1
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/56.0.2924.87 Safari/537.36
-      path: /assignment
-  - name: "\U0001F1ED\U0001F1F0HK_2|3.4MB/s"
-    password: c045f3ea-6dfa-403c-bf5f-c2677226884f
-    port: 40012
-    server: hk2.catzl.top
-    type: anytls
-    udp: true
-    sni: hk2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
-    password: c045f3ea-6dfa-403c-bf5f-c2677226884f
-    port: 40054
-    server: jp4.catzl.top
-    type: anytls
-    udp: true
-    sni: jp4.catzl.top
-  - name: "\U0001F1F9\U0001F1FCTW_1|543KB/s"
-    password: c045f3ea-6dfa-403c-bf5f-c2677226884f
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_2|2.9MB/s"
-    password: c045f3ea-6dfa-403c-bf5f-c2677226884f
-    port: 40022
-    server: us2.catzl.top
-    type: anytls
-    udp: true
-    sni: us2.catzl.top
-  - name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s"
-    password: c045f3ea-6dfa-403c-bf5f-c2677226884f
-    port: 40055
-    server: jp5.catzl.top
-    type: anytls
-    udp: true
-    sni: jp5.catzl.top
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    server: bridge2.kolhoz.fuck-rkn.xyz
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    servername: jobinvest.ru
+  - name: "\U0001F1E9\U0001F1EADE_2|1.6MB/s"
+    port: 443
+    server: 149.36.50.129
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1E9\U0001F1EADE_3|2.2MB/s"
+    port: 443
+    server: 87.249.132.97
+    skip-cert-verify: true
+    tls: true
+    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
