@@ -1,223 +1,199 @@
 proxies:
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_1|984KB/s"
       port: 9002
       server: 84.17.47.125
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_2|895KB/s"
       port: 9002
       server: 84.17.47.150
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_4|1.6MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_3|543KB/s"
       port: 9002
       server: 84.17.47.148
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_6|1.4MB/s"
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
+    - name: "\U0001F1F3\U0001F1F1NL_4|660KB/s"
       port: 9002
       server: 84.17.47.149
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|740KB/s"
+    - name: "\U0001F1F7\U0001F1F4RO_1|685KB/s"
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|791KB/s"
       port: 9002
       server: 193.176.84.30
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|779KB/s"
-      port: 9002
-      server: 193.176.84.17
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - name: "\U0001F1F8\U0001F1E8SC_1|1.0MB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40063
+      server: de3.catzl.top
+      type: anytls
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - name: ❓Other_1|2.4MB/s
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_4|836KB/s"
-      port: 9002
-      server: 193.176.84.25
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - name: "\U0001F1F8\U0001F1E8SC_2|2.4MB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40061
+      server: de1.catzl.top
+      type: anytls
       udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_5|2.1MB/s"
-      port: 9002
-      server: 193.176.84.20
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_6|896KB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_7|1.7MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.23
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_8|2.1MB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_9|1.5MB/s"
-      port: 9002
-      server: 193.176.84.32
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_10|1.9MB/s"
-      port: 9002
-      server: 193.176.84.39
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_1|7.9MB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40011
+      server: hk1.catzl.top
+      type: anytls
       udp: true
     - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: movie
-      name: "\U0001F1ED\U0001F1F0HK_1|8.5MB/s"
-      network: grpc
-      port: "10136"
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      network: tcp
+      port: 40444
       reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk6-r.link-t7.com
-      servername: s0.awsstatic.com
+        public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+        short-id: b3f2a1c9
+      server: 5.253.38.67
+      servername: www.lovelive-anime.jp
       tls: true
       type: vless
       udp: true
-      uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+      uuid: 996ae979-ec8b-4f0f-900c-3cbbe8010138
+    - name: "\U0001F1F0\U0001F1F7KR_1|780KB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40042
+      server: kr2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|3.4MB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F8\U0001F1E8SC_3|1.8MB/s"
+      password: 1018b25c-6722-4692-849a-ed2d54c88605
+      port: 40062
+      server: de2.catzl.top
+      type: anytls
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|529KB/s"
+      network: ws
       port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
+      server: w2.lianjieni.com
+      servername: w2.lianjieni.com
       tls: true
-      type: http
-    - cipher: rc4-md5
-      name: ❓Other_1|3.3MB/s
-      obfs: tls1.2_ticket_auth
-      obfs-param: 62936143.douyin.com
-      password: di15PV
-      port: 2202
-      protocol: auth_aes128_md5
-      protocol-param: 36143:GWgpVE
-      server: api.meituan88.com
-      type: ssr
-    - client-fingerprint: firefox
+      type: vless
+      udp: true
+      uuid: 683f9c4d-931d-46ce-8c7b-f70c95b413a3
+      ws-opts:
+        headers:
+            Host: w2.lianjieni.com
+        path: /cdnws
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|1.0MB/s"
+      network: ws
+      port: 443
+      server: w4.lianjieni.com
+      servername: w4.lianjieni.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 683f9c4d-931d-46ce-8c7b-f70c95b413a3
+      ws-opts:
+        headers:
+            Host: w4.lianjieni.com
+        path: /cdnws
+    - client-fingerprint: qq
+      name: "\U0001F1F1\U0001F1F9LT_1|2.1MB/s"
+      network: xhttp
+      port: 443
+      server: 188.72.103.3
+      servername: cdnapi.streamru10.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d8cf280-e0f4-4539-b35c-7ff90659c0d0
+      xhttp-opts:
+        mode: packet-up
+        path: /api/v74/uptodown/
+        seq-key: part_index
+        seq-placement: cookie
+        session-key: stream_auth
+        session-placement: cookie
+        uplink-data-placement: body
+        uplink-http-method: GET
+        x-padding-bytes: 96-1040
+        x-padding-header: X-Media-Token
+        x-padding-key: _t
+        x-padding-method: tokenish
+        x-padding-obfs-mode: true
+        x-padding-placement: queryInHeader
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|1.8MB/s"
+      network: tcp
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: Fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 30980395-1884-483f-95d1-2b7c26928e3c
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
       flow: xtls-rprx-vision
       name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
       network: tcp
-      port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: bridge2.kolhoz.fuck-rkn.xyz
-      servername: jobinvest.ru
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
-    - name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s"
-      port: 3139
-      server: 94.19.93.170
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
-      port: 443
-      server: 149.36.50.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
-      password: Og%3D%3D
-      port: "1090"
-      server: 121.169.46.116
-      skip-cert-verify: true
-      type: socks5
-      username: Og%3D%3D
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_2|1.3MB/s"
-      network: raw
       port: "443"
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
         short-id: ""
-      server: bridge2.kolhoz.fuck-rkn.xyz
+      server: 31.77.61.89
       servername: jobinvest.ru
       tls: true
       type: vless
       udp: true
       uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
       xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_3|741KB/s"
+    - name: "\U0001F1EF\U0001F1F5JP_2|3.1MB/s"
       port: 443
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      server: 31.77.61.214
-      servername: jobinvest.ru
-      skip-cert-verify: true
+      server: fan.571589.xyz
+      sni: fan.571589.xyz
       tls: true
-      type: vless
-      udp: true
-      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+      type: http
+    - name: "\U0001F1F7\U0001F1FARU_1|1.8MB/s"
+      port: 3139
+      server: 94.19.93.170
+      type: http
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_4|539KB/s"
+      name: "\U0001F1F5\U0001F1F1PL_2|1.8MB/s"
       port: 443
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -228,3 +204,30 @@ proxies:
       type: vless
       udp: true
       uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_3|1.1MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 31.77.61.214
+      servername: jobinvest.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E6\U0001F1EAAE_1|657KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+      port: "443"
+      server: news.gazette.help
+      skip-cert-verify: false
+      sni: news.gazette.help
+      type: hysteria2
+      up: ""
