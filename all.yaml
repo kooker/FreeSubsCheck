@@ -1,124 +1,55 @@
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7FR_1|812KB/s"
-      network: ws
-      password: humanity
-      port: "443"
-      server: 216.24.57.7
-      skip-cert-verify: false
-      sni: www.ignitelimit.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /assignment
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_2|861KB/s"
-      password: 7eadc6dbe2ae
-      port: "65443"
-      server: 95.170.13.47
-      type: ss
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40054
-      server: jp4.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|759KB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK_1|794KB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40011
-      server: hk1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|2.6MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40061
-      server: de1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|3.3MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40042
-      server: kr2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40023
-      server: us3.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|3.9MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_3|3.1MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40021
-      server: us1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F8\U0001F1E8SC_1|2.6MB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40062
-      server: de2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|567KB/s"
-      password: 3c2bb92c-267e-483d-92f1-c3de76d4e6ac
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
     - client-fingerprint: chrome
       encryption: none
-      grpc-opts:
-        grpc-service-name: movie
-      name: "\U0001F1ED\U0001F1F0HK_2|7.5MB/s"
-      network: grpc
-      port: "10136"
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_1|947KB/s"
+      network: tcp
+      port: "443"
       reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk6-r.link-t7.com
-      servername: s0.awsstatic.com
+        public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+        short-id: a9c4f17e3b62d8
+      server: 176.109.88.216
+      servername: api-maps.yandex.ru
       tls: true
       type: vless
       udp: true
-      uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+      uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: update
-      name: "\U0001F1ED\U0001F1F0HK_3|722KB/s"
-      network: grpc
-      port: 10127
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1F0DK_1|582KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
+      port: "24444"
+      server: give.internet-card.sbs
+      skip-cert-verify: false
+      sni: bel7bel.internet-card.sbs
+      type: hysteria2
+      up: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_1|922KB/s"
+      port: 443
       reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk2-r.link-t7.com
-      servername: s0.awsstatic.com
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 31.77.61.214
+      servername: jobinvest.ru
       skip-cert-verify: true
       tls: true
       type: vless
-      uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+      udp: true
+      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_2|2.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 31.77.61.89
+      servername: jobinvest.ru
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
