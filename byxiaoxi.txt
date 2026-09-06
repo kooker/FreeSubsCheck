@@ -1,6 +1,11 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@95.170.13.47:65443#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.6MB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C830KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.61:8080#%F0%9F%87%B3%F0%9F%87%B1NL_1%7C1.6MB%2Fs
-vless://ef5f6054-61c7-4ce8-a35b-dbcec449f242@bridge2.kolhoz.fuck-rkn.xyz:443?security=reality&type=tcp&allowInsecure=1&sni=jobinvest.ru&fp=firefox&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.9MB%2Fs
-vless://8be461cb-a0df-47cf-bc0d-4d9e6a22fa74@ccs2g.pai50288.uk:443?security=tls&type=ws&path=%2Fpai50288&packetEncoding=xudp&alpn=h2%2Chttp%2F1.1%2Ch3&sni=ccs2g.pai50288.uk&fp=chrome&encryption=none#%F0%9F%87%BA%F0%9F%87%B8US_2%7C720KB%2Fs
-hysteria2://niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY@give.internet-card.sbs:24444?sni=bel7bel.internet-card.sbs#%F0%9F%87%A9%F0%9F%87%B0DK_1%7C1.7MB%2Fs
+trojan://humanity@130.250.137.171:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C621KB%2Fs
+trojan://humanity@render.com:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C562KB%2Fs
+trojan://humanity@216.24.57.7:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&alpn=http%2F1.1&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_3%7C628KB%2Fs
+trojan://humanity@165.215.250.14:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_4%7C584KB%2Fs
+trojan://humanity@216.24.57.1:443?sni=www.ignitelimit.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_5%7C525KB%2Fs
+vless://DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3@hk2-r.link-t7.com:10127?security=reality&type=grpc&mode=gun&serviceName=update&packetEncoding=xudp&sni=s0.awsstatic.com&fp=chrome&sid=686c0ef0&pbk=wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C1.8MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@95.170.13.47:65443#%F0%9F%87%AB%F0%9F%87%B7FR_6%7C1.1MB%2Fs
+hysteria2://9c5be37406b6584005b8de0ee3734dd9@140.238.43.0:50160?insecure=1&sni=www.bing.com#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C1.9MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.214.208.36:443#%F0%9F%87%AE%F0%9F%87%AAIE_1%7C2.1MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.130.157.255:443#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C1.3MB%2Fs
+vless://ef5f6054-61c7-4ce8-a35b-dbcec449f242@31.77.61.214:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=jobinvest.ru&fp=firefox&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.4MB%2Fs
