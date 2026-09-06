@@ -1,35 +1,210 @@
 proxies:
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_4|1.6MB/s"
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_6|1.4MB/s"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_7|1.5MB/s"
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|740KB/s"
+      port: 9002
+      server: 193.176.84.30
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|779KB/s"
+      port: 9002
+      server: 193.176.84.17
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
+      port: 9002
+      server: 193.176.84.24
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|836KB/s"
+      port: 9002
+      server: 193.176.84.25
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|2.1MB/s"
+      port: 9002
+      server: 193.176.84.20
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_6|896KB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_7|1.7MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.23
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_8|2.1MB/s"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_9|1.5MB/s"
+      port: 9002
+      server: 193.176.84.32
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_10|1.9MB/s"
+      port: 9002
+      server: 193.176.84.39
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_1|947KB/s"
-      network: tcp
-      port: "443"
+      grpc-opts:
+        grpc-service-name: movie
+      name: "\U0001F1ED\U0001F1F0HK_1|8.5MB/s"
+      network: grpc
+      port: "10136"
       reality-opts:
-        public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
-        short-id: a9c4f17e3b62d8
-      server: 176.109.88.216
-      servername: api-maps.yandex.ru
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: hk6-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+      uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1F0DK_1|582KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
-      port: "24444"
-      server: give.internet-card.sbs
-      skip-cert-verify: false
-      sni: bel7bel.internet-card.sbs
-      type: hysteria2
-      up: ""
+    - name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
+      port: 443
+      server: 212.102.63.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - cipher: rc4-md5
+      name: ❓Other_1|3.3MB/s
+      obfs: tls1.2_ticket_auth
+      obfs-param: 62936143.douyin.com
+      password: di15PV
+      port: 2202
+      protocol: auth_aes128_md5
+      protocol-param: 36143:GWgpVE
+      server: api.meituan88.com
+      type: ssr
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_1|922KB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: bridge2.kolhoz.fuck-rkn.xyz
+      servername: jobinvest.ru
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+    - name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s"
+      port: 3139
+      server: 94.19.93.170
+      type: http
+    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      port: 443
+      server: 149.36.50.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s"
+      password: Og%3D%3D
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: Og%3D%3D
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_2|1.3MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: bridge2.kolhoz.fuck-rkn.xyz
+      servername: jobinvest.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1PL_3|741KB/s"
       port: 443
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -42,7 +217,7 @@ proxies:
       uuid: ef5f6054-61c7-4ce8-a35b-dbcec449f242
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1PL_2|2.1MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_4|539KB/s"
       port: 443
       reality-opts:
         public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
