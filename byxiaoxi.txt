@@ -1,5 +1,7 @@
-trojan://BxceQaOe@13.215.162.132:51391?sni=t.me%252Fripaojiedian&allowInsecure=1&type=tcp#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C2.1MB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C520KB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.138:65443#%F0%9F%87%B0%F0%9F%87%B7KR_1%7C910KB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C1.7MB%2Fs
-vless://130add98-f232-406d-8bab-a6b61293db07@172.67.65.12:443?security=tls&type=ws&path=%2Fproxyip%3DProxyIP.JP.CMLiussss.net&host=magic2vpn.cc.cd&packetEncoding=xudp&sni=magic2vpn.cc.cd&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_1%7C1.2MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@95.170.13.47:65443#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.5MB%2Fs
+trojan://BxceQaOe@13.215.162.132:51391?sni=t.me%252Fripaojiedian&allowInsecure=1&type=tcp#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C1.3MB%2Fs
+ss://2022-blake3-chacha20-poly1305:2nZcqSx7G%2Bz7ucbdCBvg2DJfgNv%2B3tz44R4t1a2fx5o%3D@92.5.235.28:45819#%F0%9F%87%B3%F0%9F%87%B1NL_3%7C947KB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C538KB%2Fs
+vless://913ee679-bc44-46cf-96d7-4a80caecdc41@82.40.62.11:25418?security=reality&type=tcp&packetEncoding=xudp&sni=amp-api-edge.apps.apple.com&fp=chrome&pbk=39JaPRRNVgIevtmeJsQhumvIVLMq11FHQoR5oseirFg&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C1.5MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@brightharbor.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&flow=xtls-rprx-vision&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_3%7C866KB%2Fs
+vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&type=tcp&packetEncoding=xudp&sni=deepl.com&fp=chrome&flow=xtls-rprx-vision&sid=beb4&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&encryption=none#%F0%9F%87%AC%F0%9F%87%B7GR_1%7C909KB%2Fs
