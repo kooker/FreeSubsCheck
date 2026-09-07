@@ -1,10 +1,3 @@
-socks://VDJjbE0wUWxNMFE2Og%3D%3D@121.169.46.116:1090#🇰🇷KR_1|2.7MB/s
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@admin.wwwinternetvideo.click:443?sni=admin.wwwinternetvideo.click#%F0%9F%87%A7%F0%9F%87%B7BR_1%7C2.6MB%2Fs
-hysteria2://YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc@45.192.12.93:443?sni=admin.wwwinternetvideo.click#%F0%9F%87%A7%F0%9F%87%B7BR_2%7C2.4MB%2Fs
-socks://dGVzdDEyMzp0ZXN0MTIz@185.145.99.41:1080#🇺🇸US_1|987KB/s
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.214.208.36:443#%F0%9F%87%AE%F0%9F%87%AAIE_1%7C2.0MB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.138:65443#%F0%9F%87%B0%F0%9F%87%B7KR_2%7C1.5MB%2Fs
-vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.204.201:443?security=tls&type=ws&path=%2FJRr6VGcSLFc034DC6sDbwyWJLbB&host=7-m16.CHiaN-MAi-8.KDNS.Fr&packetEncoding=xudp&sni=7-m16.CHiaN-MAi-8.KDNS.Fr&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_2%7C1.1MB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.26:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C2.1MB%2Fs
-vless://56cba26b-efcb-40d0-838a-d66df2dd516f@31.58.76.27:2053?security=tls&type=ws&path=%2Fproxyip%3Dtw.william.us.ci%3Fuuid%3D82bc2875-3fee-49d1-ab29-e108a7b1e5f9&host=sni.868001.xyz&packetEncoding=xudp&sni=sni.868001.xyz&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C2.1MB%2Fs
-vless://56cba26b-efcb-40d0-838a-d66df2dd516f@31.59.121.156:2053?security=tls&type=ws&path=%2Fproxyip%3Dtw.william.us.ci%3Fuuid%3D82bc2875-3fee-49d1-ab29-e108a7b1e5f9&host=sni.868001.xyz&packetEncoding=xudp&sni=sni.868001.xyz&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7FR_2%7C2.2MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@95.170.13.47:65443#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C714KB%2Fs
+vless://8b54a46a-e66b-48cc-bf5a-88f0855a3598@plll.banibus.ir:8118?security=reality&type=tcp&packetEncoding=xudp&sni=play.googleapis.com&fp=chrome&pbk=LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM&encryption=none#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.2MB%2Fs
