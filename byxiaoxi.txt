@@ -1,7 +1,6 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@95.170.13.47:65443#%F0%9F%87%AB%F0%9F%87%B7FR_1%7C1.5MB%2Fs
-trojan://BxceQaOe@13.215.162.132:51391?sni=t.me%252Fripaojiedian&allowInsecure=1&type=tcp#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C1.3MB%2Fs
-ss://2022-blake3-chacha20-poly1305:2nZcqSx7G%2Bz7ucbdCBvg2DJfgNv%2B3tz44R4t1a2fx5o%3D@92.5.235.28:45819#%F0%9F%87%B3%F0%9F%87%B1NL_3%7C947KB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C538KB%2Fs
-vless://913ee679-bc44-46cf-96d7-4a80caecdc41@82.40.62.11:25418?security=reality&type=tcp&packetEncoding=xudp&sni=amp-api-edge.apps.apple.com&fp=chrome&pbk=39JaPRRNVgIevtmeJsQhumvIVLMq11FHQoR5oseirFg&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C1.5MB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@brightharbor.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&flow=xtls-rprx-vision&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_3%7C866KB%2Fs
-vless://8ac637bf-554e-4902-94d7-baf01780a83c@94.241.174.157:40443?security=reality&type=tcp&packetEncoding=xudp&sni=deepl.com&fp=chrome&flow=xtls-rprx-vision&sid=beb4&pbk=mM33xyzf1GPaU2CQXAGYoGkTuYzEZRYT6S-NngyqfHQ&encryption=none#%F0%9F%87%AC%F0%9F%87%B7GR_1%7C909KB%2Fs
+socks://VDJjbE0wUWxNMFE2Og%3D%3D@121.169.46.116:1090#🇰🇷KR_1|1.0MB/s
+hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?sni=news.gazette.help#%F0%9F%87%A6%F0%9F%87%AAAE_1%7C533KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.214.208.36:443#%F0%9F%87%AE%F0%9F%87%AAIE_1%7C1.6MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.232:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C651KB%2Fs
+vless://92089155-6602-4122-86d4-fe6de20e8c4d@31.59.150.174:9443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=hotcoals.aeternavpn.space&fp=firefox&flow=xtls-rprx-vision&sid=a1b2c3d4&pbk=RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI#%F0%9F%87%B2%F0%9F%87%A9MD_1%7C1.1MB%2Fs
+vless://ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba@172.67.169.99:443?security=tls&type=ws&path=%2FJRr6VGcSLFc034DC6sDbwyWJLbB&host=5-m16.PHukeT2035.KDnS.FR&packetEncoding=xudp&sni=5-m16.PHukeT2035.KDnS.FR&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8US_2%7C730KB%2Fs
