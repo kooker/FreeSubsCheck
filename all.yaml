@@ -1,17 +1,11 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 95.170.13.47
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|840KB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|6.2MB/s"
       password: 7eadc6dbe2ae
       port: 65443
       server: 121.46.230.137
       type: ss
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.3MB/s"
+    - name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s"
       password: None
       port: 3118
       server: 154.61.56.215
@@ -19,40 +13,88 @@ proxies:
       tls: false
       type: http
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|1.3MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_1|3.5MB/s"
       network: tcp
-      port: "443"
+      port: 443
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.62
-      servername: localhost
+        public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
+        short-id: c429ccdb
+      server: in.passby.cc
+      servername: aws.amazon.com
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
+      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
     - client-fingerprint: chrome
-      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|796KB/s"
-      network: raw
-      port: "443"
+      name: "\U0001F1E7\U0001F1F7BR_1|3.2MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: Jf1JDvbbj3n5ilfVURXcOXEmDvrhi5kSnXK1UIuWdAA
+        short-id: 0a6b317a
+      server: us.passby.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F3IN_2|3.5MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
+        short-id: 8b95d689
+      server: in.passby.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|4.4MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: 1MLuAQrkCHrQz_N8iyRmktZkW6uWqX7LWeyKCBVQ1hA
+        short-id: fe98677e
+      server: hk3.passby.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_2|2.3MB/s"
+      port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: brightharbor.download
+      server: 130.12.102.125
       servername: localhost
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_3|2.3MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: freshjuniper.download
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_4|1.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_4|3.2MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -65,107 +107,3 @@ proxies:
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|651KB/s"
-      network: tcp
-      port: "11437"
-      reality-opts:
-        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-        short-id: 7de83d0e31eb75ef
-      server: fi.horlutr.ir
-      servername: amp-api-edge.apps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_5|879KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.125
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|2.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA
-        short-id: fb442438e2223836
-      server: 5.157.10.146
-      servername: sweb1.loozerp.wiki
-      tls: true
-      type: vless
-      udp: true
-      uuid: 732255eb-8ce9-4cd5-8bdc-376bd3fa0b11
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_6|2.6MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.26
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_7|542KB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: brightharbor.download
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.1MB/s"
-      port: 9002
-      server: 193.176.84.40
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_8|655KB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.26
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_9|2.0MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.125
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
