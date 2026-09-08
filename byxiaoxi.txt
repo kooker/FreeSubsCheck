@@ -1,3 +1,10 @@
+ssr://YXBpLm1laXR1YW44OC5jb206NjE3MTQ6YXV0aF9hZXMxMjhfbWQ1OmNoYWNoYTIwLWlldGY6dGxzMS4yX3RpY2tldF9hdXRoOlpHa3hOVkJXLz9yZW1hcmtzPThKK0h1ZkNmaDd4VVYxOHhmREl1T0UxQ0wzTT0mb2Jmc3BhcmFtPU16Tm1NekV6TnpJekxtUnZkWGxwYmk1amIyMD0mcHJvdG9jb2xwYXJhbT1NekV6TnpJek9tUkRkM0p1YVE9PQ==
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.232:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C1.5MB%2Fs
 vless://8b54a46a-e66b-48cc-bf5a-88f0855a3598@plll.banibus.ir:8118?security=reality&type=tcp&packetEncoding=xudp&sni=play.googleapis.com&fp=chrome&pbk=LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM&encryption=none#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.1MB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C583KB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=freshjuniper.download&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C2.9MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.233:65443#%F0%9F%87%BA%F0%9F%87%B8US_3%7C1.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%F0%9F%87%AF%F0%9F%87%B5JP_1%7C2.9MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.26:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C2.3MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.125:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C2.7MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_3%7C2.3MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@freshjuniper.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_4%7C3.5MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@brightharbor.download:443?security=reality&type=tcp&packetEncoding=xudp&sni=localhost&fp=chrome&flow=xtls-rprx-vision&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_5%7C1.6MB%2Fs
