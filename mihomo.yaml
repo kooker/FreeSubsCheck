@@ -1,78 +1,104 @@
 proxies:
+  - name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s"
+    password: dCwrni
+    port: 7008
+    server: api.meituan88.com
+    skip-cert-verify: true
+    sni: globalnetworktraffic.com
+    type: anytls
+    udp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_1|840KB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|2.1MB/s"
+    network: tcp
+    port: 8118
+    reality-opts:
+      public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
+      short-id: ''
+    server: plll.banibus.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
+    xudp: true
+    servername: play.googleapis.com
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
+    port: 443
+    server: 212.102.63.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3IN_1|3.6MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
+      short-id: "8b95d689"
+    server: in.passby.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 70484e43-6be2-495f-b57b-c46588385fee
+    servername: aws.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3IN_2|3.5MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
+      short-id: "c429ccdb"
+    server: in.passby.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 70484e43-6be2-495f-b57b-c46588385fee
+    servername: aws.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3IN_3|3.6MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
+      short-id: "c429ccdb"
+    server: in.passby.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: fc83457d-627f-4610-b761-a71e5e35d4ad
+    servername: aws.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F3IN_4|716KB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
+      short-id: "8b95d689"
+    server: in.passby.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: fc83457d-627f-4610-b761-a71e5e35d4ad
+    servername: aws.amazon.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_2|546KB/s"
     network: tcp
     port: 443
     reality-opts:
       public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
       short-id: ''
-    server: 130.12.102.26
+    server: freshjuniper.download
     tls: true
     type: vless
     udp: true
     uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     xudp: true
     servername: localhost
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_2|568KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      short-id: ''
-    server: 130.12.102.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    xudp: true
-    servername: localhost
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_3|975KB/s"
-    port: 443
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    server: 130.12.102.26
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    network: tcp
-    servername: localhost
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_4|806KB/s"
-    port: 443
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    server: 130.12.102.125
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    network: tcp
-    servername: localhost
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|817KB/s"
-    network: ws
-    port: 443
-    server: 172.67.190.103
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-    ws-opts:
-      headers:
-        Host: 6-m16.chIAnG-rAI2036.kDNS.FR
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    xudp: true
-    servername: 6-m16.chIAnG-rAI2036.kDNS.FR
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
