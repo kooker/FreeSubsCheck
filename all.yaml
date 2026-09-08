@@ -1,75 +1,48 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|6.2MB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.137
-      type: ss
-    - name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s"
-      password: None
-      port: 3118
-      server: 154.61.56.215
-      skip-cert-verify: false
-      tls: false
-      type: http
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F3IN_1|3.5MB/s"
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_1|840KB/s"
       network: tcp
+      port: "443"
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: 130.12.102.26
+      servername: localhost
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_2|568KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: 130.12.102.125
+      servername: localhost
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_3|975KB/s"
       port: 443
       reality-opts:
-        public-key: 8R-7bpbOWYQ5V1X1BpxgAJtSjTOhi-akfZ_nEevnRV0
-        short-id: c429ccdb
-      server: in.passby.cc
-      servername: aws.amazon.com
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.26
+      servername: localhost
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E7\U0001F1F7BR_1|3.2MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: Jf1JDvbbj3n5ilfVURXcOXEmDvrhi5kSnXK1UIuWdAA
-        short-id: 0a6b317a
-      server: us.passby.cc
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F3IN_2|3.5MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: MR3--Lgrp1O67QJBp3okuRIBKJih--0DZ3RHnhDqvGM
-        short-id: 8b95d689
-      server: in.passby.cc
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_1|4.4MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: 1MLuAQrkCHrQz_N8iyRmktZkW6uWqX7LWeyKCBVQ1hA
-        short-id: fe98677e
-      server: hk3.passby.cc
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f1a854e6-84bc-41a1-be51-6d4c41214bda
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_2|2.3MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_4|806KB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -81,29 +54,18 @@ proxies:
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_3|2.3MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_4|3.2MB/s"
-      network: tcp
+      name: "\U0001F1FA\U0001F1F8US_1|817KB/s"
+      network: ws
       port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: freshjuniper.download
-      servername: localhost
+      server: 172.67.190.103
+      servername: 6-m16.chIAnG-rAI2036.kDNS.FR
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
       xudp: true
