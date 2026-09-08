@@ -1,5 +1,3 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.233:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C622KB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.138:65443#%F0%9F%87%B0%F0%9F%87%B7KR_1%7C802KB%2Fs
-vless://81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20@91.233.8.141:443?security=reality&type=tcp&packetEncoding=xudp&sni=tnt-cloud.ru&fp=chrome&flow=xtls-rprx-vision&sid=6e5f2a3b&pbk=k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw&encryption=none#%F0%9F%87%A9%F0%9F%87%AADE_1%7C1.5MB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.26:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_2%7C1.2MB%2Fs
-vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.125:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_3%7C1.8MB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.232:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C663KB%2Fs
+ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%E2%9D%93Other_1%7C1.1MB%2Fs
+anytls://dCwrni@api.meituan88.com:7008?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=globalnetworktraffic.com&insecure=1&udp=1&username=dCwrni#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C3.3MB%2Fs
