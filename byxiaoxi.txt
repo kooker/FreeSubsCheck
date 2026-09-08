@@ -1,3 +1,2 @@
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.232:65443#%F0%9F%87%BA%F0%9F%87%B8US_1%7C663KB%2Fs
-ss://YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl@121.46.230.137:65443#%E2%9D%93Other_1%7C1.1MB%2Fs
-anytls://dCwrni@api.meituan88.com:7008?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=globalnetworktraffic.com&insecure=1&udp=1&username=dCwrni#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C3.3MB%2Fs
+vless://8b54a46a-e66b-48cc-bf5a-88f0855a3598@plll.banibus.ir:8118?security=reality&type=tcp&packetEncoding=xudp&sni=play.googleapis.com&fp=chrome&pbk=LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM&encryption=none#%F0%9F%87%B5%F0%9F%87%B1PL_1%7C1.5MB%2Fs
+vless://6429d27e-a7d4-4e04-ae57-e88243fbbfe3@130.12.102.125:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=localhost&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C1009KB%2Fs
