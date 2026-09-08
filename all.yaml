@@ -1,5 +1,23 @@
 proxies:
-    - name: "\U0001F1F9\U0001F1FCTW_1|4.2MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 95.170.13.47
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1|4.2MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.232
+      type: ss
+    - name: "\U0001F1F9\U0001F1FCTW_1|1.1MB/s"
       password: exaxgqkKkd0TAMrCxeonWg==
       port: 1443
       server: twmoon1-cdn-route.couldflare-cdn.com
@@ -7,49 +25,87 @@ proxies:
       tls: true
       type: http
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_1|8.4MB/s"
-      password: dCwrni
-      port: "7008"
+    - cipher: chacha20-ietf
+      name: "\U0001F1F9\U0001F1FCTW_2|3.9MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: 33f313723.douyin.com
+      password: di15PV
+      port: 61714
+      protocol: auth_aes128_md5
+      protocol-param: 313723:dCwrni
       server: api.meituan88.com
-      skip-cert-verify: true
-      sni: globalnetworktraffic.com
-      type: anytls
-      udp: true
-      username: dCwrni
+      type: ssr
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1|3.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|824KB/s"
       network: tcp
-      port: "443"
+      port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: freshjuniper.download
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|638KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
       server: 130.12.102.125
       servername: localhost
       tls: true
       type: vless
-      udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.203
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.200
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+    - name: ❓Other_1|2.2MB/s
+      password: None
+      port: 443
+      server: 149.36.50.157
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_3|1.8MB/s"
+      name: "\U0001F1EB\U0001F1EEFI_1|1.7MB/s"
+      network: tcp
+      port: 11437
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: Fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s
+        short-id: 1bc2c1ef1c
+      server: 212.192.13.233
+      servername: www.cathaypacific.com
+      tls: true
+      type: vless
+      uuid: d742752c-4231-4695-801e-f06d77f0f277
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_2|3.0MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -63,7 +119,147 @@ proxies:
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_4|3.4MB/s"
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_2|1.4MB/s"
+      network: tcp
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: freshjuniper.download
+      servername: freshjuniper.download
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_3|2.0MB/s"
+      network: raw
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - name: ❓Other_2|3.1MB/s
+      password: 40e400c9-0ab0-4379-947a-bb6dd834b3ed
+      port: 40021
+      server: us1.catzl.top
+      type: anytls
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_4|2.1MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: -ZNTf_7vZDrxs6ZAJZt_fPjSLCdhev2EkljIkhx6hTo
+        short-id: f85875ed
+      server: us3.passby.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8cb6a713-e85c-49e7-a975-492752ed0bf1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_2|8.3MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: 1MLuAQrkCHrQz_N8iyRmktZkW6uWqX7LWeyKCBVQ1hA
+        short-id: fe98677e
+      server: hk3.passby.cc
+      servername: aws.amazon.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8cb6a713-e85c-49e7-a975-492752ed0bf1
+    - name: "\U0001F1E7\U0001F1EABE_1|1.1MB/s"
+      password: None
+      port: 443
+      server: 146.70.176.242
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+      password: None
+      port: "9002"
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
+      password: "null"
+      port: "443"
+      server: 185.140.209.235
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_5|2.5MB/s"
+      network: ws
+      port: "2096"
+      server: 82.47.169.33
+      type: vless
+      udp: true
+      uuid: e666041f-8a25-4f05-812d-a5984e748497
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_6|633KB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.26
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_7|1.2MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.125
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_8|1.6MB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -74,3 +270,67 @@ proxies:
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s"
+      network: ws
+      port: "443"
+      server: 172.67.190.103
+      servername: 6-m16.chIAnG-rAI2036.kDNS.FR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_5|2.6MB/s"
+      network: ws
+      port: "443"
+      server: 104.21.36.81
+      servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s"
+      network: ws
+      port: "443"
+      server: 104.21.4.201
+      servername: m16-3.cHiANG-maI2034.kDns.Fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: m16-3.cHiANG-maI2034.kDns.Fr
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s"
+      network: ws
+      port: "443"
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
