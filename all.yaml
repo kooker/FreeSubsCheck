@@ -1,20 +1,12 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|538KB/s"
+      name: "\U0001F1EB\U0001F1F7FR_1|979KB/s"
       password: 7eadc6dbe2ae
       port: 65443
-      server: 121.46.230.233
+      server: 95.170.13.47
       type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|813KB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -27,37 +19,7 @@ proxies:
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: freshjuniper.download
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_3|1.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.26
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1|1.4MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
       network: tcp
       port: 8118
       reality-opts:
@@ -72,13 +34,13 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_4|1.5MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_1|629KB/s"
       network: tcp
       port: "443"
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
         short-id: ""
-      server: 130.12.102.135
+      server: freshjuniper.download
       servername: localhost
       tls: true
       type: vless
@@ -87,100 +49,23 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_1|2.1MB/s"
-      network: tcp
-      port: 11437
-      reality-opts:
-        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-        short-id: 7de83d0e31eb75ef
-      server: Fi.horlutr.ir
-      servername: amp-api-edge.apps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_2|2.0MB/s"
-      network: tcp
-      port: "11437"
-      reality-opts:
-        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-        short-id: 7de83d0e31eb75ef
-      server: fi.horlutr.ir
-      servername: amp-api-edge.apps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EASE_1|938KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: fn0RLpDpJr5BJvYeX8W7OgGYoW4nARJ6jZg-sWIAozA
-        short-id: ""
-      server: 213.21.250.193
-      servername: api.sream-rutube.shop
-      tls: true
-      type: vless
-      udp: true
-      uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5|1.4MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_2|913KB/s"
       network: tcp
       port: "443"
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
         short-id: ""
-      server: brightharbor.download
+      server: 130.12.102.26
       servername: localhost
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
-        short-id: 4477382ff6d3d41c
-      server: 51.81.203.63
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
-        short-id: 4477382ff6d3d41c
-      server: 51.81.203.63
-      servername: www.icloud.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
       xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F4NO_1|1.7MB/s"
+      name: "\U0001F1F3\U0001F1F4NO_1|2.3MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -194,40 +79,9 @@ proxies:
       uuid: 3d83043a-650c-44c4-bbf6-5d760e4ec58f
       xudp: true
     - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: ❓Other_1|592KB/s
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-        short-id: fd55b698ee8c3629
-      server: 5.152.223.115
-      servername: strapi.io
-      tls: true
-      type: vless
-      udp: true
-      uuid: 47da4209-89fb-4102-ad51-5b2d8b32e975
-      xudp: true
-    - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F4NO_2|2.4MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-        short-id: fd55b698ee8c3629
-      server: 151.242.168.186
-      servername: kibi-institut.de
-      tls: true
-      type: vless
-      udp: true
-      uuid: d6e76e7c-14ff-48a3-879c-81a257788059
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F4NO_3|1.2MB/s"
+      name: "\U0001F1F3\U0001F1F4NO_2|2.3MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -243,7 +97,7 @@ proxies:
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F4NO_4|1.2MB/s"
+      name: "\U0001F1F3\U0001F1F4NO_3|710KB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -256,155 +110,21 @@ proxies:
       udp: true
       uuid: 7eaa5a61-43f6-4392-8482-4d7411cc3a0d
       xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_6|1.3MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: freshjuniper.download
-      servername: freshjuniper.download
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_7|1.4MB/s"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: brightharbor.download
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EB\U0001F1EEFI_3|1.3MB/s"
-      network: raw
-      port: "11437"
-      reality-opts:
-        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
-        short-id: 7de83d0e31eb75ef
-      server: fi.horlutr.ir
-      servername: amp-api-edge.apps.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s"
-      password: 1779d63f-bb0c-4073-8d26-36a21221632b
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|3.6MB/s"
-      password: 1779d63f-bb0c-4073-8d26-36a21221632b
-      port: 40042
-      server: kr2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|5.4MB/s"
-      password: 1779d63f-bb0c-4073-8d26-36a21221632b
+    - name: "\U0001F1EF\U0001F1F5JP_3|3.0MB/s"
+      password: 79843bd8-445a-4704-a216-8179fed3f0a8
       port: 40055
       server: jp5.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|3.1MB/s"
-      password: 1779d63f-bb0c-4073-8d26-36a21221632b
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s"
-      password: 1779d63f-bb0c-4073-8d26-36a21221632b
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F3\U0001F1F5NP_1|1.3MB/s"
-      password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-      port: 10044
-      server: z-sg1.6send.com
+    - name: "\U0001F1ED\U0001F1F0HK_1|8.4MB/s"
+      password: ""
+      port: "1080"
+      server: 47.76.175.249
       skip-cert-verify: true
-      sni: www.cloudflare.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1F1\U0001F1E6LA_1|2.0MB/s"
-      password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-      port: 10045
-      server: z-sg1.6send.com
-      skip-cert-verify: true
-      sni: www.cloudflare.com
-      type: trojan
-      udp: true
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s"
-      network: xhttp
-      port: "2096"
-      server: 193.227.99.253
-      servername: df.monister.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: ef04fed2-399b-4533-b423-f92c8cb66234
-      xhttp-opts:
-        host: df.monister.ir
-        mode: auto
-        path: /
-      xudp: true
-    - name: "\U0001F1E7\U0001F1EABE_1|1.2MB/s"
-      password: None
-      port: 443
-      server: 146.70.176.242
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
-    - name: "\U0001F1F7\U0001F1F4RO_1|2.0MB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_2|2.0MB/s"
-      port: 9002
-      server: 193.176.84.19
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_3|2.1MB/s"
-      port: 9002
-      server: 193.176.84.34
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_4|2.0MB/s"
-      port: 9002
-      server: 193.176.84.22
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
+      type: socks5
+      username: ""
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_8|1.5MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2|785KB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -416,19 +136,73 @@ proxies:
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_9|1.5MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_3|844KB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.125
-      servername: localhost
+      server: freshjuniper.download
+      servername: freshjuniper.download
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_10|1.4MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_2|1.7MB/s"
+      port: 8118
+      reality-opts:
+        public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
+      server: plll.banibus.ir
+      servername: play.googleapis.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8b54a46a-e66b-48cc-bf5a-88f0855a3598
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F4NO_4|2.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
+      server: 151.242.168.186
+      servername: kibi-institut.de
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: d6e76e7c-14ff-48a3-879c-81a257788059
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F4NO_5|2.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
+      server: 151.242.168.186
+      servername: kibi-institut.de
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 258ab003-733b-4d79-b0b0-c41044ba2e86
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F4NO_6|1.9MB/s"
+      port: 443
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
+      server: 151.242.168.186
+      servername: kibi-institut.de
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7eaa5a61-43f6-4392-8482-4d7411cc3a0d
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_4|1.6MB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -440,78 +214,29 @@ proxies:
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
-      network: ws
-      port: "443"
-      server: 104.21.1.174
-      servername: kkkk.11ww.kdns.fr
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-      ws-opts:
-        headers:
-            Host: kkkk.11ww.kdns.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
-        path: /BzuntJ8qZN0TRKbC8TveMxJ0
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s"
-      network: ws
-      port: "443"
-      server: 172.67.206.119
-      servername: 8-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-      ws-opts:
-        headers:
-            Host: 8-m9.fa481bc3-db71-45d0-b251-3cd830fd1b94.kdns.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
-        path: /BzuntJ8qZN0TRKbC8TveMxJ0
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_7|790KB/s"
-      network: ws
-      port: "443"
-      server: 104.21.52.2
-      servername: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-      ws-opts:
-        headers:
-            Host: 9-m9.5a0bf842-dd8f-4ce0-8894-e4081516948b.kdns.fr
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /BzuntJ8qZN0TRKbC8TveMxJ0
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_8|677KB/s"
-      network: ws
-      port: "8880"
-      server: skk.moe
-      type: vless
-      udp: true
-      uuid: 0de87762-7d50-49e7-a5ae-7ac85760e083
-      ws-opts:
-        headers:
-            Host: delicate-fog-bbae.205-635.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-        path: /pyip=ProxyIP.US.CMLiussss.net
-      xudp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
-      network: tcp
-      port: "443"
+      name: "\U0001F1EC\U0001F1E7GB_5|1.6MB/s"
+      port: 443
       reality-opts:
-        public-key: w0J3H-DEyHEK-Nj7bst_5sQqzcPl700ybHpqq5mFz0U
-        short-id: 12a3b7681806bc97
-      server: 144.31.215.48
-      servername: eu-central-de2.hanvpn.biz
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.125
+      servername: localhost
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: d9d0f208-d582-41d5-bb7b-742671402810
-      xudp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|973KB/s"
+      network: ws
+      port: 443
+      server: 172.67.77.77
+      servername: mianfei-73q.pages.dev
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+      ws-opts:
+        headers:
+            Host: mianfei-73q.pages.dev
+        path: /proxyip=154.3.33.43
