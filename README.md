@@ -5,7 +5,7 @@
 ![XiaoXi](https://img.shields.io/badge/XiaoXi-7-orange)
 ![kooker.jp](https://img.shields.io/badge/kooker.jp-562-purple)
 
-> **最后同步时间**：`2026-09-09 22:00:42` (北京时间)  
+> **最后同步时间**：`2026-09-09 22:08:00` (北京时间)  
 > **更新状态**：✅ 节点已成功同步并更新
 
 ### 📊 节点统计
