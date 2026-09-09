@@ -1,101 +1,184 @@
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s"
-      network: tcp
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.137
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1|1.6MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
+      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
       port: 443
+      server: gta.internet-card.sbs
+      skip-cert-verify: true
+      sni: gta.internet-card.sbs
+      tls: false
+      type: hysteria2
+    - auth: 3a702d4d1de4949005d8431220e040fb
+      name: "\U0001F1E8\U0001F1EDCH_1|2.6MB/s"
+      obfs: salamander
+      obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+      password: 3a702d4d1de4949005d8431220e040fb
+      port: 443
+      server: 152.67.75.161
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|1.5MB/s"
+      network: tcp
+      port: 11437
       reality-opts:
-        public-key: EXHC-Zeb77mF7OBJFe4PJciyi7DqY-II-J1eF4ScRVA
-        short-id: c3a982ac
-      server: 61.218.148.211
-      servername: cdn.heapanalytics.com
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: Fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
       tls: true
       type: vless
-      udp: false
-      uuid: bbbad538-910a-8972-278a-718093dc9980
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_1|579KB/s"
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_2|1.6MB/s"
       network: tcp
-      port: 443
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1FBLV_1|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
+        short-id: 5c256336e3b673fa
+      server: 195.123.213.28
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
+      xudp: true
+    - encryption: mlkem768x25519plus.native.0rtt.O0QGHQMpSF3WNptiABMMcbXEtaaCf6Ql47WE6TX4CW0
+      name: "\U0001F1EB\U0001F1F7FR_1|770KB/s"
+      network: ws
+      port: "55777"
+      server: kshskjsjskeoekheueieie.nenenet1.ir
+      type: vless
+      udp: true
+      uuid: 1ab5ef70-14af-428b-bf4b-03889e0a3131
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|769KB/s"
+      password: ""
+      port: "1080"
+      server: 5.255.103.55
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s"
+      network: tcp
+      port: "443"
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.125
+        short-id: ""
+      server: freshjuniper.download
+      servername: freshjuniper.download
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: brightharbor.download
       servername: localhost
       tls: true
       type: vless
+      udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|846KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: _IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo
-        short-id: f93c9d5127e622e4
-      server: nl.cloudtechone.org
-      servername: nl.cloudtechone.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_1|925KB/s"
-      network: tcp
-      port: "443"
+      name: "\U0001F1EB\U0001F1EEFI_3|1.3MB/s"
+      network: raw
+      port: "11437"
       reality-opts:
-        public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
-        short-id: ca41ef1263c02279
-      server: 45.74.158.180
-      servername: refersion.com
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 74a755ed-3276-4894-b010-8eea73feb267
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
       xudp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.9MB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40072
-      server: tw2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_2|557KB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40073
-      server: tw3.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|3.1MB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|5.1MB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_3|2.6MB/s"
-      password: 1ec9dfbd-4808-4cd9-80e8-52b5f81996e1
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
-      udp: true
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_2|9.5MB/s"
+      name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s"
+      network: grpc
+      port: 10047
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr2-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_3|5.2MB/s"
+      network: grpc
+      port: 10048
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr3-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_4|4.9MB/s"
       network: grpc
       port: 10049
       reality-opts:
@@ -107,17 +190,121 @@ proxies:
       type: vless
       udp: true
       uuid: D2436339-0F26-479A-8064-4D91C2B93652
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-      network: tcp
-      port: 443
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_5|4.1MB/s"
+      network: grpc
+      port: 10046
       reality-opts:
-        public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
-        short-id: 9c904d85ab262d50
-      server: 38.244.20.152
-      servername: www.apple.com
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr1-r.link-t7.com
+      servername: s0.awsstatic.com
       tls: true
       type: vless
       udp: true
-      uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+      uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_1|4.2MB/s"
+      network: grpc
+      port: 10037
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg2-r.link-t7.com
+      servername: s0.awsstatic.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: D2436339-0F26-479A-8064-4D91C2B93652
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_3|3.2MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.26
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_4|3.4MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: freshjuniper.download
+      servername: freshjuniper.download
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1EEFI_4|516KB/s"
+      port: 11437
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_5|2.9MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: freshjuniper.download
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_6|2.4MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: 130.12.102.125
+      servername: localhost
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|881KB/s"
+      network: ws
+      port: "443"
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - encryption: mlkem768x25519plus.native.0rtt.a9idZBVYTDCimov28QhjCrBXD22k87Pk9E_Jhnm6MhE
+      name: "\U0001F1FA\U0001F1F8US_3|2.9MB/s"
+      network: tcp
+      port: "48598"
+      server: 140.233.177.220
+      type: vless
+      udp: true
+      uuid: f8e76212-3cc2-44d1-859a-070f4b48e715
+      xudp: true
