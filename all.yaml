@@ -1,45 +1,65 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8US_1|675KB/s"
-      password: 7eadc6dbe2ae
-      port: 65443
-      server: 121.46.230.233
+      name: "\U0001F1EE\U0001F1EAIE_1|1.5MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.171.218.140
       skip-cert-verify: true
       type: ss
       udp: true
+    - name: "\U0001F1F5\U0001F1F9PT_1|571KB/s"
+      password: null
+      port: 443
+      server: 149.22.86.14
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_1|597KB/s"
+      name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
+      network: tcp
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
       server: 130.12.102.125
       servername: localhost
-      skip-cert-verify: true
       tls: true
       type: vless
-      udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_2|4.1MB/s"
-      port: 443
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 0mABGF57PFBZ8piB3UfUEIzH9vkCe_fnopIMp9yeYls
+        short-id: aa7f41ebbdff8c87
+      server: 189.24.110.99
+      servername: www.telekom.de
+      tls: true
+      type: vless
+      udp: true
+      uuid: fcc5fb85-09e3-48dc-a2fe-05ec50d65f7f
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_2|1.0MB/s"
+      network: tcp
+      port: "443"
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
       server: 130.12.102.26
       servername: localhost
-      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7GB_3|1.8MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.179.104.218
-      type: ss
+      xudp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
       network: ws
       port: 16632
       server: planb.mojcn.com.linuxlh.xin
@@ -53,138 +73,56 @@ proxies:
             Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
         path: /
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_4|1.3MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
+    - name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s"
+      password: d6165ac5-d284-4f45-b58a-fa9eba83a282
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EXHC-Zeb77mF7OBJFe4PJciyi7DqY-II-J1eF4ScRVA
-        short-id: c3a982ac
-      server: 61.218.148.211
-      servername: cdn.heapanalytics.com
-      tls: true
-      type: vless
-      udp: false
-      uuid: bbbad538-910a-8972-278a-718093dc9980
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|844KB/s"
       network: ws
-      port: "41834"
-      server: 157.238.208.110
+      port: "443"
+      server: 104.21.37.195
+      servername: 3-M19.fGh.cCwU.cC
+      tls: true
       type: vless
       udp: true
-      uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
+      uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
       ws-opts:
         headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /5adeccb9
+            Host: 3-m19.fGH.ccWU.cc
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /CjBjB9sn5pCvaSwScc
       xudp: true
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_5|2.6MB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
+      network: ws
+      port: "443"
+      server: 104.21.36.81
+      servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.26
-      servername: localhost
+        public-key: gj-WwJGn9OMgKeREW-gOPyl1YP88IXD5k4zunEl2-iE
+        short-id: 190378398fd796c3
+      server: 116.206.93.227
+      servername: www.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: 99ee7869-84e6-4e07-a7d2-1f56acd3a295
       xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|770KB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: brightharbor.download
-      servername: brightharbor.download
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_6|3.2MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
-      port: 443
-      reality-opts:
-        public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
-        short-id: ca41ef1263c02279
-      server: 45.74.158.180
-      servername: refersion.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_7|3.2MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: freshjuniper.download
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|542KB/s"
-      network: ws
-      port: "443"
-      server: 199.232.78.160
-      servername: ssl.fastly.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: XpnTeam-9
-      ws-opts:
-        headers:
-            Host: Appxdn.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /
-      xudp: true
-    - auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      port: 8443
-      server: 46.229.243.145
-      skip-cert-verify: true
-      sni: grape-turbo-fr.roxa.org
-      type: hysteria2
