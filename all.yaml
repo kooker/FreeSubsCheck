@@ -1,189 +1,262 @@
 proxies:
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|810KB/s"
       network: tcp
-      port: "443"
+      port: 443
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 130.12.102.125
-      servername: localhost
+        public-key: 3L7i89N5sfDRSYIB4bkzv00xrxsPVonxW0gl_bRjpSA
+        short-id: 637b170c
+      server: 64.90.29.53
+      servername: cdn.usefathom.com
       tls: true
       type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|3.2MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: freshjuniper.download
-      servername: freshjuniper.download
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_1|551KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-      port: "8443"
-      server: 205.237.109.165
-      skip-cert-verify: true
-      sni: hopp-netherland-new.dynuddns.net
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F3\U0001F1F1NL_1|899KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      port: "8443"
-      server: 46.229.243.152
-      skip-cert-verify: true
-      sni: grape-turbo-fr.roxa.org
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|568KB/s"
+      udp: false
+      uuid: bbbad538-910a-8972-278a-718093dc9980
+    - alpn:
+        - h3
+      auth: XrgOXIVkpI
+      name: "\U0001F1EF\U0001F1F5JP_1|3.9MB/s"
       obfs: salamander
-      obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-      password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-      port: "7443"
-      server: me17.msjia8844.site
-      skip-cert-verify: false
-      sni: me17.msjia8844.site
+      obfs-password: Jzy@1234...
+      password: XrgOXIVkpI
+      port: 54325
+      server: jpsui.jzy88.top
+      skip-cert-verify: true
+      sni: jpsui.jzy88.top
       type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_2|791KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-      port: "8443"
-      server: 205.237.109.176
-      skip-cert-verify: false
-      sni: hopp-netherland-new.dynuddns.net
-      type: hysteria2
-      up: ""
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
       password: 7eadc6dbe2ae
-      port: "65443"
-      server: 121.46.230.137
+      port: 65443
+      server: 121.46.230.232
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s"
+      password: ""
+      port: 9002
+      server: 138.199.35.218
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.138
       type: ss
       udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|788KB/s"
-      password: ec15d3a6-543c-43fd-b4fb-c2e88f889152
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
+    - name: "\U0001F1F9\U0001F1EDTH_1|2.1MB/s"
+      password: null
+      port: 31280
+      server: 202.28.194.139
+      type: http
+      username: null
+    - name: "\U0001F1F0\U0001F1F7KR_2|4.3MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44052
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
       udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|777KB/s"
-      password: ec15d3a6-543c-43fd-b4fb-c2e88f889152
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
+    - name: "\U0001F1FA\U0001F1F8US_3|2.8MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44001
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
       udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|1.6MB/s"
-      password: ec15d3a6-543c-43fd-b4fb-c2e88f889152
-      port: 40042
-      server: kr2.catzl.top
-      type: anytls
+    - name: "\U0001F1E7\U0001F1F7BR_1|1.0MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44062
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|4.1MB/s"
-      password: ec15d3a6-543c-43fd-b4fb-c2e88f889152
-      port: 40055
-      server: jp5.catzl.top
-      type: anytls
+    - name: "\U0001F1EF\U0001F1F5JP_2|920KB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44002
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F9\U0001F1F7TR_1|2.2MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44055
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_1|1.5MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44053
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_2|2.5MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44005
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1F3IN_1|3.2MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44057
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F9\U0001F1EDTH_2|3.1MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44060
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EE\U0001F1E9ID_1|4.0MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44058
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F2\U0001F1FEMY_1|3.6MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44054
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E9\U0001F1EADE_1|3.1MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44064
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_4|3.8MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44006
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44029
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1|4.6MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44000
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6CA_1|3.2MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44007
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44009
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E6\U0001F1FAAU_1|3.2MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44063
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1ECSG_2|3.4MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44012
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6CA_2|2.7MB/s"
+      password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+      port: 44065
+      server: 62.234.223.235
+      skip-cert-verify: true
+      sni: baidu.com
+      type: trojan
       udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_3|954KB/s"
-      port: 443
+      name: "\U0001F1EB\U0001F1EEFI_1|1.1MB/s"
+      port: 11437
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.26
-      servername: localhost
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_4|517KB/s"
+      name: "\U0001F1FA\U0001F1F8US_6|879KB/s"
       port: 443
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: localhost
+        public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
+        short-id: ca41ef1263c02279
+      server: 45.74.158.180
+      servername: refersion.com
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_5|1010KB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 2.26.178.152
-      servername: localhost
-      skip-cert-verify: true
+      name: "\U0001F1FA\U0001F1F8US_7|523KB/s"
+      network: ws
+      port: "443"
+      server: 104.21.91.102
+      servername: 4-M16.aYUtTHAya2031.kdnS.fR
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 4-M16.aYUtTHAya2031.kdnS.fR
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_6|1.3MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
-      servername: freshjuniper.download
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_7|1.0MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: brightharbor.download
-      servername: brightharbor.download
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_8|1.3MB/s"
-      port: 443
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.125
-      servername: localhost
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
+      name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
       network: ws
       port: "443"
       server: 104.21.37.195
@@ -195,51 +268,21 @@ proxies:
       ws-opts:
         headers:
             Host: 3-m19.fGH.ccWU.cc
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
         path: /CjBjB9sn5pCvaSwScc
       xudp: true
-    - client-fingerprint: firefox
+    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1EDCH_1|1.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_9|696KB/s"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
-        short-id: 19253fae84102271
-      server: 45.90.59.15
+        public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+        short-id: 55ab5559e3a6d10a
+      server: 5.34.178.120
       servername: www.cloudflare.com
       tls: true
       type: vless
       udp: true
-      uuid: 3950b45e-740d-4dca-ac95-505ec8534592
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI_1|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 2.26.178.184
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_9|545KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
-      server: 2.26.178.152
-      servername: localhost
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
       xudp: true
