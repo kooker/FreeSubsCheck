@@ -1,134 +1,20 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1EE\U0001F1EAIE_1|1.5MB/s"
-    password: amazonskr05
-    port: 443
-    server: 54.171.218.140
-    skip-cert-verify: true
-    type: ss
-    udp: true
-  - name: "\U0001F1F5\U0001F1F9PT_1|571KB/s"
-    port: 443
-    server: 149.22.86.14
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    server: 130.12.102.125
-    tls: true
-    type: vless
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    servername: localhost
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 0mABGF57PFBZ8piB3UfUEIzH9vkCe_fnopIMp9yeYls
-      short-id: "aa7f41ebbdff8c87"
-    server: 189.24.110.99
-    tls: true
-    type: vless
-    udp: true
-    uuid: fcc5fb85-09e3-48dc-a2fe-05ec50d65f7f
-    xudp: true
-    servername: www.telekom.de
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_2|1.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      short-id: ''
-    server: 130.12.102.26
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    xudp: true
-    servername: localhost
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
-    network: ws
-    port: 16632
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-    ws-opts:
-      headers:
-        Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s"
-    password: d6165ac5-d284-4f45-b58a-fa9eba83a282
-    port: 40071
-    server: tw1.catzl.top
-    type: anytls
-    udp: true
-    sni: tw1.catzl.top
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|844KB/s"
-    network: ws
-    port: 443
-    server: 104.21.37.195
-    tls: true
-    type: vless
-    udp: true
-    uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-    ws-opts:
-      headers:
-        Host: 3-m19.fGH.ccWU.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /CjBjB9sn5pCvaSwScc
-    xudp: true
-    servername: 3-M19.fGh.cCwU.cC
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
-    network: ws
-    port: 443
-    server: 104.21.36.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-    ws-opts:
-      headers:
-        Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-      path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    xudp: true
-    servername: 4-M16.ChIANG-RaI2036.kdnS.fR
   - client-fingerprint: safari
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|568KB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: gj-WwJGn9OMgKeREW-gOPyl1YP88IXD5k4zunEl2-iE
-      short-id: "190378398fd796c3"
-    server: 116.206.93.227
+      public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
+      short-id: "fa3ea655619a3e78"
+    server: 82.118.22.161
     tls: true
     type: vless
     udp: true
-    uuid: 99ee7869-84e6-4e07-a7d2-1f56acd3a295
+    uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
     xudp: true
-    servername: www.apple.com
+    servername: www.cloudflare.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
