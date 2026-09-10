@@ -1,91 +1,50 @@
 proxies:
     - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|2.0MB/s"
+      name: "\U0001F1FA\U0001F1F8US_1|527KB/s"
+      password: 7eadc6dbe2ae
+      port: 65443
+      server: 121.46.230.233
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EAIE_1|769KB/s"
       password: amazonskr05
       port: 443
       server: 54.171.218.140
       type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.179.104.218
+      type: ss
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_1|527KB/s"
+      name: "\U0001F1EC\U0001F1E7GB_2|1.6MB/s"
       network: tcp
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: freshjuniper.download
+      server: 130.12.102.125
       servername: localhost
-      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - auth: 3a702d4d1de4949005d8431220e040fb
-      name: "\U0001F1E8\U0001F1EDCH_1|2.1MB/s"
-      obfs: salamander
-      obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-      password: 3a702d4d1de4949005d8431220e040fb
-      port: 443
-      server: 152.67.75.161
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s"
-      password: ""
-      port: 443
-      server: fan.571589.xyz
-      skip-cert-verify: true
-      sni: fan.571589.xyz
-      tls: true
-      type: http
-      udp: true
-      username: ""
-    - name: ❓Other_1|839KB/s
-      password: None
-      port: 443
-      server: 159.13.44.228
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB_2|2.9MB/s"
-      network: tcp
-      port: "443"
+      name: "\U0001F1EC\U0001F1E7GB_3|670KB/s"
+      port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-        short-id: ""
       server: 130.12.102.26
       servername: localhost
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_2|3.4MB/s"
-      network: ws
-      port: "16617"
-      server: planb.mojcn.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 82e6295c-9db7-4601-ab15-054a5e6129f4
-      ws-opts:
-        headers:
-            Host: 0e3b7b2b2adaf5b7929ddd31a8489521.mobgslb.tbcache.com
-        path: /
-      xudp: true
     - client-fingerprint: firefox
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -98,54 +57,69 @@ proxies:
       udp: true
       uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F7\U0001F1F4RO_1|1.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-      port: "8443"
-      server: 205.237.109.165
-      skip-cert-verify: true
-      sni: hopp-netherland-new.dynuddns.net
-      type: hysteria2
-      up: ""
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 5iZBmQ9iLLxvEHo_XilfjC7OM2-EmYTPQp-bzxlTqUU
-        short-id: 4568f3e435322cc8
-      server: 38.244.21.139
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: f1dcdda0-b2d2-4e18-88e2-c87c9257128e
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_1|3.6MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_4|1.1MB/s"
       network: tcp
-      port: "8686"
+      port: "443"
       reality-opts:
-        public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-        short-id: 628b3c90c98ead4f
-      server: 3.34.197.128
-      servername: www.apple.com
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: 130.12.102.26
+      servername: localhost
       tls: true
       type: vless
       udp: true
-      uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|587KB/s"
+      name: "\U0001F1F1\U0001F1FBLV_1|1.8MB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: 9dw9Bova6GFJHi8taK2JK3EnSC8MiAgYh9oY4Dog73w
+        short-id: bb54c0d4985504cd
+      server: 107.189.25.18
+      servername: cdn.dodostatic.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 00f53158-c278-4d64-ae98-a60c5fe09ffa
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB_5|699KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+        short-id: ""
+      server: freshjuniper.download
+      servername: freshjuniper.download
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_6|2.3MB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 2.26.178.138
+      server: freshjuniper.download
+      servername: freshjuniper.download
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7GB_7|5.1MB/s"
+      port: 443
+      reality-opts:
+        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+      server: freshjuniper.download
       servername: localhost
       skip-cert-verify: true
       tls: true
@@ -153,33 +127,20 @@ proxies:
       udp: true
       uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_4|2.4MB/s"
+      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
       port: 443
       reality-opts:
-        public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-      server: 130.12.102.133
-      servername: localhost
+        public-key: MgyA2FY0p2q_VOwoL9T1Z3rzpKEcGjfN61QliGcyHA8
+        short-id: ca41ef1263c02279
+      server: 45.74.158.180
+      servername: refersion.com
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_3|3.8MB/s"
-      port: 443
-      reality-opts:
-        public-key: gj-WwJGn9OMgKeREW-gOPyl1YP88IXD5k4zunEl2-iE
-        short-id: 190378398fd796c3
-      server: 116.206.93.227
-      servername: www.apple.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 99ee7869-84e6-4e07-a7d2-1f56acd3a295
+      uuid: 42994234-1689-48bc-8d01-cfb16e7b017a
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_5|5.0MB/s"
+      name: "\U0001F1EC\U0001F1E7GB_8|3.0MB/s"
       port: 443
       reality-opts:
         public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
