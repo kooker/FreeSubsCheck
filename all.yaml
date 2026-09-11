@@ -1,131 +1,175 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|573KB/s"
-      password: amazonskr05
-      port: 443
-      server: 63.32.92.226
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
-      password: test123
-      port: 1080
-      server: 104.168.249.36
-      skip-cert-verify: false
-      type: socks5
-      username: test123
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.182.182.58
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_2|1.2MB/s"
-      password: amazonskr05
-      port: 443
-      server: 16.52.165.74
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.125
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|1.7MB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.148
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
-      port: 9002
-      server: 193.176.84.17
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|1.9MB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.23
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|3.1MB/s"
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_1|3.2MB/s"
+      obfs: ""
+      obfs-password: ""
       password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
+      port: "443"
       server: vpn-uk-001.fastervpn.world
       skip-cert-verify: true
-      sni: vpn-uk-001.fastervpn.world
-      tls: false
+      sni: whatsapp.com
       type: hysteria2
-    - name: "\U0001F1F7\U0001F1FARU_1|2.9MB/s"
-      password: 5beff945-adaa-492f-85c6-8aaf5df6cfa5
-      port: 22443
-      server: 91.240.86.70
-      sni: hy.quattro-tech.ru
-      tls: false
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_2|2.6MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: vpn-uk-001.fastervpn.world
+      skip-cert-verify: true
+      sni: google.com
       type: hysteria2
-    - name: "\U0001F1F7\U0001F1FARU_2|2.1MB/s"
-      password: f317b5d6-d399-4d3d-a051-89d674ae953c
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 19f72087-4591-4d72-930b-2697078ec2be
+      port: "4433"
+      server: de1.xiaoliyu.cyou
+      skip-cert-verify: true
+      sni: de1.xiaoliyu.cyou
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_3|3.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+      port: "443"
+      server: vpn-uk-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vk.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
+      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+      port: 40071
+      server: tw1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|3.5MB/s"
+      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+      port: 40041
+      server: kr1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s"
+      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+      port: 40042
+      server: kr2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|3.4MB/s"
+      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+      port: 40055
+      server: jp5.catzl.top
+      type: anytls
+      udp: true
+    - client-fingerprint: edge
+      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s"
+      network: xhttp
       port: 443
-      server: msk.frkn.org
-      sni: msk.frkn.org
-      tls: false
-      type: hysteria2
-    - encryption: none
-      http-opts:
-        headers:
-            Host:
-                - play-apps-features.googleusercontent.com
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1NL_3|2.4MB/s"
-      network: http
-      port: "20018"
-      server: nt-irancell.xelfona.ir
+      reality-opts:
+        public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
+        short-id: 8ba6e72ee60667f6
+      server: 161.104.38.98
+      servername: donatov.net
+      tls: true
       type: vless
       udp: true
-      uuid: 028f3908-8885-4f06-ba95-777a435074bd
+      uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+      xhttp-opts:
+        host: donatov.net
+        path: /assets
+    - client-fingerprint: edge
+      name: "\U0001F1F7\U0001F1FARU_2|2.4MB/s"
+      network: xhttp
+      port: 443
+      reality-opts:
+        public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+        short-id: 0066a7326f06d426
+      server: 135.106.142.209
+      servername: alfastat.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+      xhttp-opts:
+        host: alfastat.ru
+        path: /assets
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|757KB/s"
+      network: ws
+      port: "443"
+      server: 104.21.36.81
+      servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
       xudp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: p14dq4kIvJKyLnSJtn_XoigouEZOCc_S3S1gUpOfACk
-        short-id: 8e94d92f
-      server: 103.86.47.237
-      servername: static.hotjar.com
-      tls: true
-      type: vless
-      udp: false
-      uuid: bbbad538-910a-8972-278a-718093dc9980
-    - name: "\U0001F1EF\U0001F1F5JP_1|562KB/s"
-      password: null
-      port: 443
-      server: fan.571589.xyz
-      skip-cert-verify: false
-      tls: true
-      type: http
-      username: null
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EA\U0001F1F8ES_1|2.0MB/s"
-      network: tcp
-      port: "2053"
-      reality-opts:
-        public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
-        short-id: 29e8dcd2b37aaa7f
-      server: 212.227.235.66
-      servername: www.apple.com
+      name: "\U0001F1FA\U0001F1F8US_3|652KB/s"
+      network: ws
+      port: "443"
+      server: 104.21.71.47
+      servername: 0-M16.CHIaN-mai-x.kDnS.FR
       tls: true
       type: vless
       udp: true
-      uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 0-M16.CHIaN-mai-x.kDnS.FR
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
+        short-id: ""
+      server: 193.239.179.15
+      servername: worldoftanks.eu
+      tls: true
+      type: vless
+      udp: true
+      uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
+      xudp: true
+    - client-fingerprint: edge
+      name: "\U0001F1F9\U0001F1EDTH_1|824KB/s"
+      network: ws
+      port: "443"
+      server: cfd.url0.top
+      servername: tl.520783.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+      ws-opts:
+        headers:
+            Host: tl.520783.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /assets/dist/app-update-payload.dat
       xudp: true
