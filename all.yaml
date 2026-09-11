@@ -1,116 +1,216 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_1|3.2MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-uk-001.fastervpn.world
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
+      port: 9002
+      server: 84.17.47.125
       skip-cert-verify: true
-      sni: whatsapp.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_2|2.6MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-uk-001.fastervpn.world
-      skip-cert-verify: true
-      sni: google.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 19f72087-4591-4d72-930b-2697078ec2be
-      port: "4433"
-      server: de1.xiaoliyu.cyou
-      skip-cert-verify: true
-      sni: de1.xiaoliyu.cyou
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_3|3.0MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: "443"
-      server: vpn-uk-001.fastervpn.world
-      skip-cert-verify: true
-      sni: vk.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
-      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-      port: 40022
-      server: us2.catzl.top
-      type: anytls
+      tls: true
+      type: http
       udp: true
-    - name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s"
-      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-      port: 40071
-      server: tw1.catzl.top
-      type: anytls
+    - name: "\U0001F1F3\U0001F1F1NL_2|990KB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
       udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|3.5MB/s"
-      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
-      port: 40041
-      server: kr1.catzl.top
-      type: anytls
+    - name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
+      port: 9002
+      server: 84.17.47.150
+      skip-cert-verify: true
+      tls: true
+      type: http
       udp: true
-    - name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s"
-      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+    - name: "\U0001F1F3\U0001F1F1NL_4|828KB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_6|1.1MB/s"
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_1|1.2MB/s"
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_2|536KB/s"
+      port: 9002
+      server: 193.176.84.35
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_3|2.2MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.31
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_4|1.5MB/s"
+      password: None
+      port: 9002
+      server: 193.176.84.23
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|2.0MB/s"
+      port: 9002
+      server: 193.176.84.32
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1F4RO_6|2.1MB/s"
+      port: 9002
+      server: 193.176.84.39
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F7\U0001F1FARU_1|1.7MB/s"
+      password: f317b5d6-d399-4d3d-a051-89d674ae953c
+      port: 443
+      server: msk.frkn.org
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F7\U0001F1FARU_2|1.8MB/s"
+      password: f317b5d6-d399-4d3d-a051-89d674ae953c
+      port: 443
+      server: msk.frkn.org
+      sni: msk.frkn.org
+      tls: false
+      type: hysteria2
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s"
+      network: ws
+      port: "2096"
+      server: 104.17.70.206
+      servername: free-server.techsonic.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+      ws-opts:
+        headers:
+            Host: free-server.techsonic.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+        path: /free-server.techsonic.dev
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
+      network: ws
+      port: "443"
+      server: www.shopify.com
+      servername: yoga-suggesting-recording-calls.trycloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+      ws-opts:
+        headers:
+            Host: yoga-suggesting-recording-calls.trycloudflare.com
+        path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+      xudp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|745KB/s"
+      password: Og%3D%3D
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: Og%3D%3D
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 35.182.142.166
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EAIE_1|2.6MB/s"
+      password: amazonskr05
+      port: "443"
+      server: 34.244.71.63
+      type: ss
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_2|4.5MB/s"
+      password: 264b1836-14ce-4687-9287-64ba728654a3
       port: 40042
       server: kr2.catzl.top
       type: anytls
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP_1|3.4MB/s"
-      password: 5f57473d-6054-436f-a86e-1b7104f5efc3
+    - name: "\U0001F1F0\U0001F1F7KR_3|4.1MB/s"
+      password: 264b1836-14ce-4687-9287-64ba728654a3
+      port: 40041
+      server: kr1.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1F9\U0001F1FCTW_1|2.7MB/s"
+      password: 264b1836-14ce-4687-9287-64ba728654a3
+      port: 40072
+      server: tw2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+      password: 264b1836-14ce-4687-9287-64ba728654a3
+      port: 40022
+      server: us2.catzl.top
+      type: anytls
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_1|5.4MB/s"
+      password: 264b1836-14ce-4687-9287-64ba728654a3
       port: 40055
       server: jp5.catzl.top
       type: anytls
       udp: true
-    - client-fingerprint: edge
-      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s"
-      network: xhttp
-      port: 443
-      reality-opts:
-        public-key: kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE
-        short-id: 8ba6e72ee60667f6
-      server: 161.104.38.98
-      servername: donatov.net
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      network: ws
+      port: "443"
+      server: d56bb06d-6f6b-4c07-8600-a76f48568495-production.up.railway.app
+      servername: fssingg-production.up.railway.app
       tls: true
       type: vless
       udp: true
-      uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-      xhttp-opts:
-        host: donatov.net
-        path: /assets
-    - client-fingerprint: edge
-      name: "\U0001F1F7\U0001F1FARU_2|2.4MB/s"
-      network: xhttp
-      port: 443
-      reality-opts:
-        public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
-        short-id: 0066a7326f06d426
-      server: 135.106.142.209
-      servername: alfastat.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-      xhttp-opts:
-        host: alfastat.ru
-        path: /assets
+      uuid: ""
+      ws-opts:
+        headers:
+            Host: fssingg-production.up.railway.app
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /ws/d56bb06d-6f6b-4c07-8600-a76f48568495
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|757KB/s"
+      name: "\U0001F1FA\U0001F1F8US_3|2.5MB/s"
       network: ws
       port: "443"
       server: 104.21.36.81
@@ -122,54 +222,22 @@ proxies:
       ws-opts:
         headers:
             Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /JRr6VGcSLFc034DC6sDbwyWJLbB
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_3|652KB/s"
+      name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
       network: ws
       port: "443"
-      server: 104.21.71.47
-      servername: 0-M16.CHIaN-mai-x.kDnS.FR
+      server: 172.67.136.68
+      servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
       tls: true
       type: vless
       udp: true
       uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
       ws-opts:
         headers:
-            Host: 0-M16.CHIaN-mai-x.kDnS.FR
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+            Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
-        short-id: ""
-      server: 193.239.179.15
-      servername: worldoftanks.eu
-      tls: true
-      type: vless
-      udp: true
-      uuid: a903a468-ce63-4f3b-a4de-332eb91cc2f0
-      xudp: true
-    - client-fingerprint: edge
-      name: "\U0001F1F9\U0001F1EDTH_1|824KB/s"
-      network: ws
-      port: "443"
-      server: cfd.url0.top
-      servername: tl.520783.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-      ws-opts:
-        headers:
-            Host: tl.520783.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /assets/dist/app-update-payload.dat
       xudp: true
