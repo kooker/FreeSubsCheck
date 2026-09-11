@@ -1,22 +1,59 @@
 proxies:
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1F9LT_1|625KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+        short-id: ff776ff77be48b88
+      server: lit9.helper-internet.com
+      servername: lit9.helper-internet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: ❓Other_1|1.4MB/s
+      obfs: ""
+      obfs-password: ""
+      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+      port: "8443"
+      server: 46.229.243.149
+      skip-cert-verify: false
+      sni: grape-turbo-fr.roxa.org
+      type: hysteria2
+      up: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1F9LT_2|613KB/s"
+      network: raw
+      port: "443"
+      reality-opts:
+        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+        short-id: ff776ff77be48b88
+      server: 88.119.176.24
+      servername: lit9.helper-internet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+      xudp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|906KB/s"
+      name: "\U0001F1EE\U0001F1EAIE_1|803KB/s"
       password: amazonskr05
       port: "443"
       server: 34.244.71.63
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_1|906KB/s"
-      password: amazonskr05
-      port: "443"
-      server: 15.223.195.102
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6CA_2|750KB/s"
-      password: amazonskr05
-      port: "443"
-      server: 35.183.244.25
-      type: ss
-      udp: true
+    - name: "\U0001F1E8\U0001F1EDCH_1|691KB/s"
+      password: null
+      port: 9443
+      server: 37.120.213.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: null
