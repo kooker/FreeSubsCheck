@@ -1,83 +1,130 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|533KB/s"
-    network: ws
-    password: humanity
-    port: 443
-    server: 104.18.152.204
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /assignment
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|579KB/s"
-    network: ws
-    password: humanity
-    port: 443
-    server: www.speedtest.net
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /assignment
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.0MB/s"
-    password: ''
-    port: 1090
-    server: 121.169.46.116
-    skip-cert-verify: true
-    type: socks5
-    username: T2clM0QlM0Q6
   - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|786KB/s"
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.233
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|1.5MB/s"
-    network: xhttp
+    name: "\U0001F1EE\U0001F1EAIE_1|573KB/s"
+    password: amazonskr05
     port: 443
-    server: 151.101.109.28
+    server: 63.32.92.226
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s"
+    password: test123
+    port: 1080
+    server: 104.168.249.36
+    skip-cert-verify: false
+    type: socks5
+    username: test123
+  - cipher: aes-256-cfb
+    name: "\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
+    password: amazonskr05
+    port: 443
+    server: 35.182.182.58
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1E8\U0001F1E6CA_2|1.2MB/s"
+    password: amazonskr05
+    port: 443
+    server: 16.52.165.74
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|1.7MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.7MB/s"
+    port: 9002
+    server: 193.176.84.17
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_2|1.9MB/s"
+    password: None
+    port: 9002
+    server: 193.176.84.23
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7GB_1|3.1MB/s"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-uk-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-uk-001.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1F7\U0001F1FARU_1|2.9MB/s"
+    password: 5beff945-adaa-492f-85c6-8aaf5df6cfa5
+    port: 22443
+    server: 91.240.86.70
+    sni: hy.quattro-tech.ru
+    type: hysteria2
+  - name: "\U0001F1F7\U0001F1FARU_2|2.1MB/s"
+    password: f317b5d6-d399-4d3d-a051-89d674ae953c
+    port: 443
+    server: msk.frkn.org
+    sni: msk.frkn.org
+    type: hysteria2
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - play-apps-features.googleusercontent.com
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_3|2.4MB/s"
+    network: http
+    port: 20018
+    server: nt-irancell.xelfona.ir
+    type: vless
+    udp: true
+    uuid: 028f3908-8885-4f06-ba95-777a435074bd
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: p14dq4kIvJKyLnSJtn_XoigouEZOCc_S3S1gUpOfACk
+      short-id: "8e94d92f"
+    server: 103.86.47.237
+    tls: true
+    type: vless
+    udp: false
+    uuid: bbbad538-910a-8972-278a-718093dc9980
+    servername: static.hotjar.com
+  - name: "\U0001F1EF\U0001F1F5JP_1|562KB/s"
+    port: 443
+    server: fan.571589.xyz
+    skip-cert-verify: false
+    tls: true
+    type: http
+    sni: fan.571589.xyz
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EA\U0001F1F8ES_1|2.0MB/s"
+    network: tcp
+    port: 2053
+    reality-opts:
+      public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+      short-id: "29e8dcd2b37aaa7f"
+    server: 212.227.235.66
     tls: true
     type: vless
     udp: true
-    uuid: 2a7793b4-a70f-42a3-aecc-1082da7a933d
-    xhttp-opts:
-      host: oh3.global.ssl.fastly.net
-      mode: packet-up
-      path: /
-      sc-min-posts-interval-ms: 30
-      x-padding-bytes: 100-1000
+    uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
     xudp: true
-    servername: accounts.fastly.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '50'
-    name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s"
-    obfs: ''
-    port: 20088
-    protocol: ''
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '10'
-    auth-str: dongtaiwang.com
+    servername: www.apple.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
