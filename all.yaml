@@ -1,59 +1,126 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1F9LT_1|625KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-        short-id: ff776ff77be48b88
-      server: lit9.helper-internet.com
-      servername: lit9.helper-internet.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: ❓Other_1|1.4MB/s
-      obfs: ""
-      obfs-password: ""
-      password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-      port: "8443"
-      server: 46.229.243.149
-      skip-cert-verify: false
-      sni: grape-turbo-fr.roxa.org
-      type: hysteria2
-      up: ""
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1F9LT_2|613KB/s"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-        short-id: ff776ff77be48b88
-      server: 88.119.176.24
-      servername: lit9.helper-internet.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
-      xudp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EAIE_1|803KB/s"
-      password: amazonskr05
-      port: "443"
-      server: 34.244.71.63
-      type: ss
-      udp: true
-    - name: "\U0001F1E8\U0001F1EDCH_1|691KB/s"
-      password: null
-      port: 9443
-      server: 37.120.213.210
+    - name: "\U0001F1EF\U0001F1F5JP_1|3.5MB/s"
+      password: ""
+      port: "8094"
+      server: 110.80.25.76
       skip-cert-verify: true
       tls: true
       type: http
-      username: null
+      username: ""
+    - name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s"
+      port: 443
+      server: fan.571589.xyz
+      sni: fan.571589.xyz
+      tls: true
+      type: http
+    - alpn:
+        - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+      client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1|2.9MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U
+        short-id: 2aef5875
+      server: mst1ndch.goonars.com
+      servername: apiv1nd.goonars.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02722550-1915-4629-a653-cbe95e594f70
+      xudp: true
+    - alpn:
+        - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
+      client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_2|1.6MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
+        short-id: cf41f778
+      server: cdn15sw.goonars.com
+      servername: cdn15sw.goonars.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02722550-1915-4629-a653-cbe95e594f70
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1F9LT_1|2.0MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: tTXroX_MhV9m5MsLiAEncsC4u9VoV4fiHC01reGCv0k
+        short-id: 7c9d968a
+      server: 84.32.154.45
+      servername: docs.goonars.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 02722550-1915-4629-a653-cbe95e594f70
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI_1|2.0MB/s"
+      network: tcp
+      port: "11437"
+      reality-opts:
+        public-key: XW53yYaevp21yOZsWMV_mVg58iYCNp91sYndl95qnmI
+        short-id: 7de83d0e31eb75ef
+      server: fi.horlutr.ir
+      servername: amp-api-edge.apps.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60d2f9-e3b5-449f-80d8-385c08e93c94
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1E7\U0001F1F7BR_1|634KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+      port: "443"
+      server: go2.wwwinternetvideo.click
+      skip-cert-verify: true
+      sni: admin.wwwinternetvideo.click
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
+      network: ws
+      port: "443"
+      server: 172.67.164.249
+      servername: 7-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+      ws-opts:
+        headers:
+            Host: 7-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /BzuntJ8qZN0TRKbC8TveMxJ0
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s"
+      network: ws
+      port: "443"
+      server: 172.67.206.64
+      servername: 3-M16.ayUTthAYa2032.kdNs.FR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 3-M16.ayUTthAYa2032.kdNs.FR
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
