@@ -1,1 +1,4 @@
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@sg1.xiaoliyu.cyou:1933?insecure=1&sni=sg1.xiaoliyu.cyou#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C1.1MB%2Fs
+hysteria2://19f72087-4591-4d72-930b-2697078ec2be@sg1.xiaoliyu.cyou:1933?insecure=1&sni=sg1.xiaoliyu.cyou#%F0%9F%87%B8%F0%9F%87%ACSG_1%7C2.5MB%2Fs
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.241.226:443?insecure=1&sni=vpn-sg-001.fastervpn.world#%F0%9F%87%B8%F0%9F%87%ACSG_2%7C814KB%2Fs
+vless://06bfb14e-66cc-48ca-a429-b9301dba2f81@104.17.123.204:8880?security=none&type=ws&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net&host=long-firefly-a226.216-ce0.workers.dev&packetEncoding=xudp#%F0%9F%87%AD%F0%9F%87%B0HK_1%7C668KB%2Fs
+vless://827a0eb0-21bf-4bce-96ef-0a7bac5d68f5@31.76.20.209:443?security=reality&type=tcp&packetEncoding=xudp&sni=de.pinkmoon.pro&fp=firefox&flow=xtls-rprx-vision&sid=8ffa160e608bf539&pbk=DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk&encryption=none#%F0%9F%87%AC%F0%9F%87%A7GB_1%7C2.0MB%2Fs
