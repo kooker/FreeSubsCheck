@@ -1,25 +1,22 @@
 proxies:
-    - alpn:
-        - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-      client-fingerprint: firefox
-      encryption: none
+    - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_1|951KB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|672KB/s"
       network: tcp
-      port: "443"
+      port: 443
       reality-opts:
-        public-key: vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo
-        short-id: 6591f200
-      server: cdn12usa.goonars.com
+        public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+        short-id: 8ffa160e608bf539
+      server: 84.21.173.246
+      servername: de.pinkmoon.pro
       tls: true
       type: vless
       udp: true
-      uuid: 02722550-1915-4629-a653-cbe95e594f70
-      xudp: true
+      uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU_1|2.0MB/s"
+      name: "\U0001F1F7\U0001F1FARU_1|1.4MB/s"
       network: tcp
       port: "443"
       reality-opts:
@@ -32,3 +29,68 @@ proxies:
       udp: true
       uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
       xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
+      password: c58d16e593d44f42
+      port: "11001"
+      server: 158.173.221.214
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s"
+      network: ws
+      port: 8443
+      server: news.zoom.us
+      servername: u.srilankangrill.online
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+      ws-opts:
+        headers:
+            Host: u.srilankangrill.online
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|918KB/s"
+      network: ws
+      port: "443"
+      server: 104.21.36.81
+      servername: 4-M16.ChIANG-RaI2036.kdnS.fR
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 4-M16.ChIANG-RaI2036.kdnS.fR
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s"
+      network: ws
+      port: "443"
+      server: 172.67.145.113
+      servername: 6-M16.AYUTThaYA2028.KdNs.fr
+      tls: true
+      type: vless
+      udp: true
+      uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+      ws-opts:
+        headers:
+            Host: 6-M16.AYUTThaYA2028.KdNs.fr
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      xudp: true
+    - auth: a34f3990b69f44bfa0d32385
+      name: "\U0001F1E6\U0001F1FAAU_1|560KB/s"
+      obfs: salamander
+      obfs-password: a34f3990b69f44bfa0d32385
+      password: a34f3990b69f44bfa0d32385
+      port: 20000
+      ports: 20000-30000
+      server: 140.238.207.94
+      skip-cert-verify: true
+      sni: rmgyvpn.rest
+      type: hysteria2
