@@ -1,244 +1,39 @@
 proxies:
-  - cipher: aes-256-cfb
-    name: "\U0001F1E8\U0001F1E6CA_1|1.9MB/s"
-    password: amazonskr05
-    port: 443
-    server: 16.52.165.74
-    type: ss
   - alpn:
       - >-
         v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|951KB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U
-      short-id: "2aef5875"
-    server: mst1ndch.goonars.com
+      public-key: vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo
+      short-id: "6591f200"
+    server: cdn12usa.goonars.com
     tls: true
     type: vless
     udp: true
     uuid: 02722550-1915-4629-a653-cbe95e594f70
     xudp: true
-    servername: apiv1nd.goonars.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
-    network: ws
-    port: 8443
-    server: news.zoom.us
-    tls: true
-    type: vless
-    udp: true
-    uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /
-    xudp: true
-    servername: u.srilankangrill.online
-  - alpn:
-      - >-
-        v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-    client-fingerprint: qq
-    encryption: none
-    name: "\U0001F1F3\U0001F1F4NO_1|2.3MB/s"
-    network: tcp
-    port: 40443
-    reality-opts:
-      public-key: dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4
-      short-id: '7606'
-    server: aldebaran.yokkastars.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: ed91e79c-f6bf-4fba-8cc0-6d45acaec22b
-    xudp: true
-    servername: deepl.com
-  - name: "\U0001F1FA\U0001F1F8US_1|900KB/s"
-    password: gs4BXwT6SW
-    port: 10988
-    server: 154.26.192.123
-    tls: false
-    type: http
-    username: fQ67Dpe5dU
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: fRFOFlJXfX4hcmtk4CbFrMPzC5tdXnIgoQ8rDyo8fw8
-      short-id: "a9da9275bd0272d7"
-    server: 92.223.71.188
-    tls: true
-    type: vless
-    udp: true
-    uuid: f1505323-ecb6-4152-9a5b-d37b3ae1cacf
-    xudp: true
-    servername: play-apps-features.googleusercontent.com
+    servername: cdn12usa.goonars.com
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|1.9MB/s"
+    name: "\U0001F1F7\U0001F1FARU_1|2.0MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U
-      short-id: "2aef5875"
-    server: 84.32.185.127
+      public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
+      short-id: "c3248f699ea5d8d0"
+    server: 5.35.91.96
     tls: true
     type: vless
     udp: true
-    uuid: 02722550-1915-4629-a653-cbe95e594f70
+    uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
     xudp: true
-    servername: apiv1nd.goonars.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F8\U0001F1EASE_1|1.9MB/s"
-    network: tcp
-    port: 443
-    server: secdn-51.ktuda-skp.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3def775e-8ccd-46f5-87d6-ce299d89d6c1
-    xudp: true
-    servername: secdn-51.ktuda-skp.net
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
-    network: ws
-    port: 443
-    server: www.shopify.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-    ws-opts:
-      headers:
-        Host: yoga-suggesting-recording-calls.trycloudflare.com
-      path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-    xudp: true
-    servername: yoga-suggesting-recording-calls.trycloudflare.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F2\U0001F1E9MD_1|1.1MB/s"
-    network: ws
-    port: 443
-    server: 193.36.38.17
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-    ws-opts:
-      headers:
-        Host: eded-52n.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-    xudp: true
-    servername: eded-52n.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F1IL_1|771KB/s"
-    network: ws
-    port: 443
-    server: 192.71.27.237
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-    ws-opts:
-      headers:
-        Host: eded-52n.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: /
-    xudp: true
-    servername: eded-52n.pages.dev
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
-    network: ws
-    port: 443
-    server: 43.174.195.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-    ws-opts:
-      headers:
-        Host: eded-52n.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /
-    xudp: true
-    servername: eded-52n.pages.dev
-  - client-fingerprint: random
-    name: "\U0001F1F5\U0001F1F1PL_1|1.8MB/s"
-    network: ws
-    port: 8443
-    server: 150.251.113.76
-    tls: true
-    type: vless
-    udp: true
-    uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-    ws-opts:
-      headers:
-        Host: kv.074167.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: kv.074167.xyz
-  - client-fingerprint: random
-    name: "\U0001F1F8\U0001F1ECSG_2|3.0MB/s"
-    network: ws
-    port: 443
-    server: 165.245.181.78
-    tls: true
-    type: vless
-    udp: true
-    uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-    ws-opts:
-      headers:
-        Host: kv.074167.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /
-    xudp: true
-    servername: kv.074167.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s"
-    network: ws
-    port: 443
-    server: 140.248.186.45
-    tls: true
-    type: vless
-    udp: true
-    uuid: XpnTeam-15
-    ws-opts:
-      headers:
-        Host: Appxdn.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /
-    xudp: true
-    servername: ssl.fastly.com
+    servername: rus1.baboon.digital
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
