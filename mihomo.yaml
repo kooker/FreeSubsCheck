@@ -1,81 +1,129 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|621KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: 47.129.241.226
-    skip-cert-verify: true
-    sni: vpn-sg-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_2|2.5MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    port: 1933
-    server: sg1.xiaoliyu.cyou
-    skip-cert-verify: true
-    sni: sg1.xiaoliyu.cyou
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-uk-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-002.fastervpn.world
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
+  - name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s"
     password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
-    port: 40055
-    server: jp5.catzl.top
+    port: 40071
+    server: tw1.catzl.top
     type: anytls
     udp: true
-    sni: jp5.catzl.top
-  - name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s"
+    sni: tw1.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s"
     password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
     port: 40022
     server: us2.catzl.top
     type: anytls
     udp: true
     sni: us2.catzl.top
-  - auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
-    name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
-    obfs: salamander
-    obfs-password: CJzHgzdjH1M1kt25
-    password: 1cc5d198-4929-4a21-8ee8-311f81b03497
-    port: 40000
-    server: jjz.jjznodenode.top
-    skip-cert-verify: false
-    sni: jjz.jjznodenode.top
-    type: hysteria2
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s"
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
     udp: true
-  - client-fingerprint: firefox
+    sni: kr1.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_2|632KB/s"
+    password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_3|2.9MB/s"
+    password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+    port: 40041
+    server: kr1.catzl.top
+    type: anytls
+    udp: true
+    sni: kr1.catzl.top
+  - name: ❓Other_1|1.2MB/s
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40054
+    server: jp4.catzl.top
+    type: anytls
+    udp: true
+    sni: jp4.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_1|3.4MB/s"
+    password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1F0\U0001F1F7KR_4|3.3MB/s"
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40042
+    server: kr2.catzl.top
+    type: anytls
+    udp: true
+    sni: kr2.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - name: "\U0001F1EF\U0001F1F5JP_2|5.2MB/s"
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1F9\U0001F1FCTW_2|3.7MB/s"
+    password: 6d6a1924-ff1f-4791-9640-76b1b1424e4e
+    port: 40071
+    server: tw1.catzl.top
+    type: anytls
+    udp: true
+    sni: tw1.catzl.top
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s"
+    network: ws
+    port: 443
+    server: w2.lianjieni.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 95c80a7e-e66f-4967-aaca-b4a3b572ac99
+    ws-opts:
+      headers:
+        Host: w2.lianjieni.com
+      path: /cdnws
+    servername: w2.lianjieni.com
+  - client-fingerprint: chrome
     encryption: none
+    name: "\U0001F1E6\U0001F1FAAU_1|1.6MB/s"
+    network: xhttp
+    port: 443
+    reality-opts:
+      public-key: OvlkCDO6YdWR0ec3kVHW-Ul7I9TuEmJVfxXdaZiy5Ug
+      short-id: "2cbe511ff1f9200b"
+    server: 103.75.119.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: 682300d9-74d0-4dae-923c-09cb5d5e9951
+    xhttp-opts:
+      host: sberbank.ru
+      mode: stream-one
+      path: /api/v1/c8dd02d6
+    xudp: true
+    servername: sberbank.ru
+  - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_2|942KB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
     network: tcp
     port: 443
     reality-opts:
       public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
       short-id: "8ffa160e608bf539"
-    server: 31.76.20.209
+    server: 31.76.21.179
     tls: true
     type: vless
     udp: true
     uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
     xudp: true
-    servername: de.pinkmoon.pro
+    servername: fin.pinkmoon.pro
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
