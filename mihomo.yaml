@@ -1,7 +1,7 @@
 proxies:
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|2.5MB/s"
     obfs: ''
     obfs-password: ''
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -11,19 +11,6 @@ proxies:
     sni: vpn-uk-002.fastervpn.world
     type: hysteria2
     up: ''
-  - name: "\U0001F1EC\U0001F1E7GB_2|557KB/s"
-    port: 443
-    server: 37.120.233.50
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_3|761KB/s"
-    password: c58d16e593d44f42
-    port: 11001
-    server: 158.173.221.214
-    type: ss
-    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
