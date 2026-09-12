@@ -1,104 +1,81 @@
 proxies:
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|621KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 47.129.241.226
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_2|2.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 19f72087-4591-4d72-930b-2697078ec2be
+    port: 1933
+    server: sg1.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: sg1.xiaoliyu.cyou
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-uk-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-uk-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s"
+    password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+    port: 40055
+    server: jp5.catzl.top
+    type: anytls
+    udp: true
+    sni: jp5.catzl.top
+  - name: "\U0001F1FA\U0001F1F8US_1|3.2MB/s"
+    password: ec270101-b7c0-4f53-93cd-41ff2ad8983f
+    port: 40022
+    server: us2.catzl.top
+    type: anytls
+    udp: true
+    sni: us2.catzl.top
+  - auth: 1cc5d198-4929-4a21-8ee8-311f81b03497
+    name: "\U0001F1EF\U0001F1F5JP_2|2.6MB/s"
+    obfs: salamander
+    obfs-password: CJzHgzdjH1M1kt25
+    password: 1cc5d198-4929-4a21-8ee8-311f81b03497
+    port: 40000
+    server: jjz.jjznodenode.top
+    skip-cert-verify: false
+    sni: jjz.jjznodenode.top
+    type: hysteria2
+    udp: true
   - client-fingerprint: firefox
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|672KB/s"
+    name: "\U0001F1EC\U0001F1E7GB_2|942KB/s"
     network: tcp
     port: 443
     reality-opts:
       public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
       short-id: "8ffa160e608bf539"
-    server: 84.21.173.246
+    server: 31.76.20.209
     tls: true
     type: vless
     udp: true
     uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+    xudp: true
     servername: de.pinkmoon.pro
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|1.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: GKuFgxMDHNxodlhM5bVclxDtFSdb1vSadmpD7fYRERo
-      short-id: "c3248f699ea5d8d0"
-    server: 5.35.91.96
-    tls: true
-    type: vless
-    udp: true
-    uuid: 52d1d193-7a49-4d2e-9d52-c2615704034b
-    xudp: true
-    servername: rus1.baboon.digital
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_1|1.7MB/s"
-    password: c58d16e593d44f42
-    port: 11001
-    server: 158.173.221.214
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s"
-    network: ws
-    port: 8443
-    server: news.zoom.us
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-    ws-opts:
-      headers:
-        Host: u.srilankangrill.online
-      path: /
-    servername: u.srilankangrill.online
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|918KB/s"
-    network: ws
-    port: 443
-    server: 104.21.36.81
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-    ws-opts:
-      headers:
-        Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    xudp: true
-    servername: 4-M16.ChIANG-RaI2036.kdnS.fR
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s"
-    network: ws
-    port: 443
-    server: 172.67.145.113
-    tls: true
-    type: vless
-    udp: true
-    uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-    ws-opts:
-      headers:
-        Host: 6-M16.AYUTThaYA2028.KdNs.fr
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    xudp: true
-    servername: 6-M16.AYUTThaYA2028.KdNs.fr
-  - auth: a34f3990b69f44bfa0d32385
-    name: "\U0001F1E6\U0001F1FAAU_1|560KB/s"
-    obfs: salamander
-    obfs-password: a34f3990b69f44bfa0d32385
-    password: a34f3990b69f44bfa0d32385
-    port: 20000
-    ports: 20000-30000
-    server: 140.238.207.94
-    skip-cert-verify: true
-    sni: rmgyvpn.rest
-    type: hysteria2
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
