@@ -1,26 +1,16 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_1|683KB/s"
-    network: xhttp
-    port: 61374
-    reality-opts:
-      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-      short-id: ''
-    server: se-2.pythonsetupbib.online
-    tls: true
-    type: vless
-    udp: true
-    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-    xhttp-opts:
-      host: se-2.pythonsetupbib.online
-      mode: packet-up
-      path: /
-      reuse-settings:
-        max-connections: '3'
-      x-padding-bytes: 100-500
-    xudp: true
-    servername: se-2.pythonsetupbib.online
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_1|731KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 69e41e64-a832-471a-b740-94577ca85520
+    port: 443
+    server: 217.60.73.56
+    skip-cert-verify: true
+    sni: forshynewh.duckdns.org
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
