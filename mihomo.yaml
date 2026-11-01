@@ -1,19 +1,16 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: vlgrpc
-    name: "\U0001F1F7\U0001F1FARU_1|567KB/s"
-    network: grpc
-    port: 443
-    server: 201.24.121.243
+  - name: "\U0001F1ED\U0001F1F0HK_1|692KB/s"
+    port: 31343
+    server: 120.232.204.58
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
-    xudp: true
-    servername: kk-ru24a1.testkknegr.online
+    type: http
+  - name: "\U0001F1F2\U0001F1FEMY_1|641KB/s"
+    port: 9443
+    server: 152.233.3.14
+    skip-cert-verify: true
+    tls: true
+    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
