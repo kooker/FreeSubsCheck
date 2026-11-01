@@ -1,16 +1,26 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|692KB/s"
-    port: 31343
-    server: 120.232.204.58
-    skip-cert-verify: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|683KB/s"
+    network: xhttp
+    port: 61374
+    reality-opts:
+      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+      short-id: ''
+    server: se-2.pythonsetupbib.online
     tls: true
-    type: http
-  - name: "\U0001F1F2\U0001F1FEMY_1|641KB/s"
-    port: 9443
-    server: 152.233.3.14
-    skip-cert-verify: true
-    tls: true
-    type: http
+    type: vless
+    udp: true
+    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+    xhttp-opts:
+      host: se-2.pythonsetupbib.online
+      mode: packet-up
+      path: /
+      reuse-settings:
+        max-connections: '3'
+      x-padding-bytes: 100-500
+    xudp: true
+    servername: se-2.pythonsetupbib.online
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
