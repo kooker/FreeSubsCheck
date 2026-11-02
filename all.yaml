@@ -1,13 +1,8 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_1|731KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 69e41e64-a832-471a-b740-94577ca85520
-      port: "443"
-      server: 217.60.73.56
+    - name: "\U0001F1ED\U0001F1F0HK_1|603KB/s"
+      password: admin
+      port: 8899
+      server: 47.242.19.215
       skip-cert-verify: true
-      sni: forshynewh.duckdns.org
-      type: hysteria2
-      up: ""
+      type: socks5
+      username: admin
