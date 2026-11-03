@@ -1,21 +1,10 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|668KB/s"
-    network: xhttp
-    port: 443
-    server: 31.76.7.233
-    tls: true
-    type: vless
-    udp: true
-    uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
-    xhttp-opts:
-      mode: auto
-      path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-    xudp: true
-    servername: e2865c20.con.rasterparcel.tech
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F2\U0001F1FEMY_1|579KB/s"
+    password: 28789988-887e-4e41-83cd-27bbfb7999ad
+    port: 40006
+    server: xunlinknode.csdjhajkshdjkas.com
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
