@@ -1,20 +1,46 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F2\U0001F1FEMY_1|912KB/s"
-      password: 28789988-887e-4e41-83cd-27bbfb7999ad
-      port: "40006"
-      server: xunlinknode.csdjhajkshdjkas.com
-      type: ss
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1EEFI_1|713KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 69e41e64-a832-471a-b740-94577ca85520
-      port: "443"
-      server: 217.60.73.56
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_1|598KB/s"
+      port: 24667
+      protocol: udp
+      server: 62.210.28.175
       skip-cert-verify: true
-      sni: forshynewh.duckdns.org
-      type: hysteria2
-      up: ""
+      sni: bing.com
+      type: hysteria
+      up: 11 Mbps
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_1|576KB/s"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: "443"
+      server: 169.197.140.218
+      skip-cert-verify: false
+      sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+      type: trojan
+      udp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: ios
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2|602KB/s"
+      network: ws
+      port: "2087"
+      server: 104.18.1.1
+      servername: 1.proxy2.us.ci.
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: 1.proxy2.us.ci.
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        max-early-data: 2560
+        path: /
+      xudp: true
