@@ -1,46 +1,18 @@
 proxies:
     - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR_1|598KB/s"
-      port: 24667
-      protocol: udp
-      server: 62.210.28.175
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria
-      up: 11 Mbps
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|576KB/s"
-      network: tcp
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: "443"
-      server: 169.197.140.218
-      skip-cert-verify: false
-      sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-      type: trojan
-      udp: true
-    - alpn:
-        - h3
         - h2
-        - http/1.1
-      client-fingerprint: ios
+      client-fingerprint: firefox
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_2|602KB/s"
-      network: ws
-      port: "2087"
-      server: 104.18.1.1
-      servername: 1.proxy2.us.ci.
+      name: "\U0001F1E9\U0001F1EADE_1|668KB/s"
+      network: xhttp
+      port: "443"
+      server: 31.76.7.233
+      servername: e2865c20.con.rasterparcel.tech
       tls: true
       type: vless
       udp: true
-      uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: 1.proxy2.us.ci.
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        max-early-data: 2560
-        path: /
+      uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
+      xhttp-opts:
+        mode: auto
+        path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
       xudp: true
