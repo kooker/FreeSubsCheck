@@ -1,8 +1,20 @@
 proxies:
-    - name: "\U0001F1ED\U0001F1F0HK_1|603KB/s"
-      password: admin
-      port: 8899
-      server: 47.242.19.215
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FEMY_1|912KB/s"
+      password: 28789988-887e-4e41-83cd-27bbfb7999ad
+      port: "40006"
+      server: xunlinknode.csdjhajkshdjkas.com
+      type: ss
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1EEFI_1|713KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 69e41e64-a832-471a-b740-94577ca85520
+      port: "443"
+      server: 217.60.73.56
       skip-cert-verify: true
-      type: socks5
-      username: admin
+      sni: forshynewh.duckdns.org
+      type: hysteria2
+      up: ""
