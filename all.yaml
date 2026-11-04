@@ -1,13 +1,26 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F5\U0001F1F1PL_1|573KB/s"
-      obfs: ""
-      obfs-password: ""
-      password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-      port: "4444"
-      server: 13.143.189.147
-      skip-cert-verify: false
-      sni: pl2.nexfile.net
-      type: hysteria2
-      up: ""
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|518KB/s"
+      network: xhttp
+      port: "443"
+      server: 193.160.208.240
+      servername: 193.160.208.240
+      tls: true
+      type: vless
+      udp: true
+      uuid: c04522c4-3d53-4eab-b5b5-25385d5f11b1
+      xhttp-opts:
+        mode: packet-up
+        path: /assets/twru01/
+      xudp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|885KB/s"
+      password: Og%3D%3D
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: Og%3D%3D
