@@ -1,10 +1,16 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F2\U0001F1FEMY_1|579KB/s"
-    password: 28789988-887e-4e41-83cd-27bbfb7999ad
-    port: 40006
-    server: xunlinknode.csdjhajkshdjkas.com
-    type: ss
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F5\U0001F1F1PL_1|573KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    port: 4444
+    server: 13.143.189.147
+    skip-cert-verify: false
+    sni: pl2.nexfile.net
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
