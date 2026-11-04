@@ -1,10 +1,74 @@
 proxies:
-  - name: "\U0001F1E8\U0001F1FFCZ_1|1.7MB/s"
-    port: 443
-    server: 185.216.35.66
-    skip-cert-verify: true
-    tls: true
-    type: http
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_1|1.6MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_2|1.1MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_3|1.5MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_4|1.4MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_5|1.6MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_6|1.5MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.99
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_7|1.4MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.72
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_8|1.5MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_9|1.5MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.81
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_10|1.4MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
