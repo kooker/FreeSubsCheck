@@ -1,11 +1,36 @@
 proxies:
-    - fingerprint: ""
-      name: "\U0001F1F9\U0001F1FCTW_1|954KB/s"
-      password: 0324fbc29561
-      port: "443"
-      server: 684616s4.df6h451rh.xin
-      skip-cert-verify: true
-      sni: px.ads.linkedin.com
-      type: anytls
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|833KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.36
+      type: ss
       udp: true
-      username: 0324fbc29561
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|741KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|846KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.99
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|919KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.81
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|650KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.72
+      type: ss
+      udp: true
