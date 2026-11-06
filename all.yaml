@@ -1,73 +1,57 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F5\U0001F1F1PL_1|535KB/s"
-      network: ws
-      port: "8443"
-      server: lte-v2-ws.gacvpn.site
-      servername: lte-v2-ws.gacvpn.site
-      tls: true
-      type: vless
-      udp: true
-      uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /static/js/runtime.9d03c7.js
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
-      network: xhttp
-      port: "443"
-      server: 201.34.142.108
-      servername: 201.34.142.108
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-      xhttp-opts:
-        mode: auto
-        path: /assets/nlrelay01/
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: 5b79e8a94241
-      name: "\U0001F1F3\U0001F1F1NL_2|2.3MB/s"
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-        short-id: 50a749f0eccb628c
-      server: 15b171g.nl7.h1clayd.click
-      servername: 15b171g.nl7.h1clayd.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
-      password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-      port: "1080"
-      server: 88.216.254.18
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|2.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.27
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT_1|617KB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-        short-id: 41ae8e266bc3346f
-      server: at1.japancase.site
-      servername: at1.japancase.site
-      tls: true
-      type: vless
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|2.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.36
+      type: ss
       udp: true
-      uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|2.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.90
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|1.8MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.18
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|947KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6|1.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.45
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7|760KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.99
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_8|1.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.72
+      type: ss
+      udp: true
