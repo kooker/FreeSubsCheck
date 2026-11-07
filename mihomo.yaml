@@ -1,135 +1,42 @@
 proxies:
-  - name: "\U0001F1E9\U0001F1EADE_1|572KB/s"
-    port: 9002
-    server: 158.173.154.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_1|1004KB/s"
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1EE\U0001F1EAIE_1|1001KB/s"
-    port: 443
-    server: 34.249.214.108
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
-    port: 9002
-    server: 84.17.47.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
-    port: 443
-    server: 38.247.141.135
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_1|1.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: "428ef87fd47a3a32"
-    server: prvtch.titun.su
-    tls: true
-    type: vless
-    udp: true
-    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-    xudp: true
-    servername: perevodchiki.su
-  - encryption: mlkem768x25519plus.native.0rtt.JOz04Neg9PDWwDsVd4DaTDB63yZZDX2FNbkadsv91gk
-    http-opts:
-      headers:
-        Host:
-          - ssh.webdade.com
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_3|2.2MB/s"
-    network: http
-    port: 46132
-    server: edition.ativetechnology.ir
-    type: vless
-    udp: true
-    uuid: b86451af-4c98-4b7d-96e5-16f2e9df1d46
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
-    network: xhttp
-    port: 53421
-    server: fast.mo-chephosting.ir
-    type: vless
-    udp: true
-    uuid: 2dbf38e2-a0bc-4c65-8899-678818878bf4
-    xhttp-opts:
-      host: cafeariel.ir
-      mode: auto
-      path: /
-      x-padding-bytes: 100-1000
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_2|609KB/s"
-    password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-    port: 1080
-    server: 88.216.254.18
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-ru
-    name: "\U0001F1F7\U0001F1FARU_1|1.0MB/s"
-    network: grpc
-    port: 443
-    server: xssite.webredirect.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-    xudp: true
-    servername: xssite.webredirect.org
-  - name: "\U0001F1F7\U0001F1F8RS_1|781KB/s"
-    password: ''
-    port: 443
-    server: 146.70.221.34
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1E9\U0001F1EADE_3|1.9MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_1|6.7MB/s"
     password: None
-    port: 443
-    server: 87.249.132.97
+    port: 31343
+    server: 120.232.204.58
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_4|1.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-      short-id: "b9120cd53ffd7bba"
-    server: 147.45.153.29
+  - name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
+    port: 9443
+    server: 213.139.9.142
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-    xudp: true
-    servername: patch-46.topp-con.xyz
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+    password: 'null'
+    port: 9002
+    server: 138.199.35.211
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
+    password: None
+    port: 9002
+    server: 138.199.35.203
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.6MB/s"
+    port: 9090
+    server: 128.199.121.61
+    type: http
+  - name: "\U0001F1EE\U0001F1E9ID_1|4.6MB/s"
+    port: 443
+    server: 103.86.117.202
+    skip-cert-verify: true
+    tls: true
+    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
