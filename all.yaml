@@ -1,43 +1,336 @@
 proxies:
-    - name: "\U0001F1ED\U0001F1F0HK_1|6.7MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|1.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.63
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|2.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.27
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|2.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.36
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|1.8MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.90
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|1.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6|1.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.18
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7|2.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.72
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: grpc-ru
+      name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
+      network: grpc
+      port: "443"
+      server: xssite.webredirect.org
+      servername: xssite.webredirect.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F7\U0001F1FARU_2|951KB/s"
+      password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+      port: "18443"
+      server: 46.17.47.58
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+      password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+      port: "1080"
+      server: 88.216.254.18
+      type: ss
+      udp: true
+    - client-fingerprint: random
+      grpc-opts:
+        grpc-service-name: grpc-ru
+      name: "\U0001F1F7\U0001F1FARU_3|996KB/s"
+      network: grpc
+      port: "443"
+      server: xsru1.ddnsfree.com
+      servername: xsru1.ddnsfree.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_1|4.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+      port: "443"
+      server: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
+      skip-cert-verify: false
+      sni: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_2|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+      port: "443"
+      server: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1EE\U0001F1F9IT_8|2.2MB/s"
+      password: ""
+      port: "1088"
+      server: 212.77.75.25
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_2|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 40639730-e027-11ea-87ad-f23c913c8d2b
+      port: "443"
+      server: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+      skip-cert-verify: true
+      sni: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      password: ""
+      port: "10809"
+      server: 91.107.179.68
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_3|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+      port: "443"
+      server: 64.32.13.230
+      skip-cert-verify: false
+      sni: ac8140ad-tmm5c0-tvk1qn-19les.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_4|4.2MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+      port: "443"
+      server: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F5\U0001F1F1PL_1|799KB/s"
+      obfs: ""
+      obfs-password: ""
+      password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+      port: "4444"
+      server: 13.143.189.101
+      skip-cert-verify: false
+      sni: pl1.nexfile.net
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_5|4.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+      port: "443"
+      server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_6|5.5MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+      port: "443"
+      server: 64.32.13.230
+      skip-cert-verify: false
+      sni: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_7|5.4MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+      port: "443"
+      server: 64.32.13.230
+      skip-cert-verify: false
+      sni: 9507c324-tnhmo0-tohhws-zn8y.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_8|5.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+      port: "443"
+      server: 53edf574-tmm5c0-tpftcp-13x18.los.hyhuawei.com
+      skip-cert-verify: true
+      sni: 53edf574-tmm5c0-tpftcp-13x18.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_9|4.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+      port: "443"
+      server: 64.32.13.230
+      skip-cert-verify: false
+      sni: 73395328-tmm5c0-tpv2b9-1o8ak.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_10|4.4MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+      port: "443"
+      server: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: ab42319f-tmm5c0-tmg311-141tv.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_3|4.9MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+      port: "443"
+      server: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+      skip-cert-verify: false
+      sni: aecfea9b-tmm5c0-tpw4i4-1pckg.nw4.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_11|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+      port: "443"
+      server: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: ed4ccc41-tmm5c0-tpsg94-1jbj0.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_12|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+      port: "443"
+      server: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+      skip-cert-verify: false
+      sni: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_13|5.3MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+      port: "443"
+      server: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+      skip-cert-verify: true
+      sni: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_14|5.5MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+      port: "443"
+      server: 1ba94b4c-tmm5c0-tw661e-1isea.los.hyhuawei.com
+      skip-cert-verify: true
+      sni: 1ba94b4c-tmm5c0-tw661e-1isea.los.hyhuawei.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1F0\U0001F1F7KR_1|844KB/s"
+      password: VDJjbE0wUWxNMFE2Og
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: VDJjbE0wUWxNMFE2Og
+    - name: "\U0001F1F0\U0001F1F7KR_2|795KB/s"
+      password: T2clM0QlM0Q6
+      port: "1090"
+      server: 121.169.46.116
+      skip-cert-verify: true
+      type: socks5
+      username: T2clM0QlM0Q6
+    - name: "\U0001F1FA\U0001F1F8US_15|2.0MB/s"
+      password: test123
+      port: "1080"
+      server: 104.168.249.36
+      skip-cert-verify: true
+      type: socks5
+      username: test123
+    - name: "\U0001F1FA\U0001F1F8US_16|677KB/s"
       password: None
-      port: 31343
-      server: 120.232.204.58
+      port: "38182"
+      server: 69.55.49.177
       skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
-      port: 9443
-      server: 213.139.9.142
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
-      password: "null"
-      port: 9002
-      server: 138.199.35.211
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s"
-      password: None
-      port: 9002
-      server: 138.199.35.203
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F8\U0001F1ECSG_1|1.6MB/s"
-      password: null
-      port: 9090
-      server: 128.199.121.61
-      type: http
-      username: null
-    - name: "\U0001F1EE\U0001F1E9ID_1|4.6MB/s"
-      password: null
-      port: 443
-      server: 103.86.117.202
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: null
+      type: socks5
+      username: ""
