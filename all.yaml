@@ -1,73 +1,132 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.54
-      skip-cert-verify: false
-      tls: false
+    - name: "\U0001F1E9\U0001F1EADE_1|572KB/s"
+      port: 9002
+      server: 158.173.154.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|1004KB/s"
+      port: 23856
+      server: 51.159.225.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EE\U0001F1EAIE_1|1001KB/s"
+      port: 443
+      server: 34.249.214.108
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
+      port: 9002
+      server: 84.17.47.125
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s"
+      port: 443
+      server: 38.247.141.135
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1EDCH_1|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+        short-id: 428ef87fd47a3a32
+      server: prvtch.titun.su
+      servername: perevodchiki.su
+      tls: true
+      type: vless
+      udp: true
+      uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+      xudp: true
+    - encryption: mlkem768x25519plus.native.0rtt.JOz04Neg9PDWwDsVd4DaTDB63yZZDX2FNbkadsv91gk
+      http-opts:
+        headers:
+            Host:
+                - ssh.webdade.com
+        path:
+            - /
+      name: "\U0001F1F3\U0001F1F1NL_3|2.2MB/s"
+      network: http
+      port: "46132"
+      server: edition.ativetechnology.ir
+      type: vless
+      udp: true
+      uuid: b86451af-4c98-4b7d-96e5-16f2e9df1d46
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
+      network: xhttp
+      port: "53421"
+      server: fast.mo-chephosting.ir
+      type: vless
+      udp: true
+      uuid: 2dbf38e2-a0bc-4c65-8899-678818878bf4
+      xhttp-opts:
+        host: cafeariel.ir
+        mode: auto
+        path: /
+        x-padding-bytes: 100-1000
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_2|609KB/s"
+      password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+      port: "1080"
+      server: 88.216.254.18
       type: ss
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_2|938KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.36
-      skip-cert-verify: false
-      tls: false
-      type: ss
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: grpc-ru
+      name: "\U0001F1F7\U0001F1FARU_1|1.0MB/s"
+      network: grpc
+      port: "443"
+      server: xssite.webredirect.org
+      servername: xssite.webredirect.org
+      tls: true
+      type: vless
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_3|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.99
-      skip-cert-verify: false
-      tls: false
-      type: ss
+      uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+      xudp: true
+    - name: "\U0001F1F7\U0001F1F8RS_1|781KB/s"
+      password: ""
+      port: "443"
+      server: 146.70.221.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E9\U0001F1EADE_3|1.9MB/s"
+      password: None
+      port: "443"
+      server: 87.249.132.97
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_4|1.3MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
+        short-id: b9120cd53ffd7bba
+      server: 147.45.153.29
+      servername: patch-46.topp-con.xyz
+      tls: true
+      type: vless
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_4|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.45
-      skip-cert-verify: false
-      tls: false
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_5|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.81
-      skip-cert-verify: false
-      tls: false
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_6|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.27
-      skip-cert-verify: false
-      tls: false
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_7|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.72
-      skip-cert-verify: false
-      tls: false
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_8|1.3MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.18
-      skip-cert-verify: false
-      tls: false
-      type: ss
-      udp: true
+      uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+      xudp: true
