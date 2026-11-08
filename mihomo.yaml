@@ -1,144 +1,77 @@
 proxies:
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|2.2MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_1|1.6MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.36
-    skip-cert-verify: false
-    tls: false
+    server: 202.50.253.90
     type: ss
     udp: true
   - cipher: aes-256-gcm
     name: "\U0001F1EE\U0001F1F9IT_2|1.6MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.99
-    skip-cert-verify: false
-    tls: false
+    server: 202.50.253.54
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_3|1.8MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_3|1.6MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.99
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_4|1.7MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.63
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_5|1.8MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.72
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_6|1.6MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_7|1.4MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.45
-    skip-cert-verify: false
-    tls: false
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_4|2.2MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_8|1.6MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.90
-    skip-cert-verify: false
-    tls: false
+    server: 202.50.253.36
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_5|2.2MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_9|1.7MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.18
-    skip-cert-verify: false
-    tls: false
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1F7\U0001F1FARU_1|637KB/s"
-    password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-    port: 18443
-    server: 46.17.47.58
+    name: "\U0001F1EE\U0001F1F9IT_10|1.5MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.81
     type: ss
-  - name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s"
-    port: 9090
-    server: 128.199.113.85
-    skip-cert-verify: false
-    tls: false
-    type: http
-  - cipher: chacha20-ietf
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
-    obfs: tls1.2_ticket_auth
-    obfs-param: ''
-    password: dongtaiwang.com
-    port: 33336
-    protocol: auth_chain_a
-    protocol-param: ''
-    server: 109.104.153.43
-    type: ssr
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
-    port: 24667
-    protocol: udp
-    server: 62.210.28.175
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria
-    up: 11 Mbps
-  - client-fingerprint: random
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: grpc-ru
-    name: "\U0001F1F7\U0001F1FARU_2|1.3MB/s"
-    network: grpc
-    port: 443
-    server: xsru1.ddnsfree.com
-    tls: true
-    type: vless
     udp: true
-    uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-    servername: xsru1.ddnsfree.com
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|2.3MB/s"
-    network: ws
-    port: 2096
-    server: 139.162.27.96
-    tls: true
-    type: vless
-    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-    ws-opts:
-      headers:
-        Host: free-server.techsonic.dev
-      path: /free-server.techsonic.dev
-    servername: free-server.techsonic.dev
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s"
-    password: None
-    port: 9443
-    server: 84.17.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1F3\U0001F1F1NL_2|927KB/s"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 500
-  - client-fingerprint: firefox
-    name: "\U0001F1F3\U0001F1F1NL_3|855KB/s"
-    network: xhttp
-    port: 443
-    server: 201.34.142.108
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-    xhttp-opts:
-      mode: auto
-      path: /assets/nlrelay01/
-    servername: 201.34.142.108
-  - client-fingerprint: chrome
-    name: "\U0001F1F7\U0001F1FARU_3|1.7MB/s"
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_1|804KB/s"
     network: ws
     port: 443
     server: xsru2.freeddns.org
@@ -149,74 +82,12 @@ proxies:
     ws-opts:
       headers:
         Host: xsru2.freeddns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /wsru
+    xudp: true
     servername: xsru2.freeddns.org
-  - name: "\U0001F1F3\U0001F1F1NL_4|2.1MB/s"
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_1|532KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: "428ef87fd47a3a32"
-    server: prvtch.titun.su
-    tls: true
-    type: vless
-    udp: true
-    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-    xudp: true
-    servername: perevodchiki.su
-  - client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_5|2.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-      short-id: "361d0dd59c70516f"
-    server: 5d0319t.nl7.h1clayd.click
-    tls: true
-    type: vless
-    udp: true
-    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    xudp: true
-    servername: 5d0319t.nl7.h1clayd.click
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_2|1.5MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: "428ef87fd47a3a32"
-    server: 179.43.166.190
-    tls: true
-    type: vless
-    udp: true
-    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-    xudp: true
-    servername: perevodchiki.su
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-ru
-    name: "\U0001F1F7\U0001F1FARU_4|893KB/s"
-    network: grpc
-    port: 443
-    server: xssite.webredirect.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-    xudp: true
-    servername: xssite.webredirect.org
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
