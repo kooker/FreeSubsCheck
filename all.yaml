@@ -1,81 +1,83 @@
 proxies:
-    - delay: 1048
-      name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
-      port: 9002
-      server: 158.173.154.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - delay: 1074
-      name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
-      password: "null"
-      port: 443
-      server: 103.97.88.154
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: "null"
-    - delay: 895
-      name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
-      port: 9002
-      server: 84.17.47.124
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - delay: 2654
-      name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
       password: None
-      port: 9002
-      server: 84.17.47.148
+      port: 31343
+      server: 120.232.204.58
       skip-cert-verify: true
       tls: true
       type: http
-    - delay: 1106
-      name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
-      port: 9002
-      server: 84.17.47.125
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
+      password: None
+      port: 9443
+      server: 84.17.50.129
       skip-cert-verify: true
       tls: true
       type: http
-    - delay: 2901
-      name: "\U0001F1F3\U0001F1F1NL_5|656KB/s"
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|569KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|633KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.72
+      type: ss
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
       port: 19362
       server: 51.159.225.197
       skip-cert-verify: true
       tls: true
       type: http
-    - delay: 1639
-      name: "\U0001F1F1\U0001F1FBLV_1|720KB/s"
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
+      password: "null"
+      port: 23856
+      server: 51.159.225.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: "null"
+    - name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s"
+      port: 23856
+      server: 51.159.225.196
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
+      port: 443
+      server: 82.65.162.76
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+    - name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
       port: 443
       server: 185.219.159.15
       skip-cert-verify: true
       tls: true
       type: http
-    - delay: 1497
-      name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+      udp: true
+    - name: "\U0001F1F1\U0001F1FBLV_2|1.4MB/s"
+      password: None
       port: 443
-      server: 38.247.141.135
+      server: 185.219.159.16
       skip-cert-verify: true
       tls: true
       type: http
-    - delay: 1480
-      name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
-      port: 9002
-      server: 138.199.35.196
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
+      port: 8443
+      server: 44.248.167.117
       skip-cert-verify: true
       tls: true
       type: http
-    - cipher: aes-256-gcm
-      delay: 593
-      name: "\U0001F1EE\U0001F1F9IT_1|801KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.36
-      type: ss
-    - cipher: aes-256-gcm
-      delay: 577
-      name: "\U0001F1EE\U0001F1F9IT_2|1007KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.18
-      type: ss
+      udp: true
