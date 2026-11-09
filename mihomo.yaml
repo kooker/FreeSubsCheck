@@ -1,86 +1,50 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    password: None
-    port: 31343
-    server: 120.232.204.58
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
-    password: None
-    port: 9443
-    server: 84.17.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|569KB/s"
+    name: "\U0001F1EE\U0001F1F9IT_1|642KB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
-    server: 202.50.253.54
+    server: 202.50.253.90
     type: ss
     udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_2|633KB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.72
-    type: ss
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s"
-    port: 19362
-    server: 51.159.225.197
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
-    password: 'null'
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: 'null'
-  - name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s"
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|762KB/s"
+    network: tcp
     port: 443
-    server: 82.65.162.76
-    skip-cert-verify: true
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: "428ef87fd47a3a32"
+    server: prvtch.titun.su
     tls: true
-    type: http
+    type: vless
     udp: true
-  - name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
+    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+    xudp: true
+    servername: perevodchiki.su
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_2|1.4MB/s"
+    network: tcp
     port: 443
-    server: 185.219.159.15
-    skip-cert-verify: true
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: "428ef87fd47a3a32"
+    server: 179.43.166.190
     tls: true
-    type: http
+    type: vless
     udp: true
-  - name: "\U0001F1F1\U0001F1FBLV_2|1.4MB/s"
-    password: None
-    port: 443
-    server: 185.219.159.16
+    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+    xudp: true
+    servername: perevodchiki.su
+  - name: "\U0001F1EE\U0001F1F9IT_2|2.3MB/s"
+    password: ''
+    port: 1088
+    server: 212.77.75.25
     skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s"
-    port: 8443
-    server: 44.248.167.117
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
+    type: socks5
+    username: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
