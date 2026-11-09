@@ -1,237 +1,84 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.90
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_2|1.4MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.63
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_3|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.18
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_4|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_5|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.45
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_6|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.81
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_7|1.2MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_8|1.1MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
-  - name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
-    password: None
-    port: 9443
-    server: 84.17.50.129
+  - delay: 1048
+    name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s"
+    port: 9002
+    server: 158.173.154.5
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
-    password: ''
-    port: 443
-    server: 213.109.163.119
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
-    password: ''
-    port: 19362
-    server: 51.159.225.197
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.1MB/s"
+  - delay: 1074
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
     password: 'null'
-    port: 23856
-    server: 51.159.225.196
+    port: 443
+    server: 103.97.88.154
     skip-cert-verify: true
     tls: true
     type: http
     username: 'null'
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.6MB/s"
-    password: ''
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
-    password: ''
-    port: 443
-    server: 82.65.162.76
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1EE\U0001F1EAIE_1|1.5MB/s"
-    password: ''
-    port: 443
-    server: 34.249.214.108
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
-    password: ''
-    port: 443
-    server: 185.219.159.15
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
-    password: ''
+  - delay: 895
+    name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s"
     port: 9002
     server: 84.17.47.124
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_5|889KB/s"
+  - delay: 2654
+    name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s"
     password: None
     port: 9002
     server: 84.17.47.148
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_6|665KB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.149
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1F3\U0001F1F1NL_7|586KB/s"
-    password: ''
+  - delay: 1106
+    name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
     port: 9002
     server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8US_1|808KB/s"
-    password: ''
-    port: 8443
-    server: 44.248.167.117
+  - delay: 2901
+    name: "\U0001F1F3\U0001F1F1NL_5|656KB/s"
+    port: 19362
+    server: 51.159.225.197
     skip-cert-verify: true
     tls: true
     type: http
-    username: ''
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|629KB/s"
-    network: ws
+  - delay: 1639
+    name: "\U0001F1F1\U0001F1FBLV_1|720KB/s"
     port: 443
-    server: 188.130.154.204
+    server: 185.219.159.15
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: ed2e4dd1-d19f-48dd-b613-3f855b1d0765
-    ws-opts:
-      headers:
-        Host: cdn2.zovip2.ir
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: /api/v3/pulse
-    xudp: true
-    servername: cdn2.zovip2.ir
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_1|990KB/s"
-    network: tcp
+    type: http
+  - delay: 1497
+    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
     port: 443
-    reality-opts:
-      public-key: QjYksCdraKvxMG024774_EOZjxtIB7xHm3GYGx3oN1Y
-      short-id: "c59bb8af70d9db1e"
-    server: fi-edge.gacvpn.site
+    server: 38.247.141.135
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-    xudp: true
-    servername: fi3-edge.gacvpn.site
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_1|882KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-      short-id: "428ef87fd47a3a32"
-    server: prvtch.titun.su
+    type: http
+  - delay: 1480
+    name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s"
+    port: 9002
+    server: 138.199.35.196
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-    xudp: true
-    servername: perevodchiki.su
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F5\U0001F1F1PL_1|2.8MB/s"
-    network: xhttp
-    port: 61374
-    reality-opts:
-      public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-      short-id: ''
-    server: pl-b1.golangwikito.cfd
-    tls: true
-    type: vless
-    udp: true
-    uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-    xhttp-opts:
-      host: pl-b1.golangwikito.cfd
-      mode: packet-up
-      path: /
-      reuse-settings:
-        max-connections: '3'
-      x-padding-bytes: 100-500
-    xudp: true
-    servername: pl-b1.golangwikito.cfd
+    type: http
+  - cipher: aes-256-gcm
+    delay: 593
+    name: "\U0001F1EE\U0001F1F9IT_1|801KB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+  - cipher: aes-256-gcm
+    delay: 577
+    name: "\U0001F1EE\U0001F1F9IT_2|1007KB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.18
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
