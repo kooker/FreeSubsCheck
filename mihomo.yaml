@@ -1,77 +1,319 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.90
-    type: ss
+  - name: "\U0001F1EC\U0001F1E7GB_1|2.2MB/s"
+    password: None
+    port: 9443
+    server: 84.17.50.129
+    skip-cert-verify: true
+    tls: true
+    type: http
     udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_2|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.54
-    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+    port: 24667
+    protocol: udp
+    server: 62.210.28.175
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: a9w9wmko0k2od14hv8v
+    name: "\U0001F1F3\U0001F1F1NL_1|3.0MB/s"
+    network: grpc
+    port: 443
+    server: 5.83.129.236
+    tls: true
+    type: vless
+    uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+    servername: host-de-upscale.cdn.cachefleet.com
+  - client-fingerprint: random
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: grpc-ru
+    name: "\U0001F1F7\U0001F1FARU_1|875KB/s"
+    network: grpc
+    port: 443
+    server: xsru1.ddnsfree.com
+    tls: true
+    type: vless
     udp: true
+    uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+    servername: xsru1.ddnsfree.com
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_3|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_4|1.7MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_1|963KB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.63
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_5|1.8MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_2|1.3MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.54
+    type: ss
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_3|1.3MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.72
     type: ss
-    udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_6|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.27
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_7|1.4MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.45
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_8|1.6MB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.36
-    type: ss
-    udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_9|1.7MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_4|1.2MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.18
     type: ss
     udp: true
   - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_10|1.5MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_5|992KB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.99
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_6|1.2MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.45
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_7|1.1MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.36
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_8|1.1MB/s"
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
     port: 19999
     server: 202.50.253.81
     type: ss
     udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_9|610KB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.90
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1EE\U0001F1F9IT_10|1.1MB/s"
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    port: 19999
+    server: 202.50.253.27
+    type: ss
+  - client-fingerprint: firefox
+    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s"
+    network: xhttp
+    port: 443
+    server: 193.160.208.240
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    xhttp-opts:
+      mode: auto
+      path: /assets/twru01/
+    servername: 193.160.208.240
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+    network: ws
+    port: 443
+    server: 188.130.154.204
+    tls: true
+    type: vless
+    udp: true
+    uuid: ed2e4dd1-d19f-48dd-b613-3f855b1d0765
+    ws-opts:
+      headers:
+        Host: cdn2.zovip2.ir
+      path: /api/v3/pulse
+    servername: cdn2.zovip2.ir
+  - auth: 9cfc9458e48c028ec03ff86ebc71c744
+    name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s"
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    port: 50160
+    server: 150-230-252-217.liao.kdns.fr
+    skip-cert-verify: true
+    type: hysteria2
+    sni: 150-230-252-217.liao.kdns.fr
+  - client-fingerprint: firefox
+    name: "\U0001F1F3\U0001F1F1NL_2|909KB/s"
+    network: xhttp
+    port: 443
+    server: 201.34.142.108
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    xhttp-opts:
+      mode: auto
+      path: /assets/nlrelay01/
+    servername: 201.34.142.108
+  - name: "\U0001F1E9\U0001F1EADE_3|1.5MB/s"
+    port: 9002
+    server: 158.173.154.5
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE_4|1.5MB/s"
+    port: 9002
+    server: 158.173.154.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_3|2.4MB/s"
+    port: 19362
+    server: 51.159.225.197
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_4|998KB/s"
+    port: 23856
+    server: 51.159.225.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1EE\U0001F1EAIE_1|649KB/s"
+    port: 443
+    server: 34.249.214.108
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
+    port: 443
+    server: 185.219.159.15
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F1\U0001F1FBLV_2|656KB/s"
+    password: None
+    port: 443
+    server: 185.219.159.16
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.7MB/s"
+    password: 'null'
+    port: 443
+    server: 103.97.88.154
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: 'null'
+  - name: "\U0001F1F3\U0001F1F1NL_6|1.4MB/s"
+    port: 9002
+    server: 84.17.47.124
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_7|1.4MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_8|2.1MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+    port: 8443
+    server: 44.248.167.117
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F7\U0001F1FARU_1|804KB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|913KB/s"
+    network: ws
+    port: 443
+    server: 188.164.248.110
+    tls: true
+    type: vless
+    udp: true
+    uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+    ws-opts:
+      headers:
+        Host: imanvipreserved.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /
+    xudp: true
+    servername: imanvipreserved.pages.dev
+  - client-fingerprint: qq
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_3|731KB/s"
+    network: ws
+    port: 2087
+    server: fu.baiproxy.us.ci
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers:
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fu.baiproxy.us.ci
+  - client-fingerprint: qq
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s"
+    network: ws
+    port: 2087
+    server: fu.baiproxy.us.ci
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers:
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fu.baiproxy.us.ci
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_2|1.6MB/s"
     network: ws
     port: 443
     server: xsru2.freeddns.org
@@ -83,11 +325,129 @@ proxies:
       headers:
         Host: xsru2.freeddns.org
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
       path: /wsru
     xudp: true
     servername: xsru2.freeddns.org
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F0\U0001F1F7KR_2|1.6MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    port: 50160
+    server: 150-230-252-217.liao.kdns.fr
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EE\U0001F1F9IT_11|2.0MB/s"
+    password: ''
+    port: 1088
+    server: 212.77.75.25
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_5|803KB/s"
+    network: tcp
+    password: happybirthdaydaniel
+    port: 25267
+    server: de-bots4.h1cloud.net
+    skip-cert-verify: true
+    sni: t.me/fuckthewall
+    type: trojan
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_6|521KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 18.153.65.67
+    skip-cert-verify: true
+    sni: 127.0.0.1
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F0\U0001F1F7KR_3|804KB/s"
+    password: T2clM0QlM0Q6
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: socks5
+    username: T2clM0QlM0Q6
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_7|608KB/s"
+    network: tcp
+    password: happybirthdaydaniel
+    port: 25267
+    server: de-bots4.h1cloud.net
+    skip-cert-verify: true
+    sni: t.mefuckthewall
+    type: trojan
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_8|536KB/s"
+    network: tcp
+    password: happybirthdaydaniel
+    port: 25267
+    server: de-bots4.h1cloud.net
+    skip-cert-verify: true
+    sni: t.me/FuckTheWall
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_5|2.3MB/s"
+    password: test123
+    port: 1080
+    server: 104.168.249.36
+    skip-cert-verify: true
+    type: socks5
+    username: test123
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_9|657KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 18.153.65.67
+    skip-cert-verify: true
+    sni: 18.153.65.67
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_10|722KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 18.153.65.67
+    skip-cert-verify: true
+    sni: vpn-de-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|2.3MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+      short-id: "428ef87fd47a3a32"
+    server: prvtch.titun.su
+    tls: true
+    type: vless
+    udp: true
+    uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+    xudp: true
+    servername: perevodchiki.su
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
