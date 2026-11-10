@@ -1,36 +1,23 @@
 proxies:
-  - client-fingerprint: chrome
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    grpc-opts:
-      grpc-service-name: google.storage.v2.Storage
-    name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
-    network: grpc
-    port: 2083
-    reality-opts:
-      public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
-      short-id: "8bd80253"
-    server: 201.58.189.105
-    tls: true
-    type: vless
-    udp: true
-    uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
-    xudp: true
-    servername: dl.google.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|565KB/s"
-    network: raw
+    fingerprint: 67fa1e374feaeb232157317d6ace682475cb1a826e0cf8657151a254681aed62
+    name: "\U0001F1F3\U0001F1F1NL_1|769KB/s"
+    network: xhttp
     port: 443
-    reality-opts:
-      public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-      short-id: "051f20c2344a2dfd"
-    server: 104.36.69.105
+    server: 94.241.172.107
     tls: true
     type: vless
     udp: true
-    uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
+    uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+    xhttp-opts:
+      mode: packet-up
+      path: /assets/nl02/
     xudp: true
-    servername: portal.citygrainla.com
+    servername: 94.241.172.107
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
