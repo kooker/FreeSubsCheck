@@ -1,46 +1,15 @@
 proxies:
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
-    password: None
-    port: 9443
-    server: 84.17.50.214
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F1\U0001F1FBLV_1|848KB/s"
-    port: 443
-    server: 109.248.147.66
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EB\U0001F1F7FR_1|544KB/s"
-    port: 9443
-    server: 138.199.47.247
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F8\U0001F1EASE_1|1.6MB/s"
-    password: None
-    port: 443
-    server: 146.70.242.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|603KB/s"
-    network: xhttp
-    port: 443
-    server: saltmint.space
-    tls: true
-    type: vless
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_1|530KB/s"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '88a027c.dl.microsoft.lu:14333'
+      mode: tls
+    port: 2377
+    server: 118.163.198.43
+    type: ss
     udp: true
-    uuid: ab044ce9-1eef-47fd-8cbd-32310f96f66b
-    xhttp-opts:
-      host: saltmint.space
-      mode: packet-up
-      path: /Sm4Wk8Xt2Rr6Nw9Zj7Hc1Ys5D/
-    xudp: true
-    servername: saltmint.space
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
