@@ -1,19 +1,158 @@
 proxies:
-    - fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|1002KB/s"
-      password: 0324fbc29561
-      port: "443"
-      server: sdf65h46wr.df6h451rh.xin
-      skip-cert-verify: true
-      sni: images.ctfassets.net
-      type: anytls
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|800KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.63
+      skip-cert-verify: false
+      tls: false
+      type: ss
       udp: true
-      username: 0324fbc29561
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|1.7MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.54
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|1.5MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.36
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|853KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.99
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|1.4MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.45
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6|1.5MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.90
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7|1.0MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.81
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_8|1.1MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.27
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_9|1.0MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.72
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_10|1.2MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.18
+      skip-cert-verify: false
+      tls: false
+      type: ss
+      udp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw
+        short-id: "00000000"
+      server: 95.85.234.66
+      servername: fl-modx.webedg.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3659f248-1797-4d6e-9982-a308565fec79
+    - encryption: mlkem768x25519plus.native.0rtt.idIqJLbBRhVvjLcCi75qK-I68clo9tz132HIDrp6JVA
+      flow: xtls-rprx-vision
+      http-opts:
+        headers:
+            Host:
+                - tgju.org
+        path:
+            - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
+      name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
+      network: http
+      port: "2091"
+      server: 167.233.182.104
+      type: vless
+      udp: true
+      uuid: 3a667b02-3e6e-439e-9fdb-720ab7a5d306
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: qi8ws15c7jv5q2fa
+      name: "\U0001F1EB\U0001F1F7FR_1|918KB/s"
+      network: grpc
+      port: "80"
+      server: 200.102.183.57
+      servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+      xudp: true
+    - encryption: none
+      http-opts:
+        headers:
+            Host:
+                - play.googleapis.com
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s"
+      network: http
+      port: "443"
+      server: 184.195.175.29
+      type: vless
+      udp: true
+      uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+      xudp: true
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_2|1008KB/s"
       obfs: ""
       port: "24667"
       protocol: ""
@@ -24,22 +163,35 @@ proxies:
       up: "11"
     - alpn:
         - h3
-      auth_str: github.com/Alvin9999-newpac/fanqiang
+      auth_str: dongtaiwang.com
       down: "55"
-      name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|919KB/s"
       obfs: ""
-      port: "22335"
+      port: "54177"
       protocol: ""
-      server: 198.200.57.142
+      server: 5.83.129.90
       skip-cert-verify: true
-      sni: ""
+      sni: apple.com
       type: hysteria
       up: "11"
     - alpn:
         - h3
       auth_str: dongtaiwang.com
       down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s"
+      name: "\U0001F1EB\U0001F1F7FR_3|785KB/s"
+      obfs: ""
+      port: "36699"
+      protocol: ""
+      server: 163.172.117.163
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: "11"
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR_4|617KB/s"
       obfs: ""
       port: "36699"
       protocol: ""
@@ -48,3 +200,39 @@ proxies:
       sni: ""
       type: hysteria
       up: "11"
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F5\U0001F1F1PL_1|675KB/s"
+      network: xhttp
+      port: "443"
+      server: 151.101.36.253
+      servername: accounts.fastly.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+      xhttp-opts:
+        host: ovd9.global.ssl.fastly.net
+        mode: auto
+        path: /
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: edge
+      encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_5|1.5MB/s"
+      network: xhttp
+      port: "443"
+      server: 151.101.36.201
+      servername: accounts.fastly.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+      xhttp-opts:
+        host: oh6.global.ssl.fastly.net
+        mode: auto
+        path: /
+      xudp: true
