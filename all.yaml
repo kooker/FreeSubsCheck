@@ -1,153 +1,94 @@
 proxies:
     - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: 204adda7e3da
-      name: "\U0001F1F3\U0001F1F1NL_1|746KB/s"
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-        short-id: d3bd772514c87d28
-      server: 196.196.148.63
-      servername: 717252g.nl8.h1clayd.click
+      name: "\U0001F1E7\U0001F1ECBG_1|1.3MB/s"
+      network: xhttp
+      port: "8443"
+      server: 37.18.15.112
+      servername: earlytrain.net
       tls: true
       type: vless
       udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: 204adda7e3da
-      name: "\U0001F1F3\U0001F1F1NL_2|2.2MB/s"
-      network: grpc
-      port: "443"
-      reality-opts:
-        public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-        short-id: d3bd772514c87d28
-      server: 79.182.39.131
-      servername: 717252g.nl8.h1clayd.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+      uuid: 37af0181-5598-4aad-a040-d926bcb65757
+      xhttp-opts:
+        host: earlytrain.net
+        mode: auto
+        path: /api/v1/upload
+        x-padding-bytes: 100-1000
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_3|2.2MB/s"
+      name: "\U0001F1EE\U0001F1F9IT_1|1.8MB/s"
+      network: tcp
+      password: d7563108-615c-4338-a7bd-77f359869a4a
+      port: "20117"
+      server: sclass-01.catcat321.com
+      skip-cert-verify: true
+      sni: hk.catxstar.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1F1\U0001F1FBLV_1|2.2MB/s"
+      password: ""
+      port: "1080"
+      server: 195.135.255.98
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - alpn:
+        - h3
+      client-fingerprint: firefox
+      name: "\U0001F1F5\U0001F1F1PL_1|2.1MB/s"
       network: xhttp
       port: "443"
-      reality-opts:
-        public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
-        short-id: 7b2b1a14a6e0630d
-      server: 9.247.54.228
-      servername: fc82dfx.nl8.h1clayd.click
+      server: 151.101.36.227
+      servername: accounts.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+      uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
       xhttp-opts:
-        host: fc82dfx.nl8.h1clayd.click
+        host: oh1.global.ssl.fastly.net
         mode: auto
-        path: /0616f2d729aa
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|606KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.36
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_2|843KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.63
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_3|1006KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.90
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_4|919KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.81
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_5|1.4MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.45
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_6|863KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.54
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_7|1.0MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.27
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_8|790KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.72
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_9|643KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.99
-      type: ss
-      udp: true
+        no-grpc-header: true
+        path: /
+        reuse-settings:
+            c-max-reuse-times: "0"
+            h-keep-alive-period: 0
+            h-max-request-times: 600-900
+            h-max-reusable-secs: 1800-3000
+            max-connections: "16"
+        x-padding-bytes: 100-1000
+      xudp: true
     - alpn:
         - h3
-      auth_str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_1|620KB/s"
-      obfs: ""
-      port: "36699"
-      protocol: ""
-      server: 163.172.117.163
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria
-      up: "11"
-    - alpn:
-        - h3
-      auth_str: dongtaiwang.com
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR_2|627KB/s"
-      obfs: ""
-      port: "36699"
-      protocol: ""
-      server: 163.172.117.163
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria
-      up: "11"
-    - alpn:
-        - h2
       client-fingerprint: chrome
       encryption: none
-      grpc-opts:
-        grpc-service-name: qi8ws15c7jv5q2fa
-      name: "\U0001F1EB\U0001F1F7FR_3|2.0MB/s"
-      network: grpc
+      name: "\U0001F1F5\U0001F1F1PL_2|2.8MB/s"
+      network: xhttp
       port: "443"
-      server: 200.102.183.50
-      servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
+      server: 151.101.36.253
+      servername: accounts.fastly.com
       tls: true
       type: vless
       udp: true
-      uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+      uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+      xhttp-opts:
+        host: ovd9.global.ssl.fastly.net
+        mode: auto
+        path: /
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F5\U0001F1F1PL_3|2.1MB/s"
+      network: xhttp
+      port: "443"
+      server: 151.101.36.128
+      servername: accounts.fastly.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+      xhttp-opts:
+        host: ovd7.global.ssl.fastly.net
+        mode: auto
+        path: /
       xudp: true
