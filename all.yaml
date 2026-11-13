@@ -1,24 +1,47 @@
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|544KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.54
-      type: ss
-    - cipher: chacha20-ietf
-      name: "\U0001F1F3\U0001F1F1NL_1|626KB/s"
-      obfs: tls1.2_ticket_auth
-      obfs-param: ""
-      password: dongtaiwang.com
-      port: 33336
-      protocol: auth_chain_a
-      protocol-param: ""
-      server: 109.104.153.43
-      type: ssr
-    - name: "\U0001F1EE\U0001F1F9IT_2|518KB/s"
+    - name: "\U0001F1F8\U0001F1EASE_1|772KB/s"
       password: ""
-      port: "1088"
-      server: 212.77.75.25
+      port: "9443"
+      server: 146.70.242.146
       skip-cert-verify: true
-      type: socks5
+      tls: true
+      type: http
       username: ""
+    - name: "\U0001F1E7\U0001F1ECBG_1|621KB/s"
+      password: None
+      port: "443"
+      server: 185.94.192.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E8\U0001F1FFCZ_1|533KB/s"
+      password: ""
+      port: "443"
+      server: 185.216.35.66
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1E9\U0001F1EADE_1|582KB/s"
+      password: None
+      port: "443"
+      server: 87.249.132.97
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1EA\U0001F1F8ES_1|599KB/s"
+      network: tcp
+      port: "8443"
+      reality-opts:
+        public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+        short-id: 974f7f8f
+      server: 9.247.174.134
+      servername: play.googleapis.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+      xudp: true
