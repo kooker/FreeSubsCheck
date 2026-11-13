@@ -1,120 +1,39 @@
 proxies:
-    - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 1414
-      name: "\U0001F1EE\U0001F1F9IT_1|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.45
-      type: ss
-    - cipher: aes-256-gcm
-      delay: 1608
-      name: "\U0001F1EE\U0001F1F9IT_2|1.0MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.36
-      type: ss
-    - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 1349
-      name: "\U0001F1EE\U0001F1F9IT_3|896KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.81
-      type: ss
-    - cipher: aes-256-gcm
-      delay: 587
-      name: "\U0001F1EE\U0001F1F9IT_4|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.54
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      delay: 1596
-      name: "\U0001F1EE\U0001F1F9IT_5|805KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.27
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      country: "\U0001F1F3\U0001F1FF NZ"
-      delay: 561
-      name: "\U0001F1EE\U0001F1F9IT_6|1.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.99
-      type: ss
-    - cipher: aes-256-gcm
-      delay: 605
-      name: "\U0001F1EE\U0001F1F9IT_7|1.2MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.90
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EA\U0001F1F8ES_1|1.9MB/s"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-        short-id: 974f7f8f
-      server: 9.247.174.134
-      servername: play.googleapis.com
+    - name: "\U0001F1E9\U0001F1EADE_1|777KB/s"
+      port: 9002
+      server: 158.173.154.5
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 585a421d-d782-4420-912e-dd58ff5966d7
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_1|2.8MB/s"
-      network: grpc
-      port: "443"
-      server: vps3.nemnogogo.com
-      servername: vps3.nemnogogo.com
+    - name: "\U0001F1F7\U0001F1FARU_1|667KB/s"
+      password: None
+      port: 1446
+      server: 46.29.166.134
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE_1|756KB/s"
+      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s"
       password: ""
-      port: "9052"
-      server: 57.128.249.250
+      port: "8443"
+      server: 38.76.140.254
       skip-cert-verify: true
-      type: socks5
+      tls: true
+      type: http
       username: ""
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_2|2.2MB/s"
-      network: grpc
+    - name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s"
+      password: ""
       port: "443"
-      server: 201.24.116.192
-      servername: vps3.nemnogogo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1EAEE_1|2.1MB/s"
-      port: 443
-      reality-opts:
-        public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-        short-id: 2ef2b10d5143d798
-      server: 5.129.202.80
-      servername: mirror-50.topp-con.xyz
+      server: 82.66.235.221
       skip-cert-verify: true
-      sni: mirror-50.topp-con.xyz
       tls: true
-      type: vless
-      udp: true
-      uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+      type: http
+      username: ""
+    - name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s"
+      password: "null"
+      port: "9002"
+      server: 158.173.154.1
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
