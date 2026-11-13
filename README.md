@@ -3,15 +3,15 @@
 ![Update](https://img.shields.io/badge/更新频率-每2小时-blue)
 ![SubsCheck](https://img.shields.io/badge/SubsCheck-3-green)
 ![XiaoXi](https://img.shields.io/badge/XiaoXi-2-orange)
-![kooker.jp](https://img.shields.io/badge/kooker.jp-712-purple)
+![kooker.jp](https://img.shields.io/badge/kooker.jp-710-purple)
 
-> **最后同步时间**：`2026-11-13 20:00:48` (北京时间)  
-> **更新状态**：⏸️ 节点内容与上次运行一致，未发现更新
+> **最后同步时间**：`2026-11-13 22:00:58` (北京时间)  
+> **更新状态**：✅ 节点已成功同步并更新
 
 ### 📊 节点统计
 - **SubsCheck 节点数**：`3`
 - **XiaoXi 节点数**：`2`
-- **kooker.jp 节点数**：`712`
+- **kooker.jp 节点数**：`710`
 
 ### 🚀 订阅链接
 | 类型 | 订阅地址 |
