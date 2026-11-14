@@ -1,106 +1,8 @@
 proxies:
-    - name: "\U0001F1E8\U0001F1EDCH_1|784KB/s|R002-260618"
-      port: 9443
-      server: 37.120.213.210
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|681KB/s"
-      password: ""
-      port: 443
-      server: 149.36.51.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1E8\U0001F1EDCH_2|923KB/s"
-      password: ""
-      port: 9443
-      server: 149.88.27.46
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1FA\U0001F1F8US_1|696KB/s"
-      password: 0324fbc29561
-      port: 443
-      server: sdf65h46wr.df6h451rh.xin
-      servername: images.ctfassets.net
-      skip-cert-verify: true
-      sni: images.ctfassets.net
-      tls: true
-      type: anytls
-      x-toolall-mihomo: true
-    - name: "\U0001F1E8\U0001F1EDCH_3|782KB/s|K001-260618"
-      port: 9443
-      server: 149.88.27.33
-      skip-cert-verify: true
-      sub_tag: K001-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1E8\U0001F1FFCZ_1|862KB/s"
-      port: 443
-      server: 185.216.35.66
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1E9\U0001F1F0DK_1|1.0MB/s|R002-260618"
-      port: 443
-      server: 185.245.84.50
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1F8\U0001F1EASE_1|820KB/s|R002-260618"
-      port: 9443
-      server: 146.70.242.146
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - client-fingerprint: edge
-      grpc-opts:
-        grpc-service-name: 99f2107b03f8
-      name: "\U0001F1FA\U0001F1F8US_2|728KB/s"
-      network: grpc
-      port: 443
-      reality-opts:
-        public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-        short-id: bd8f712209a9c283
-      server: 162.35.101.177
-      servername: 0592efg.us8.h1clayd.click
-      tls: true
-      type: vless
-      uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-      x-toolall-mihomo: true
-    - name: "\U0001F1E7\U0001F1ECBG_1|719KB/s|R002-260618"
-      port: 9443
-      server: 169.150.237.1
-      skip-cert-verify: true
-      sub_tag: R002-260618
-      tls: true
-      type: http
-      udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1ED\U0001F1F7HR_1|772KB/s|P002-260618"
+    - name: ❓Other_1|552KB/s|P002-260618
       password: None
       port: 443
-      server: 154.47.29.161
+      server: 185.216.35.130
       skip-cert-verify: true
       sub_tag: P002-260618
       tls: true
@@ -111,7 +13,7 @@ proxies:
         - h3
       auth_str: dongtaiwang.com
       down: "55"
-      name: "\U0001F1F3\U0001F1F1NL_2|894KB/s"
+      name: "\U0001F1F3\U0001F1F1NL_1|655KB/s"
       obfs: ""
       port: "26691"
       protocol: ""
@@ -120,3 +22,11 @@ proxies:
       sni: ""
       type: hysteria
       up: "11"
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+      password: ""
+      port: "8443"
+      server: 38.76.140.254
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
