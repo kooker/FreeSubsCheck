@@ -1,51 +1,17 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
-      network: tcp
-      port: "8443"
-      reality-opts:
-        public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-        short-id: 4ad2e4e660550e43
-      server: 156.229.167.109
-      servername: github.githubassets.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-      xudp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|1.9MB/s"
+      delay: 600
+      name: "\U0001F1EE\U0001F1F9IT_1|566KB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
       server: 202.50.253.63
       type: ss
+      udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_2|1.8MB/s"
+      country: "\U0001F1F3\U0001F1FF NZ"
+      delay: 1349
+      name: "\U0001F1EE\U0001F1F9IT_2|651KB/s"
       password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
       port: 19999
-      server: 202.50.253.27
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_3|1.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.72
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_4|1.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.18
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_5|2.1MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.45
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_6|1.8MB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: 19999
-      server: 202.50.253.90
+      server: 202.50.253.81
       type: ss
