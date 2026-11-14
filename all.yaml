@@ -1,7 +1,69 @@
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|1020KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.72
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|1.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.63
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|1.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.18
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_4|1.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.27
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_5|670KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.90
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_6|911KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.54
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_7|1.6MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: "19999"
+      server: 202.50.253.36
+      type: ss
+      udp: true
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: mobile.api.Event
+      name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s"
+      network: grpc
+      port: "443"
+      server: 201.24.116.192
+      servername: vps3.nemnogogo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
+      name: "\U0001F1F5\U0001F1F1PL_1|3.0MB/s"
       obfs: ""
       obfs-password: ""
       password: a35c508f-4d5d-4531-842e-6e9d43c762c0
@@ -11,17 +73,161 @@ proxies:
       sni: bl1.nexfile.net
       type: hysteria2
       up: ""
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_1|644KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.90
-      type: ss
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: glush.de3.v1
+      name: "\U0001F1E9\U0001F1EADE_1|704KB/s"
+      network: grpc
+      port: "443"
+      server: luminexorizon.ink
+      servername: luminexorizon.ink
+      tls: true
+      type: vless
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F9IT_2|585KB/s"
-      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-      port: "19999"
-      server: 202.50.253.81
-      type: ss
+      uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: mobile.api.Event
+      name: "\U0001F1F7\U0001F1FARU_2|2.4MB/s"
+      network: grpc
+      port: "443"
+      server: 201.51.12.98
+      servername: vps3.nemnogogo.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: mobile.api.Event
+      name: "\U0001F1F7\U0001F1FARU_3|2.4MB/s"
+      network: grpc
+      port: "443"
+      server: vps3.nemnogogo.com
+      servername: vps3.nemnogogo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+      xudp: true
+    - fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
+      password: 0324fbc29561
+      port: "443"
+      server: sdf65h46wr.df6h451rh.xin
+      skip-cert-verify: true
+      sni: images.ctfassets.net
+      type: anytls
+      udp: true
+      username: 0324fbc29561
+    - client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
+      network: xhttp
+      port: "443"
+      server: 200.102.179.69
+      servername: dmbdnpctq8hjxx.hat.onl
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+      xhttp-opts:
+        host: dmbdnpctq8hjxx.hat.onl
+        mode: auto
+        path: /hls/014373eq/seg
+      xudp: true
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
+      obfs: ""
+      port: "24667"
+      protocol: ""
+      server: 62.210.28.175
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: "11"
+    - alpn:
+        - ""
+      alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - down-cdn.dingtalk.com
+        path:
+            - /QQqun-737805443
+      name: "\U0001F1E9\U0001F1EADE_2|2.2MB/s"
+      network: http
+      port: 52080
+      server: 23.165.200.150
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+      xudp: true
+    - alpn:
+        - h3
+      auth_str: github.com/Alvin9999-newpac/fanqiang
+      down: "55"
+      name: "\U0001F1FA\U0001F1F8US_3|720KB/s"
+      obfs: ""
+      port: "22335"
+      protocol: ""
+      server: 198.200.57.142
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: "11"
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1FAAU_1|970KB/s"
+      network: raw
+      port: "54528"
+      reality-opts:
+        public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+        short-id: 54cca3c1c1c7
+      server: zfapi.zalolink.com
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      xudp: true
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "20"
+      name: "\U0001F1FA\U0001F1F8US_4|584KB/s"
+      obfs: ""
+      port: "20022"
+      protocol: ""
+      server: 137.175.82.43
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: "20"
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
+      obfs: ""
+      port: "26691"
+      protocol: ""
+      server: 5.83.129.143
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria
+      up: "11"
