@@ -1,6 +1,6 @@
 proxies:
   - delay: 1099
-    name: "\U0001F1EE\U0001F1EAIE_1|1.7MB/s"
+    name: "\U0001F1EE\U0001F1EAIE_1|798KB/s"
     port: 443
     server: 34.249.214.108
     skip-cert-verify: true
@@ -14,21 +14,21 @@ proxies:
     tls: true
     type: http
   - delay: 1916
-    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+    name: "\U0001F1E9\U0001F1EADE_2|1.2MB/s"
     port: 9002
     server: 158.173.154.1
     skip-cert-verify: true
     tls: true
     type: http
   - delay: 1199
-    name: "\U0001F1E9\U0001F1EADE_3|999KB/s"
+    name: "\U0001F1E9\U0001F1EADE_3|540KB/s"
     port: 443
     server: 213.109.163.119
     skip-cert-verify: true
     tls: true
     type: http
   - delay: 1084
-    name: "\U0001F1F3\U0001F1F1NL_1|621KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     password: 'null'
     port: 443
     server: 103.97.88.154
@@ -37,7 +37,7 @@ proxies:
     type: http
     username: 'null'
   - delay: 1794
-    name: "\U0001F1F3\U0001F1F1NL_2|883KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s"
     password: None
     port: 9002
     server: 84.17.47.148
@@ -45,7 +45,7 @@ proxies:
     tls: true
     type: http
   - delay: 1397
-    name: "\U0001F1F3\U0001F1F1NL_3|1.2MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s"
     password: None
     port: 9002
     server: 84.17.47.149
@@ -53,14 +53,14 @@ proxies:
     tls: true
     type: http
   - delay: 2103
-    name: "\U0001F1F3\U0001F1F1NL_4|1.1MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_4|893KB/s"
     port: 9002
     server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
   - delay: 1879
-    name: "\U0001F1F3\U0001F1F1NL_5|827KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_5|1.7MB/s"
     password: None
     port: 9002
     server: 84.17.47.123
@@ -68,14 +68,14 @@ proxies:
     tls: true
     type: http
   - delay: 2870
-    name: "\U0001F1F3\U0001F1F1NL_6|525KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_6|1.6MB/s"
     port: 19362
     server: 51.159.225.197
     skip-cert-verify: true
     tls: true
     type: http
   - delay: 2332
-    name: "\U0001F1F3\U0001F1F1NL_7|750KB/s"
+    name: "\U0001F1F3\U0001F1F1NL_7|783KB/s"
     password: 'null'
     port: 23856
     server: 51.159.225.196
@@ -84,64 +84,27 @@ proxies:
     type: http
     username: 'null'
   - delay: 2308
-    name: "\U0001F1F3\U0001F1F1NL_8|1.4MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_8|2.2MB/s"
     port: 23856
     server: 51.159.225.196
     skip-cert-verify: true
     tls: true
     type: http
   - delay: 1324
-    name: "\U0001F1F1\U0001F1FBLV_1|1.1MB/s"
+    name: "\U0001F1F1\U0001F1FBLV_1|1.2MB/s"
     password: None
     port: 443
     server: 185.219.159.16
     skip-cert-verify: true
     tls: true
     type: http
-  - delay: 2644
-    name: "\U0001F1FA\U0001F1F8US_1|958KB/s"
-    port: 443
-    server: 38.247.141.135
+  - delay: 874
+    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
+    port: 8443
+    server: 44.248.167.117
     skip-cert-verify: true
     tls: true
     type: http
-  - alpn:
-      - h3
-    auth-str: github.com/Alvin9999-newpac/fanqiang
-    auth_str: github.com/Alvin9999-newpac/fanqiang
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 2414
-    down: '55'
-    name: "\U0001F1FA\U0001F1F8US_2|889KB/s"
-    port: 22335
-    protocol: udp
-    server: 198.200.57.142
-    skip-cert-verify: true
-    type: hysteria
-    udp: true
-    up: '11'
-  - name: "\U0001F1F0\U0001F1F7KR_1|701KB/s"
-    password: ''
-    port: 1090
-    server: 121.169.46.116
-    skip-cert-verify: true
-    type: socks5
-    username: T2clM0QlM0Q6
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_9|2.1MB/s"
-    obfs: ''
-    port: 26691
-    protocol: ''
-    server: 5.83.129.143
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria
-    up: '11'
-    disable-sni: true
-    auth-str: dongtaiwang.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
