@@ -1,15 +1,61 @@
 proxies:
-    - name: "\U0001F1F9\U0001F1EDTH_1|930KB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
+    - name: "\U0001F1FA\U0001F1F8US_1|686KB/s"
+      password: l1tlrdx52v
+      port: 62000
+      server: 66.253.2.69
+      skip-cert-verify: false
+      type: socks5
+      username: u_rb1dba2
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - down-cdn.dingtalk.com
+        method: GET
+        path:
+            - /3x
+      name: "\U0001F1E8\U0001F1EDCH_1|1.5MB/s"
+      network: http
+      port: 42831
+      server: 179.43.140.24
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+    - client-fingerprint: firefox
+      encryption: none
+      name: "\U0001F1F8\U0001F1EASE_1|741KB/s"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+        short-id: a7c92e4b10d6f835
+      server: 88.216.60.73
+      servername: ns-api-gw.galioncc.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+      xudp: true
+    - name: "\U0001F1F9\U0001F1EDTH_1|1.2MB/s"
+      password: 1pB7HV6u
       port: "42000"
-      server: 103.14.164.30
+      server: 151.246.109.86
       skip-cert-verify: true
       type: socks5
-      username: route164JIa2CBPxfy
-    - name: "\U0001F1F8\U0001F1ECSG_1|606KB/s"
-      password: c0a34a
+      username: AJ3d9gJw
+    - name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s"
+      password: 7i1dheg6
       port: "62000"
-      server: 66.80.2.252
+      server: 216.132.114.194
       skip-cert-verify: true
       type: socks5
-      username: usereb7d
+      username: utdr8wvs
+    - name: "\U0001F1FB\U0001F1F3VN_1|1.5MB/s"
+      password: jHsK2gqs
+      port: "62000"
+      server: 103.184.113.190
+      skip-cert-verify: true
+      type: socks5
+      username: qT46DZLv
