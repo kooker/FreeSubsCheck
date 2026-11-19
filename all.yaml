@@ -1,26 +1,77 @@
 proxies:
-    - cipher: 2022-blake3-chacha20-poly1305
-      name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s"
-      password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-      port: "443"
-      server: 47.85.162.44
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-      name: "\U0001F1FA\U0001F1F8US_1|802KB/s"
-      network: ws
-      port: "443"
-      server: 199.232.78.120
-      servername: cdn.akamai.steamstatic.com
+    - name: "\U0001F1E9\U0001F1EADE_1|660KB/s|P002-260618"
+      password: None
+      port: 443
+      server: 149.36.50.1
+      skip-cert-verify: true
+      sub_tag: P002-260618
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-      ws-opts:
-        headers:
-            Host: ushetzijji.global.ssl.fastly.net.
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /
-      xudp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F5\U0001F1EDPH_1|2.6MB/s"
+      password: s6a1j38q
+      port: 42000
+      server: 103.18.230.88
+      type: socks5
+      username: uv4oakg5
+    - name: "\U0001F1E8\U0001F1FFCZ_1|555KB/s"
+      password: ""
+      port: 443
+      server: 185.216.35.66
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+      x-toolall-mihomo: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|747KB/s"
+      password: ""
+      port: 443
+      server: 149.36.51.129
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: ""
+      x-toolall-mihomo: true
+    - name: "\U0001F1F9\U0001F1EDTH_1|1.1MB/s"
+      password: VAwyJQX0iKMJiyCw5UVK9wGH
+      port: 42000
+      server: 103.14.164.30
+      type: socks5
+      username: route164JIa2CBPxfy
+    - name: "\U0001F1F9\U0001F1EDTH_2|3.1MB/s"
+      password: VAwyJQX0iKMJiyCw5UVK9wGH
+      port: 42000
+      server: 103.14.164.202
+      type: socks5
+      username: route164JIa2CBPxfy
+    - fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_1|852KB/s"
+      password: 0324fbc29561
+      port: "443"
+      server: sdf65h46wr.df6h451rh.xin
+      skip-cert-verify: true
+      sni: images.ctfassets.net
+      type: anytls
+      udp: true
+      username: 0324fbc29561
+    - name: "\U0001F1EB\U0001F1F7FR_1|1014KB/s|P002-260618"
+      password: None
+      port: 9443
+      server: 138.199.47.247
+      skip-cert-verify: true
+      sub_tag: P002-260618
+      tls: true
+      type: http
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1E8\U0001F1EDCH_1|619KB/s"
+      password: ""
+      port: "9443"
+      server: 37.120.213.210
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: ""
