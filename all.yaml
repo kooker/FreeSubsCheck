@@ -1,77 +1,130 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1|660KB/s|P002-260618"
-      password: None
-      port: 443
-      server: 149.36.50.1
-      skip-cert-verify: true
-      sub_tag: P002-260618
-      tls: true
-      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_1|1.0MB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.72
+      skip-cert-verify: false
+      tls: false
+      type: ss
       udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1F5\U0001F1EDPH_1|2.6MB/s"
-      password: s6a1j38q
-      port: 42000
-      server: 103.18.230.88
-      type: socks5
-      username: uv4oakg5
-    - name: "\U0001F1E8\U0001F1FFCZ_1|555KB/s"
-      password: ""
-      port: 443
-      server: 185.216.35.66
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_2|918KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.27
+      skip-cert-verify: false
+      tls: false
+      type: ss
       udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1F3\U0001F1F1NL_1|747KB/s"
-      password: ""
-      port: 443
-      server: 149.36.51.129
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - cipher: aes-256-gcm
+      name: "\U0001F1EE\U0001F1F9IT_3|689KB/s"
+      password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+      port: 19999
+      server: 202.50.253.36
+      skip-cert-verify: false
+      tls: false
+      type: ss
       udp: true
-      username: ""
-      x-toolall-mihomo: true
-    - name: "\U0001F1F9\U0001F1EDTH_1|1.1MB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
-      port: 42000
-      server: 103.14.164.30
-      type: socks5
-      username: route164JIa2CBPxfy
-    - name: "\U0001F1F9\U0001F1EDTH_2|3.1MB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
-      port: 42000
-      server: 103.14.164.202
-      type: socks5
-      username: route164JIa2CBPxfy
-    - fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|852KB/s"
-      password: 0324fbc29561
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL_1|791KB/s"
+      port: 443
+      reality-opts:
+        public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+        short-id: 8d0d0679f42ffd98
+      server: 136.148.208.221
+      servername: 8a2e72t.nl20.h1clayd.shop
+      skip-cert-verify: false
+      sni: 8a2e72t.nl20.h1clayd.shop
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1EAEE_1|1.1MB/s"
+      network: tcp
       port: "443"
-      server: sdf65h46wr.df6h451rh.xin
-      skip-cert-verify: true
-      sni: images.ctfassets.net
-      type: anytls
-      udp: true
-      username: 0324fbc29561
-    - name: "\U0001F1EB\U0001F1F7FR_1|1014KB/s|P002-260618"
-      password: None
-      port: 9443
-      server: 138.199.47.247
-      skip-cert-verify: true
-      sub_tag: P002-260618
+      reality-opts:
+        public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+        short-id: 2ef2b10d5143d798
+      server: 5.129.202.80
+      servername: mirror-50.topp-con.xyz
       tls: true
-      type: http
+      type: vless
       udp: true
-      x-toolall-mihomo: true
-    - name: "\U0001F1E8\U0001F1EDCH_1|619KB/s"
-      password: ""
-      port: "9443"
-      server: 37.120.213.210
+      uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+      xudp: true
+    - name: "\U0001F1F9\U0001F1EDTH_1|1.6MB/s"
+      password: 1pB7HV6u
+      port: "42000"
+      server: 151.246.109.86
       skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
+      type: socks5
+      username: AJ3d9gJw
+    - name: "\U0001F1FB\U0001F1F3VN_1|1.3MB/s"
+      password: jHsK2gqs
+      port: "62000"
+      server: 103.184.113.190
+      skip-cert-verify: true
+      type: socks5
+      username: qT46DZLv
+    - name: "\U0001F1F3\U0001F1F1NL_2|1.2MB/s"
+      password: test123
+      port: "1080"
+      server: 185.145.99.41
+      skip-cert-verify: true
+      type: socks5
+      username: test123
+    - name: "\U0001F1F9\U0001F1EDTH_2|2.0MB/s"
+      password: mpbK00Pl
+      port: "42000"
+      server: 192.204.15.135
+      skip-cert-verify: true
+      type: socks5
+      username: X3s3JteD
+    - alpn:
+        - ""
+      alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - down-cdn.dingtalk.com
+        path:
+            - /3x
+      name: "\U0001F1E8\U0001F1EDCH_1|2.7MB/s"
+      network: http
+      port: 42831
+      server: 179.43.140.24
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+      xudp: true
+    - name: "\U0001F1F9\U0001F1EDTH_3|1.1MB/s"
+      password: 1pB7HV6u
+      port: "42000"
+      server: 151.246.109.158
+      skip-cert-verify: true
+      type: socks5
+      username: AJ3d9gJw
+    - cipher: chacha20-ietf
+      name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
+      obfs: tls1.2_ticket_auth
+      obfsparam: ""
+      password: dongtaiwang.com
+      port: 33336
+      protocol: auth_chain_a
+      protocolparam: ""
+      server: 109.104.153.43
+      type: ssr
+    - name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
+      password: test123
+      port: 1080
+      server: 104.168.249.36
+      type: socks5
+      username: test123
