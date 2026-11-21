@@ -1,22 +1,105 @@
 proxies:
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_1|792KB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.63
-    skip-cert-verify: false
-    tls: false
-    type: ss
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|596KB/s"
+    network: tcp
+    port: 443
+    server: 176.98.176.60
+    tls: true
+    type: vless
     udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1EE\U0001F1F9IT_2|566KB/s"
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-    port: 19999
-    server: 202.50.253.99
-    skip-cert-verify: false
-    tls: false
-    type: ss
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    xudp: true
+    servername: mosaic.topp-con.xyz
+  - client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: mobile.api.Event
+    name: "\U0001F1F7\U0001F1FARU_1|2.6MB/s"
+    network: grpc
+    port: 443
+    server: 201.51.12.98
+    tls: true
+    type: vless
     udp: true
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    xudp: true
+    servername: vps3.nemnogogo.com
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: mobile.api.Event
+    name: "\U0001F1F7\U0001F1FARU_2|2.7MB/s"
+    network: grpc
+    port: 443
+    server: vps3.nemnogogo.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    xudp: true
+    servername: vps3.nemnogogo.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+      short-id: ''
+    server: 104.171.135.229
+    tls: true
+    type: vless
+    udp: true
+    uuid: Fluffy_VPN-Oth8rOq3
+    xudp: true
+    servername: absolute-disaster.org
+  - name: "\U0001F1F9\U0001F1EDTH_1|1.5MB/s"
+    password: 1pB7HV6u
+    port: 42000
+    server: 151.246.109.158
+    skip-cert-verify: true
+    type: socks5
+    username: AJ3d9gJw
+  - name: "\U0001F1F9\U0001F1EDTH_2|1.2MB/s"
+    password: 1pB7HV6u
+    port: 42000
+    server: 151.246.109.86
+    skip-cert-verify: true
+    type: socks5
+    username: AJ3d9gJw
+  - name: "\U0001F1FB\U0001F1F3VN_1|2.2MB/s"
+    password: jHsK2gqs
+    port: 62000
+    server: 103.184.113.190
+    skip-cert-verify: true
+    type: socks5
+    username: qT46DZLv
+  - name: "\U0001F1F9\U0001F1EDTH_3|2.2MB/s"
+    password: mpbK00Pl
+    port: 42000
+    server: 192.204.15.135
+    skip-cert-verify: true
+    type: socks5
+    username: X3s3JteD
+  - name: "\U0001F1F5\U0001F1EDPH_1|4.1MB/s"
+    password: s6a1j38q
+    port: 42000
+    server: 103.18.230.88
+    skip-cert-verify: true
+    type: socks5
+    username: uv4oakg5
+  - name: "\U0001F1F2\U0001F1FDMX_1|1.5MB/s"
+    password: lcFa8dTH
+    port: 62000
+    server: 94.194.165.96
+    skip-cert-verify: true
+    type: socks5
+    username: QyVdo5ks
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
