@@ -1,167 +1,119 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|639KB/s"
-    network: ws
-    password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  - name: "\U0001F1E7\U0001F1EABE_1|634KB/s"
     port: 443
-    server: 103.11.76.183
-    skip-cert-verify: false
-    sni: likejennie.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-  - name: "\U0001F1F9\U0001F1EDTH_1|1.4MB/s"
-    password: 1pB7HV6u
-    port: 42000
-    server: 151.246.109.158
+    server: 146.70.123.98
     skip-cert-verify: true
-    type: socks5
-    username: AJ3d9gJw
-  - name: "\U0001F1F9\U0001F1EDTH_2|2.1MB/s"
-    password: mpbK00Pl
-    port: 42000
-    server: 192.204.15.135
-    skip-cert-verify: true
-    type: socks5
-    username: X3s3JteD
-  - name: "\U0001F1FB\U0001F1F3VN_1|978KB/s"
-    password: jHsK2gqs
-    port: 62000
-    server: 103.184.113.190
-    skip-cert-verify: true
-    type: socks5
-    username: qT46DZLv
-  - name: "\U0001F1F2\U0001F1FDMX_1|1021KB/s"
-    password: lcFa8dTH
-    port: 62000
-    server: 94.194.165.96
-    skip-cert-verify: true
-    type: socks5
-    username: QyVdo5ks
-  - name: "\U0001F1F2\U0001F1FDMX_2|1.4MB/s"
-    password: DJy1T0dt
-    port: 42000
-    server: 144.225.47.161
-    skip-cert-verify: true
-    type: socks5
-    username: Tek2x6av
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
-    network: xhttp
-    port: 4443
-    server: 179.253.80.175
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-    xhttp-opts:
-      path: /api/v1/sync/
-    xudp: true
-    servername: swo2.nexfile.net
-  - name: "\U0001F1F9\U0001F1EDTH_3|1.1MB/s"
-    password: zdnivBaI
-    port: 62000
-    server: 109.66.136.194
-    skip-cert-verify: true
-    type: socks5
-    username: r3ZzP8WW
-  - name: "\U0001F1F2\U0001F1FDMX_3|708KB/s"
-    password: 2j7CCZQb
-    port: 62000
-    server: 94.194.164.203
-    skip-cert-verify: true
-    type: socks5
-    username: rVkkraqT
-  - name: "\U0001F1F9\U0001F1EDTH_4|512KB/s"
-    password: KT5hiU8o
-    port: 42000
-    server: 104.234.70.82
-    skip-cert-verify: true
-    type: socks5
-    username: rnt2L4XO
-  - name: "\U0001F1F9\U0001F1EDTH_5|910KB/s"
-    password: ao3W5ZML
-    port: 42000
-    server: 168.222.8.119
-    skip-cert-verify: true
-    type: socks5
-    username: JPjarpW3
-  - name: "\U0001F1F9\U0001F1EDTH_6|2.9MB/s"
-    password: mpbK00Pl
-    port: 42000
-    server: 192.204.15.192
-    skip-cert-verify: true
-    type: socks5
-    username: X3s3JteD
-  - cipher: 2022-blake3-chacha20-poly1305
-    name: "\U0001F1E9\U0001F1EADE_2|565KB/s"
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+    password: None
     port: 443
-    server: 47.254.167.157
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|2.7MB/s"
-    network: xhttp
-    port: 4443
-    server: swo2.nexfile.net
+    server: 149.36.50.1
+    skip-cert-verify: true
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-    xhttp-opts:
-      mode: auto
-      path: /api/v1/sync/
-    xudp: true
-    servername: swo2.nexfile.net
-  - name: "\U0001F1F9\U0001F1EDTH_7|2.7MB/s"
-    password: VAwyJQX0iKMJiyCw5UVK9wGH
-    port: 42000
-    server: 103.14.164.202
+  - name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s"
+    port: 9002
+    server: 158.173.154.1
     skip-cert-verify: true
-    type: socks5
-    username: route164JIa2CBPxfy
-  - name: "\U0001F1F9\U0001F1EDTH_8|2.4MB/s"
-    password: Ks4Iab43
-    port: 42000
-    server: 82.47.152.151
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s"
+    password: None
+    port: 9002
+    server: 158.173.154.4
     skip-cert-verify: true
-    type: socks5
-    username: userLjVB
-  - name: "\U0001F1EE\U0001F1E9ID_1|2.9MB/s"
-    password: RRWtX6XP
-    port: 62000
-    server: 203.84.138.59
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE_4|746KB/s"
+    port: 9002
+    server: 158.173.154.5
     skip-cert-verify: true
-    type: socks5
-    username: 9tcjLp2W
-  - name: "\U0001F1F9\U0001F1EDTH_9|2.2MB/s"
-    password: VAwyJQX0iKMJiyCw5UVK9wGH
-    port: 42000
-    server: 103.14.164.30
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s"
+    port: 6103
+    server: 87.98.174.157
     skip-cert-verify: true
-    type: socks5
-    username: route164JIa2CBPxfy
-  - name: "\U0001F1EB\U0001F1F7FR_1|735KB/s"
-    password: Zn5mR7vA
-    port: 42000
-    server: 144.56.22.78
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s"
+    port: 443
+    server: 212.102.63.31
     skip-cert-verify: true
-    type: socks5
-    username: L8wP3kQx
-  - name: "\U0001F1F9\U0001F1EDTH_10|1.7MB/s"
-    password: fAgE2jqK
-    port: 42000
-    server: 151.246.108.69
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s"
+    port: 443
+    server: 149.36.51.129
     skip-cert-verify: true
-    type: socks5
-    username: h87527jJ
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|764KB/s"
+    password: 'null'
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: 'null'
+  - name: "\U0001F1F3\U0001F1F1NL_3|670KB/s"
+    password: 'null'
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: 'null'
+  - name: "\U0001F1F3\U0001F1F1NL_4|935KB/s"
+    port: 9002
+    server: 84.17.47.125
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.1MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_6|1.1MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.148
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_7|1.2MB/s"
+    port: 9002
+    server: 84.17.47.124
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_1|912KB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 443
+    server: usgp1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: usgp1-cdn-route.couldflare-cdn.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
