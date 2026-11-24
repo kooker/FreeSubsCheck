@@ -1,14 +1,17 @@
 proxies:
-    - name: "\U0001F1F9\U0001F1EDTH_1|1.1MB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
-      port: 42000
-      server: 103.14.164.30
-      type: socks5
-      username: route164JIa2CBPxfy
-    - name: "\U0001F1F9\U0001F1EDTH_2|951KB/s"
-      password: VAwyJQX0iKMJiyCw5UVK9wGH
-      port: "42000"
-      server: 103.14.164.202
-      skip-cert-verify: true
-      type: socks5
-      username: route164JIa2CBPxfy
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_1|743KB/s"
+      network: tcp
+      port: "47396"
+      reality-opts:
+        public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+        short-id: fa514b83
+      server: free.fugui.lol
+      servername: swdist.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+      xudp: true
