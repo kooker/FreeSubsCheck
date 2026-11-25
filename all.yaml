@@ -1,97 +1,139 @@
 proxies:
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|3.6MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-      port: "13337"
-      server: 128.254.186.190
-      skip-cert-verify: false
-      sni: mother-earth.fyi
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1F0\U0001F1F7KR_1|3.6MB/s"
-      password: ""
-      port: "1080"
-      server: 59.11.209.162
+    - name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s"
+      port: 9002
+      server: 158.173.154.1
       skip-cert-verify: true
-      type: socks5
-      username: ""
-    - name: "\U0001F1FB\U0001F1F3VN_1|2.4MB/s"
-      password: jHsK2gqs
-      port: "62000"
-      server: 103.184.113.236
+      tls: true
+      type: http
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s"
+      password: "null"
+      port: 9002
+      server: 84.17.47.147
       skip-cert-verify: true
-      type: socks5
-      username: qT46DZLv
-    - name: "\U0001F1F2\U0001F1FDMX_1|1.1MB/s"
-      password: KsPAxZGn
-      port: "42000"
-      server: 94.194.166.52
+      sni: 84.17.47.147
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F7\U0001F1F4RO_1|1.0MB/s"
+      port: 9002
+      server: 193.176.84.39
       skip-cert-verify: true
-      type: socks5
-      username: userLRgK
-    - name: ❓Other_1|1.2MB/s
-      password: ""
-      port: "1080"
-      server: 218.52.200.62
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_2|1.5MB/s"
+      password: "null"
+      port: 9002
+      server: 193.176.84.35
       skip-cert-verify: true
+      sni: 193.176.84.35
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F7\U0001F1F4RO_3|615KB/s"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_2|551KB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.149
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F3\U0001F1F1NL_3|912KB/s"
+      password: "null"
+      port: 9002
+      server: 84.17.47.146
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F7\U0001F1F4RO_4|2.6MB/s"
+      port: 9002
+      server: 193.176.84.37
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F3\U0001F1F1NL_4|1.9MB/s"
+      password: None
+      port: 9002
+      server: 84.17.47.148
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      x-toolall-mihomo: true
+    - name: "\U0001F1F7\U0001F1F4RO_5|797KB/s"
+      port: 9002
+      server: 193.176.84.36
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_6|1.5MB/s"
+      port: 9002
+      server: 193.176.84.34
+      skip-cert-verify: true
+      tls: true
+      type: http
+    - name: "\U0001F1F7\U0001F1F4RO_7|1.3MB/s"
+      password: "null"
+      port: 9002
+      server: 193.176.84.33
+      skip-cert-verify: true
+      sni: 193.176.84.33
+      tls: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F2\U0001F1FDMX_1|1.5MB/s"
+      password: lcFa8dTH
+      port: 62000
+      server: 94.194.165.96
       type: socks5
-      username: ""
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s"
-      network: grpc
-      port: "443"
-      server: 201.24.116.192
-      servername: vps3.nemnogogo.com
+      username: QyVdo5ks
+    - name: "\U0001F1F9\U0001F1EDTH_1|985KB/s"
+      password: KT5hiU8o
+      port: 42000
+      server: 104.234.70.82
+      type: socks5
+      username: rnt2L4XO
+    - name: "\U0001F1F7\U0001F1F4RO_8|539KB/s"
+      password: "null"
+      port: 9002
+      server: 193.176.84.27
+      skip-cert-verify: true
       tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_2|2.2MB/s"
-      network: grpc
-      port: "443"
-      server: leviko-ru4448.shopingggg.ir
-      servername: vps3.nemnogogo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_3|2.3MB/s"
-      network: grpc
-      port: "443"
-      server: 201.51.12.98
-      servername: vps3.nemnogogo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
-    - alpn:
-        - h2
-      client-fingerprint: firefox
-      grpc-opts:
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_4|1.1MB/s"
-      network: grpc
-      port: "443"
-      server: vps3.nemnogogo.com
-      servername: vps3.nemnogogo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-      xudp: true
+      type: http
+      username: "null"
+    - name: "\U0001F1F9\U0001F1EDTH_2|993KB/s"
+      password: mpbK00Pl
+      port: 42000
+      server: 192.204.15.135
+      type: socks5
+      username: X3s3JteD
+    - name: "\U0001F1F9\U0001F1EDTH_3|2.3MB/s"
+      password: Ks4Iab43
+      port: 42000
+      server: 82.47.152.151
+      type: socks5
+      username: userLjVB
+    - name: "\U0001F1F2\U0001F1FDMX_2|765KB/s"
+      password: DJy1T0dt
+      port: 42000
+      server: 144.225.47.8
+      type: socks5
+      username: Tek2x6av
+    - name: "\U0001F1F9\U0001F1EDTH_4|1.4MB/s"
+      password: 1pB7HV6u
+      port: 42000
+      server: 151.246.109.158
+      type: socks5
+      username: AJ3d9gJw
