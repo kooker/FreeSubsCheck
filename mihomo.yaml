@@ -1,12 +1,12 @@
 proxies:
-  - name: "\U0001F1E7\U0001F1EABE_1|998KB/s"
+  - name: "\U0001F1E7\U0001F1EABE_1|1.6MB/s"
     port: 443
     server: 146.70.123.98
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s"
+  - name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s"
     password: None
     port: 443
     server: 149.36.50.1
@@ -14,35 +14,35 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1E9\U0001F1EADE_2|947KB/s"
+  - name: "\U0001F1E9\U0001F1EADE_2|843KB/s"
     port: 9002
     server: 158.173.154.1
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s"
+  - name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s"
     port: 9002
     server: 158.173.154.5
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1EB\U0001F1F7FR_1|647KB/s"
+  - name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
     port: 6103
     server: 87.98.174.157
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.3MB/s"
     port: 443
     server: 212.102.63.31
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1EE\U0001F1EAIE_1|2.1MB/s"
+  - name: "\U0001F1EE\U0001F1EAIE_1|1.0MB/s"
     port: 443
     server: 34.249.214.108
     skip-cert-verify: true
@@ -56,30 +56,21 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
     port: 443
     server: 149.36.51.129
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|646KB/s"
-    password: 'null'
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: 'null'
-  - name: "\U0001F1F3\U0001F1F1NL_3|782KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_2|555KB/s"
     port: 9002
     server: 84.17.47.125
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_3|798KB/s"
     password: 'null'
     port: 9002
     server: 84.17.47.147
@@ -88,7 +79,15 @@ proxies:
     type: http
     udp: true
     username: 'null'
-  - name: "\U0001F1F3\U0001F1F1NL_5|1.2MB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_4|1.3MB/s"
+    password: None
+    port: 9002
+    server: 84.17.47.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_5|1.5MB/s"
     password: None
     port: 9002
     server: 84.17.47.123
@@ -96,25 +95,25 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_6|797KB/s"
-    password: None
-    port: 9002
-    server: 84.17.47.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_7|545KB/s"
+  - name: "\U0001F1F3\U0001F1F1NL_6|734KB/s"
     port: 9002
     server: 84.17.47.124
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_1|851KB/s"
-    password: None
-    port: 9002
-    server: 193.176.84.24
+  - name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 443
+    server: usgp1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: usgp1-cdn-route.couldflare-cdn.com
+  - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s"
+    port: 443
+    server: 172.64.69.89
     skip-cert-verify: true
     tls: true
     type: http
