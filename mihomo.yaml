@@ -1,22 +1,26 @@
 proxies:
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.4MB/s"
-    password: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_1|810KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+    port: 13337
+    server: uk-tube-01.stre4m.net
+    servername: mother-earth.fyi
+    skip-cert-verify: true
+    sni: mother-earth.fyi
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s"
     port: 1080
     server: 59.11.209.162
     skip-cert-verify: true
     type: socks5
-    username: ''
-  - name: "\U0001F1F9\U0001F1EDTH_1|909KB/s"
+  - name: "\U0001F1F9\U0001F1EDTH_1|512KB/s"
     password: VAwyJQX0iKMJiyCw5UVK9wGH
     port: 42000
     server: 103.14.164.202
-    skip-cert-verify: true
-    type: socks5
-    username: route164JIa2CBPxfy
-  - name: "\U0001F1F9\U0001F1EDTH_2|977KB/s"
-    password: VAwyJQX0iKMJiyCw5UVK9wGH
-    port: 42000
-    server: 103.14.164.30
     skip-cert-verify: true
     type: socks5
     username: route164JIa2CBPxfy
