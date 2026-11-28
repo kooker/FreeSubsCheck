@@ -1,381 +1,73 @@
 proxies:
-    - name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s"
-      password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
-      port: 443
-      server: 135.126.21.107
-      sni: de2-balance.rezproffx.ru
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1E9\U0001F1EADE_2|3.0MB/s"
-      password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-      port: 13337
-      server: uk-tube-01.stre4m.net
-      servername: mother-earth.fyi
+    - fingerprint: ""
+      name: "\U0001F1F9\U0001F1FCTW_1|831KB/s"
+      password: 0324fbc29561
+      port: "443"
+      server: a54ge.df6h451rh.xin
       skip-cert-verify: true
-      sni: mother-earth.fyi
-      tls: true
-      type: hysteria2
+      sni: docs.microsoft.com
+      type: anytls
+      udp: true
+      username: 0324fbc29561
+    - name: "\U0001F1F9\U0001F1EDTH_1|2.3MB/s"
+      password: mpbK00Pl
+      port: "42000"
+      server: 192.204.15.192
+      skip-cert-verify: true
+      type: socks5
+      username: X3s3JteD
+    - name: "\U0001F1F9\U0001F1EDTH_2|1.5MB/s"
+      password: zdnivBaI
+      port: "62000"
+      server: 109.66.136.234
+      skip-cert-verify: true
+      type: socks5
+      username: r3ZzP8WW
     - alpn:
-        - http/1.1
-      client-fingerprint: firefox
-      name: "\U0001F1EE\U0001F1F3IN_1|1.1MB/s"
-      network: ws
-      port: 8443
-      server: 147.93.171.8
-      servername: 147-93-171-8.sslip.io
-      tls: true
-      type: vless
-      uuid: 591e7de6-f2dd-4ff9-ae21-8e00d5affa2a
-      ws-opts:
-        headers:
-            Host: 147-93-171-8.sslip.io
-        path: /vpn-live
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE_3|870KB/s"
-      network: tcp
-      port: 2080
-      server: Ir.wbzo.ir
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
-      xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR_1|3.9MB/s"
-      port: 1080
-      server: 59.11.209.162
-      skip-cert-verify: true
-      type: socks5
-    - name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s"
-      port: 443
-      server: 149.36.51.129
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-      port: 443
-      server: 172.64.69.89
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_4|872KB/s"
-      password: None
-      port: 443
-      server: 149.36.50.1
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_1|709KB/s"
-      port: 443
-      server: 212.102.63.31
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EE\U0001F1EAIE_1|1.9MB/s"
-      port: 443
-      server: 18.200.158.139
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F3\U0001F1F1NL_2|700KB/s"
-      password: None
-      port: 9002
-      server: 84.17.47.149
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7GB_2|848KB/s"
-      port: 9443
-      server: 84.17.50.214
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F7\U0001F1F4RO_1|996KB/s"
-      port: 9002
-      server: 193.176.84.27
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - name: "\U0001F1E9\U0001F1EADE_5|1.1MB/s"
-      port: 9002
-      server: 158.173.154.2
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_3|713KB/s"
-      port: 9002
-      server: 84.17.47.124
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1F2\U0001F1FDMX_1|787KB/s"
-      password: DJy1T0dt
-      port: 42000
-      server: 144.225.47.8
-      type: socks5
-      username: Tek2x6av
-    - name: "\U0001F1EE\U0001F1E9ID_1|1.7MB/s"
-      password: APJ7RmY9
-      port: 62000
-      server: 202.155.99.212
-      skip-cert-verify: true
-      type: socks5
-      username: gebHTLF6
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_6|3.2MB/s"
+        - h3
+      auth_str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR_1|844KB/s"
       obfs: ""
-      obfs-password: ""
-      password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-      port: 13337
-      server: 128.254.186.163
-      skip-cert-verify: false
-      sni: mother-earth.fyi
-      type: hysteria2
-      up: ""
+      port: "36699"
+      protocol: ""
+      server: 163.172.117.163
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria
+      up: "11"
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-      network: xhttp
-      port: 443
-      server: 193.42.109.29
-      servername: mama1455.baklajann.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-      xhttp-opts:
-        host: mama1455.baklajann.ru
-        mode: auto
-        path: /
-        reuse-settings:
-            c-max-reuse-times: "0"
-            h-keep-alive-period: 0
-            h-max-request-times: 600-900
-            h-max-reusable-secs: 1800-3000
-            max-concurrency: "0"
-            max-connections: "4"
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_7|3.0MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-      port: 13337
-      server: uk-tube-01.stre4m.net
-      skip-cert-verify: true
-      sni: ""
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_8|3.4MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-      port: 13337
-      server: uk-tube-01.stre4m.net
-      skip-cert-verify: true
-      sni: 127.0.0.1
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1F3\U0001F1F1NL_4|2.0MB/s"
-      port: 19362
-      server: 51.159.225.197
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - name: "\U0001F1F3\U0001F1F1NL_5|1.0MB/s"
-      port: 9002
-      server: 84.17.47.146
-      skip-cert-verify: true
-      tls: true
-      type: http
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7GB_3|2.0MB/s"
-      network: ws
-      port: 443
-      server: www.buydomains.com
-      servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
-      ws-opts:
-        headers:
-            Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
-            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-        path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome
-      xudp: true
-    - name: "\U0001F1F7\U0001F1F4RO_2|666KB/s"
-      port: 9002
-      server: 193.176.84.22
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: true
-      type: http
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: firefox
-      name: "\U0001F1E9\U0001F1EADE_9|2.0MB/s"
-      network: xhttp
-      port: 443
-      server: prairie.moltex.click
-      servername: alderpond.moltex.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
-      xhttp-opts:
-        host: prairie.moltex.click
-        mode: auto
-        path: /api/de2/sync
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: firefox
-      name: "\U0001F1E9\U0001F1EADE_10|943KB/s"
-      network: xhttp
-      port: 443
-      server: sunfield.moltex.click
-      servername: fennel.moltex.click
-      tls: true
-      type: vless
-      udp: true
-      uuid: 749b1c56-e658-4bf5-94bd-5c3286a4aed1
-      xhttp-opts:
-        host: sunfield.moltex.click
-        mode: auto
-        path: /api/de1/sync
-    - name: "\U0001F1EC\U0001F1E7GB_4|2.0MB/s"
-      network: tcp
-      port: 443
-      server: 82.152.18.32
-      servername: diyichongdi.us.ci
-      tls: true
-      type: vless
-      udp: true
-      uuid: a61ce788-6cfe-4bbe-9f81-155ea8fa8e16
-      ws-opts:
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1NL_6|1.5MB/s"
-      network: xhttp
-      port: 443
-      server: 201.34.142.108
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-      xhttp-opts:
-        mode: auto
-        path: /assets/nlrelay01/
-    - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1F1PL_1|2.5MB/s"
-      network: xhttp
-      port: 443
-      server: 45.67.215.204
-      servername: 51.baklajann.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7a42d986-f0b8-46e7-82cf-9516e168a613
-      xhttp-opts:
-        host: 51.baklajann.ru
-        mode: auto
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1F1PL_2|1.6MB/s"
-      network: xhttp
-      port: 443
-      server: 72.56.249.32
-      servername: luetheras.bootless.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
-      xhttp-opts:
-        mode: auto
-        path: /api/v2/stream
-    - client-fingerprint: firefox
       grpc-opts:
-        grpc-mode: gun
         grpc-service-name: mobile.api.Event
       name: "\U0001F1F7\U0001F1FARU_1|2.4MB/s"
       network: grpc
-      port: 443
-      server: 201.51.12.98
-      servername: vps3.nemnogogo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-    - client-fingerprint: firefox
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: mobile.api.Event
-      name: "\U0001F1F7\U0001F1FARU_2|3.0MB/s"
-      network: grpc
-      port: 443
+      port: "443"
       server: 201.24.116.192
       servername: vps3.nemnogogo.com
       tls: true
       type: vless
       udp: true
       uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-    - name: "\U0001F1E7\U0001F1EABE_1|1.2MB/s"
-      port: 443
-      server: 146.70.123.98
+      xudp: true
+    - name: "\U0001F1FB\U0001F1F3VN_1|2.2MB/s"
+      password: jHsK2gqs
+      port: "62000"
+      server: 103.184.113.190
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_11|1.3MB/s"
-      port: 9002
-      server: 158.173.154.1
+      type: socks5
+      username: qT46DZLv
+    - name: "\U0001F1F2\U0001F1FDMX_1|1.5MB/s"
+      password: lcFa8dTH
+      port: "62000"
+      server: 94.194.165.96
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_12|1.2MB/s"
-      password: None
-      port: 9002
-      server: 158.173.154.4
+      type: socks5
+      username: QyVdo5ks
+    - name: "\U0001F1F9\U0001F1EDTH_3|1.1MB/s"
+      password: mpbK00Pl
+      port: "42000"
+      server: 192.204.15.138
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1E9\U0001F1EADE_13|1.6MB/s"
-      port: 9002
-      server: 158.173.154.5
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8US_2|730KB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 443
-      server: usgp1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - name: "\U0001F1F7\U0001F1F4RO_3|737KB/s"
-      password: None
-      port: 9002
-      server: 193.176.84.24
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
+      type: socks5
+      username: X3s3JteD
